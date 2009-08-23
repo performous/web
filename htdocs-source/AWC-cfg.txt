@@ -1,0 +1,31 @@
+% Performous
++index News
++history Archived news
++about About
++screenshots Screenshots
++install Download
++songs Songs
+% Documentation:
++manual Manual
++commands Keys
++develop Hacking
+% Project links:
+.http://sourceforge.net/forum/forum.php?forum_id=871563 Forum
+.http://sourceforge.net/projects/performous/ SF.net
+.http://www.ohloh.net/projects/performous Ohloh.net
+.http://www.facebook.com/pages/Performous/35682224529 Facebook
+.awstats/awstats.pl Site stats
+% Competing projects:
+.http://sourceforge.net/projects/ultrastardx/ UltraStar Deluxe
+.http://singthegame.com/ SingSong
+.http://sinatra.nu/ Sinatra
+.http://www.canta-game.org/ Canta
+.http://www.karaokeparty.com/ KaraokeParty
+
+# First char of the line selects:
+# + a page that is converted (.txt -> .html)
+# . external link (not converted, but still included in menu)
+# - a separator line <HR>
+# % a separator title
+# # comment/ignored
+

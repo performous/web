@@ -1,0 +1,88 @@
+What is it?
+
+:~preface:Performous is a free cross-platform singing game.
+
+
+:h2:Karaoke?
+
+While Performous might be classified as a karaoke program, it is actually much more than that. Instead of just displaying the lyrics, notes are also displayed and the performance is scored based on how well you actually hit the notes. Unlike in most other games in this genre, you will also see the precise pitch that you are singing, so that you can see what you are doing wrong and easily (well, everything is relative) correct your pitch.
+
+Most of the songs available also contain the original vocals and actual karaoke versions are rare.
+
+For those who sing <em>rather than well</em>, a karaoke mode is provided. In this mode only lyrics are displayed and there are no notes or scoring.
+
+
+:h2:Singstar?
+
+Until version 0.3 we aimed to create a free cross-platform alternative for Singstar but after scrolling notes and other gameplay improvements, and actually seeing Singstar for the first time, Lasse realized that the project has gone past that and thus Performous is now actually quite different from Singstar games.
+
+
+:h2:Band games or dancing?
+
+Not yet, but adding other instruments has been planned for a very long time, even though we knew that it couldn't be implemented any time soon. Now all the parts are coming together and it seems that we could actually get to that quite soon.
+
+
+:h2:Features
+
+	Should work on almost any platform
+		The primary development platform is Linux
+		OS X is known to work well
+		Windows version compiles fine but is missing proper DLL files
+		Playstation 3 works but is unplayable (needs OpenGL acceleration)
+		Got some other system? Try it and let us know!
+	Very accurate singing pitch detection
+		Noisy environments are not an issue
+		Multiple simultaneous tones can be detected and separated properly
+	Top-notch visuals
+		Fully OpenGL-based rendering
+		Music videos as backgrounds
+		Smooth UI animations and other eye candy
+	Solid C++ engine
+		Performs well on slower machines too
+		Rapid but still safe development thanks to advanced C++ features
+		Plenty of threaded stuff like background loading of songs and videos
+	Free software, licensed under <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a> version 2 or later
+
+
+:h2:Hardware requirements
+
+:h3:Minimum
+
+	Graphics chip with OpenGL acceleration (e.g. GF2 MX400)
+	Pentium III 700 MHz or comparable CPU
+
+:h3:Optimal
+
+	OpenGL 2.0 (e.g. Intel GMA950 or any modern ATI/Nvidia card)
+	Faster CPU (high definition video may require up to 3 GHz), multicores are properly used
+	Up to four microphones, any combination of:
+		SingStar wired or wireless microphones
+		Rock Band microphones
+		Regular microphones (connected via sound card)
+		Webcams (usable but not recommended)
+
+
+:h2:How it works?
+
+The game records your voice via a microphone, attached to your computer. The audio is recorded and realtime FFT analysis is done on it. This analysis reveals which frequency bands contain audio (peaks). Further analysis is used to find out the exact audio frequencies inside each band, and to combine base frequencies and their harmonics into single tones. Finally, some temporal (over time) filtering is applied to the detected tones to smooth out the output.
+
+It doesn't matter if you didn't take university courses on acoustics and mathematics, and none of that makes any sense: you will get a wave on screen, displaying your singing pitch.
+
+
+:h2:Scoring and note types
+
+	Regular notes: displayed in light blue (1x points)
+	Golden notes: displayed in gold (2x points)
+	Freestyle notes: displayed with text "FREESTYLE", pitch does not matter (1x points)
+
+The singing octave does not matter, so as long as you get the right note in any octave, you will get full points. Singing near the correct note also gives some points, but the amount of points per second decreases as you get farther from the right tone. Singing within the right semitone always gives full points, so you may actually be off by a quarter tone and still get the points.
+
+The maximum number of points is always 10000, but it is practically unreachable in real songs, usual scores being in the range of 2000-9000, depending mostly on the skills of the singer, but also on the song: even though the maximum is the same, slower songs are generally easier to sing.
+
+Oh, and in case you were wondering: you will not get full points by placing the microphone near a speaker, because it will also pick up other instruments, which usually have incorrect pitch. Expect to get about 3000 points with this method :)
+
+
+:h2:How to get singing?
+
+Install the program from the download page, then get some song packages from the song page.
+

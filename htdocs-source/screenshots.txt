@@ -1,0 +1,39 @@
+Screenshots
+
+:h2:Main menu
+<img src="screenshots/Performous-0.3.1-menu.png">
+
+:h2:Practice screen
+This is a good place to setup microphone levels or to do voice-opening exercises.
+<img src="screenshots/Performous-0.3.1-practice.png">
+
+:h2:Select a song
+Fully animated cover browser, live background video preview and other visual goodness:
+<img src="screenshots/Performous-0.3.1-songs.png">
+
+:h2:Sing
+
+Scrolling notes allow singing without unwanted interruptions. As usual, plenty of animations are included as eyecandy.
+
+<img src="screenshots/Performous-0.3.1-sing.png">
+
+:h2:In action
+
+But instead of the boring screenshots, why don't you see how Performous (various pre-0.3.1 development versions) looks in action?
+
+:~center:<a href="http://www.youtube.com/watch?v=riqkWgThp7s" target="_new"><img src="photos/youtube-joanna.jpg" style="display: inline; border: 2px solid blue;" target=_blank></a><br>Youtube: Joanna demonstrates Performous on a 700 MHz Athlon HTPC.
+
+Bring Performous to your party for an instant hit:
+
+<img src="photos/img1.jpg">
+<img src="photos/img2.jpg">
+<img src="photos/img3.jpg">
+<img src="photos/img4.jpg">
+<img src="photos/img5.jpg">
+
+Got more photos to share? Send them to <a href="mailto:tronic+wofn&#64;trn.iki.&#102;&#x69;">Tronic</a>.
+
+:h2:Old versions
+
+Screenshots from earlier releases are archived <a href="screenshots/">here</a>.
+

@@ -1,0 +1,114 @@
+Archived news
+
+:h2:2009-07-14 - Status update
+
+We are currently preparing a bugfix release 0.3.2 that will bring no new features but that fixes various issues of 0.3.1. In order to do this properly, please let us know if there were any issues in 0.3.1 that you'd like to have fixed. Additionally, it would be nice if you also helped testing the git branch 0.3, aiming for this release. Use command <strong>git branch 0.3 origin/0.3 && git checkout 0.3</strong> in your cloned repository to switch to the 0.3 branch (<strong>git checkout master</strong> will switch back to the master branch).
+
+On the master branch we have implemented preliminary support for the <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> / <a href="http://code.google.com/p/fofix/">FoFiX</a> song format. Performous can currently extract the notes from the songs and if the song has lyrics (e.g. Rock Band rips), you can sing it the Performous way. We have 3d rendering of guitar neck working, but gameplay is still missing. Further, there is a simple C++ clone of Frets on Fire, called Silky Strings, in our repository and build system. Building it is not enabled by default, so you will have to use ccmake to enable it. This game is used as the basis for our implementation.
+
+Finally, a little request. Do you like Performous? You can register as a Performous user on our Ohloh page and add a pin to the map as we'd love to see where Performous is being used! For more information, see <a href="http://www.ohloh.net/projects/performous">http://www.ohloh.net/projects/performous</a>.
+
+:h2:2009-07-06 - Performous 0.3.1 released
+<img src="imgs/songs-small.jpg" style="float: right; margin-left: 3mm;">
+
+Eight months after the 0.3.0 release, the Performous team is proud to announce the release of the 0.3.1 version. Whereas it is only a minor revision number, it updates lots of things (over 350 commits).
+
+Special thanks go to all contributors (Tronic, Yoda, knittl, zarn, Jack_MD ...).
+
+<br style="clear: right;">New features:
+	Up to four player multiplayer game with many mics from many sound cards
+	Totally new XML-based configuration system
+	Reworked song list exporter (based on XML+XSLT)
+	Brand new eye-candy song browser (reflections, animations, ...)
+	Many requested features (karaoke mode, performance mode, ...)
+	Better in-game configuration (audio round-trip, video delay, ...)
+	Lots of build fixes (who says ffmpeg?)
+	Tons of bugfixes (ffmpeg once again?)
+	Many many other things (see git changelog)
+
+Future work:
+	Finishing the Windows build (we're working a *LOT* on it)
+	Reworking the in-game configuration
+	Adding drum/guitar/dance support
+	Adding in-game Singstar DVD support
+	Many many other things (see docs/TODO.txt)
+
+:h2:2009-07-05 - New song packages released
+The old packages have been repackaged with no changes to the song as "libre" and "restricted" parts depending on how the songs are licensed. Additionally, wonderful collections of Jonathan Coulton and Shearer songs are now included as separate downloads. Thanks for the original packages go to the Ultrastar Deluxe project, as usual. Fetch the new packages from the separate songs page that has now been added as they don't fit very well on download page.
+
+:h2:2009-06-25 - We now use Git
+The Subversion repository of the SourceForge project ultrastar-ng has been terminated and is now archived read-only. The latest code can be found in the brand new Git repository, tediously converted from the SVN by knittl. The repository URL and other information is available on the developer page. In this move, all the developers of the old project have been moved to the new project, performous, and the old project will quietly shut down.
+
+:h2:2009-06-18 - Status update
+It's been quiet for a while, so I figured it's a time to post an update. In the past seven months we have fixed a bunch of bugs, added a completely new configuration system, added many features that people have requested, reworked the song list exporter, created a completely new song browser with shiny graphics and crossfades, added experimental Rock Band drumset support and documented the source code. There will not be any big new (band game) features in 0.3.1 but after the release we can freely start breaking things again and that allows much faster development. One quite important thing that we might do is switching SDL to Clanlib 2.0. This needs testing, but it is likely that Clanlib has better full screen mode handling than SDL, and it certainly integrates better with C++.
+
+As a sidenote, we are still looking for new team members with skills in C++, vector graphics (SVG), XML and/or websites. Join our IRC channel #performous at Freenode for more information. Oh, and please kick Tronic on the butt if Performous does not have guitar support by the end of July.
+
+:h2:2008-12-01 - Ultrastar-songs repacked for Debian
+The Debian packages have been recreated because the original ones (ultrastar-songs-2 and ultrastar-songs-restricted-2) had major issues. Please upgrade to the new versions if you installed the old versions from our website. Apologies for the inconvinience.
+
+:h2:2008-11-03 - Performous 0.3.0 released
+<img src="imgs/bday.png" alt="A cake" style="float: right">Oh yes, it is exactly one year since the 0.2.0 release and we are releasing again. But speaking on anniversaries, the project founder <strong>Vincent Le Ligeour</strong> aka <strong>Yoda</strong> turns 29 years today, too :).
+
+Just to give some idea of how hard we have worked since the last release, there have been over seven hundred SVN commits since 0.2.1, which is more than in all earlier versions combined (490 commits).
+
+New features:
+	Multiplayer with Singstar mics or any other stereo input
+	Dramatically improved performance, runs fine on very slow machines now
+	Fully OpenGL-based (some kind of 3D acceleration is now mandatory, but even Intel works fine)
+	Heavily pimped graphics in singing screen
+	Automatically zooming notelines in singing screen
+	Real widescreen support (adaptive layout instead of stretching or cropping)
+	Song folders are now scanned recursively, in the background without blocking the UI
+	Ingame and preview volume may be controlled
+	Audio roundtrip latency and audio/video sync controls added
+	New score window (still no highscores)
+	New menu theme song
+	Separate game engine thread, so that slow graphics rendering should no longer affect pitch detection
+	Our own audio library libda, supporting ALSA, Pulseaudio, JACK and others
+	FFMPEG-based video and audio decoding (together with libda replaces Xine and GStreamer)
+	CMake-based build (Autotools are gone for good)
+	+ too many others to list them all here
+
+Big thanks to everyone who has put effort into this release. This includes yoda, tronic, tobnob, jack_md, zarrn, dex7 and knittl, not to forget all those who helped testing the game on different platforms or who provided the media files that we use (full credits in Authors.txt, inside the package).
+
+Head over to the download page to get the new version! If you are not in a hurry, please notice that we are expecting to release 0.3.1 shortly after, as there probably are some issues in 0.3.0 due to it having major changes on every sector.
+
+:h2:2008-10-29 - UltraStar Next Generation is now known as Performous
+We have now moved to a new location because SF.net terminated its shell service. SVN and file downloads will stay at SF.net, at least for now. As you may have noticed, the URL has changed to performous.org, along with the website design. This reflects the project's new name, which will be used in the 0.3 release.
+The name change was a result of several reasons, the most important of which is that USNG was written from scratch in C++ and is not a fork of the UltraStar games created with Delphi. We also aim to extend the concept to general band or party games, combining features of Frets on Fire, Stepmania and others, possibly during the coming year.
+In the past two months we have improved performance on low-end hardware, further improved the graphics, implemented real widescreen support for everything and done plenty of other stuff. We are quite close to a release, but there remain a few things to be worked out before that, and we also want to have it tested well before a release (you can help with that - head to the developers page for more information).
+
+:h2:2008-09-08 - We are not dead
+Quite the opposite, actually. There is a large number of new features in SVN, waiting to be released. Just last week we got scrolling notes, new bling-bling note graphics + hilight effects, multiplayer and various other things. Oh, and the game also runs much faster than previously, but we are still optimizing it (especially text rendering). The next release, 0.3, should be out quite soon, but meanwhile you can have a look at the screenshot page for the latest development. Or if you can't wait, check out the developer page to find out how to get it installed NOW.
+
+:h2:2008-04-27 - New song package released
+Version 2 of ultrastar-songs contains five songs, three of which are new, including On The Run by Joshua Morin, Space Invaders by Pornophonique and Free Software Song by Thor. Get it from the download page.
+
+:h2:2007-11-05 - UltraStar-NG 0.2.1 released
+No major changes, just bugfixes.
+
+:h2:2007-11-03 - UltraStar-NG 0.2.0 released
+The major changes in this release are the UTF-8 for lyrics, the new audio capture backends (portaudio v18 and v19, gstreamer), lyrics text files are less pedantic, filtering/searching feature in song list, configuration and score screens, large code rewrite, bug fixes and memory handling enhancements.
+
+:h2:2007-07-06 - UltraStar-NG in Gentoo portage tree
+UltraStar-NG 0.1.4 has been added to the official Gentoo portage tree. emerge ultrastar-ng will install the game. Thanks Alfredo.
+
+:h2:2007-05-19 - UltraStar-NG 0.1.4 released
+The major changes in this release are a difficulty level, a to-start cursor, audio pause/seek, a practice screen, and in-game full-screen support. The lyrics parsing and screen API was rewritten. A man page, desktop, and pixmap files were added. The latest unscaled graphics were fixed along with bugs and memory leaks.
+
+:h2:2007-03-18 - UltraStar-NG 0.1.3 released
+The lima is now the default theme. An OpenGL graphic layout, song preview, and fullscreen support have been added. The latest SDL_gfxPrimitives dependencies have been removed. There are some bugfixes.
+
+:h2:2007-02-15 - UltraStar-NG 0.1.2 released
+Theming features were completed and a lima theme was added. Many command line parameters were added, including width, height, theme selection, and capture disabling. Bugs were fixed.
+
+:h2:2007-02-01 - UltraStar-NG 0.1.1 released
+Full support of game scale (resolution given at compile time), modular video support, removal of SDL ttf dependency (used cairo and librsvg instead), bugfixes.
+
+:h2:2007-01-21 - UltraStar-NG 0.1.0 released
+This is the first installable version
+
+:h2:2006-10-13 - UltraStar-NG sourceforge project created
+A long long time ago...
+

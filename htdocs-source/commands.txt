@@ -1,0 +1,58 @@
+Commands
+
+:h2:All screens
+
+<span class="key">Alt</span>+<span class="key">↵</span>: Switch between window and full screen.
+<span class="key">Space</span> or <span class="key">Pause</span> or <span class="key">Ctrl</span> + <span class="key">P</span>: Pause audio.
+<span class="key">Alt</span>+<span class="key">F4</span>: Instantly exit Performous (you surely don't want to do it)
+<span class="key">Esc</span> or <span class="key">Q</span>: Exit a screen or a function
+
+Some of the above keys might be unavailable in some situations, e.g. if needed for other functions.
+
+:h2:Main menu
+
+<span class="key">S</span>: Songs screen.
+<span class="key">P</span>: Practice screen.
+<span class="key">C</span>: Configuration screen.
+
+:h2:Practice screen
+
+The only input is your microphone. Exit when you are done.
+
+:h2:Configuration screen
+
+<span class="key">↑</span>/<span class="key">↓</span>: Browse configuration options.
+<span class="key">←</span>/<span class="key">→</span>: Modify the value (only numeric values for now).
+<span class="key">Ctrl</span> + <span class="key">R</span>: Restore factory/system setting for the value.
+<span class="key">Ctrl</span> + <span class="key">S</span>: Save the current settings to the config file.
+
+:h2:Songs screen
+
+<span class="key">↵</span>: Sing the song.
+<span class="key">←</span>/<span class="key">→</span>: Browse songs.
+
+:h3:In normal mode
+<span class="key">A</span><span class="key">B</span><span class="key">C</span>...: Type ahead to find/filter songs (<span class="key">Esc</span> to clear).
+<span class="key">↓</span>/<span class="key">↑</span>: Change sort order.
+<span class="key">PgDn</span>/<span class="key">PgUp</span>: Jump in 10 song steps.
+<span class="key">Ctrl</span> + <span class="key">R</span>: Rescan and reload all songs.
+<span class="key">↹</span>: Reshuffle the songs.
+<span class="key">F4</span>: Jukebox mode.
+
+:h3:In jukebox mode
+<span class="key">↓</span>/<span class="key">↑</span>: Seek in 5 second steps.
+<span class="key">PgDn</span>/<span class="key">PgUp</span>: Seek in 30 second steps.
+
+:h2:Singing screen
+
+<span class="key">↵</span>: Skip over intrumental breaks.
+<span class="key">F4</span>: Toggle synthesizer mode.
+<span class="key">F5</span>/<span class="key">F6</span>: Adjust A/V delay (when the notes cross the black line).
+<span class="key">F7</span>/<span class="key">F8</span>: Adjust audio round-trip latency (easier with the synth mode enabled).
+<span class="key">F9</span>: Karaoke mode (disable scoring and note display).
+<span class="key">F10</span>: Performance mode (disable player's pitch display).
+<span class="key">Ctrl</span> + <span class="key">R</span>: Reload song file.
+<span class="key">Home</span>: Seek to the beginning.
+<span class="key">←</span>/<span class="key">→</span>: Seek in 5 second steps.
+<span class="key">↓</span>/<span class="key">↑</span>: Seek in 30 second steps.
+

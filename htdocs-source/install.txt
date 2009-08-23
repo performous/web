@@ -1,0 +1,39 @@
+How to get singing
+
+:~preface:Installing Performous is very easy using the prebuilt packages. Just click the package and have it installed.
+
+Song downloads can be found on the separate <strong>songs page</strong>.
+
+:h2:Linux binaries
+
+	Ubuntu 9.10 Karmic Koala (alpha): <strong>performous</strong> in official repositories
+	Ubuntu 9.04 Jaunty Jackalope: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu9.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu9.04-amd64.deb">amd64</a>
+	Ubuntu 8.04 LTS Hardy Heron: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-amd64.deb">amd64</a>
+	Debian: <strong>performous</strong> in official repositories
+	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/">packages</a>
+	ArchLinux: <a href="http://aur.archlinux.org/packages.php?ID=24623">packages</a>
+
+If you get an error about unsatisfied dependencies on Ubuntu, you may have to enable the community-supported software source <strong>universe</strong> via <strong>System | Administration | Software Sources</strong>. Most users already have this enabled.
+
+:h2:Windows
+
+None yet, but it compiles on Microsoft Visual Studio and we'll probably get some binaries soon enough.
+
+:h2:Mac OS X 
+
+No software bundle currently available, but we expect one of the Mac users to package one shortly.
+
+:h2:Other systems
+
+	Source code: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Source.tar.bz2">universal</a>
+
+:h2:Troubleshooting
+
+If you have previously installed from source, be sure to erase any files left over from that or otherwise Performous may use wrong files. Clear the following files/folders:
+
+	/usr/local/bin/performous
+	/usr/local/lib/libda
+	/usr/local/share/games/performous
+
+Performous installs other files as well, but those won't interfere with the game. See install_manifest.txt in your build folder for a full list of files installed.
+

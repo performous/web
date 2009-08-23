@@ -1,0 +1,44 @@
+Documentation
+
+:h2:Configuration file
+
+All the settings that can be used from command line may also be set from a configuration file. Create file <strong>~/.config/performous.conf</strong>, where ~/.config is a hidden folder in your home directory. In this file, specify a setting per line in the format param=value. A value needs to be specified even when the switch doesn't take any parameters, e.g. --fs is equal to fs=X. 
+
+Use <strong>performous --help</strong> to see the list of options.
+
+The latest versions use XML configuration file <strong>~/.config/performous.xml</strong> which can be created by saving the configuration in the config menu. Press <strong>Ctrl+S</strong> to save the config. Notice that this also includes the audio devices configured from command line, even though they are not visible in the menu.
+
+:h2:Setting up audio output
+
+Usually Performous can automatically figure out how to output audio, but if you have multiple sound cards or otherwise problematic setup, you may need to specify it manually. Use --pdev &lt;device name&gt; to set the audio API (alsa, pulse, jack, ...) and --prate &lt;sampling rate&gt; to set the sampling rate (by default set to 48000 Hz or to the nearest available value). Use --pdev help to get a list of available devices. Some devices also take parameters, e.g. alsa:plughw:0,2 will use driver alsa with ALSA device string "plughw:0,2" (conversion plugin + first sound card and the third subdevice of that).
+
+:h2:Setting up mics
+
+The inputs are defined by the mics commandline or config file parameter. It takes the number of mics (number of players) and optionally other settings. E.g. Singstar microphones using ALSA can be used by --mics 2@alsa:hw:default (the SS mics display as alsa hw device named "default"). You may also specify the mics option multiple times to use more than one sound card, if you have many.
+
+Use --michelp to get more detailed help about this.
+
+If you don't specify anything, Performous defaults to two microphones and will prefer the Singstar ones, if available.
+
+:h2:Adjusting audio sync
+
+Usually it takes a fraction of a second for the sound to come out of the speakers after it has been sent out by Performous. Similarly, there's a delay on audio input. Some flat panel displays also introduce rather long delay from when the image is rendered to when it is actually displayed. Performous has to compensate for all these latencies in order to allow smooth gameplay.
+
+:h3:A/V synchronization
+
+This is the difference between the time it takes for the audio and the video to get out of the system. If the setting is incorrect, notes on screen will pass the black line at an incorrect time.
+
+Adjust with <strong>F5</strong> and <strong>F6</strong> in singing screen.
+
+:h3:Audio roundtrip latency
+
+This is the time it takes for the audio to go out thru the sound card, to the speakers, and in via the microphone and the sound card back, all around until Performous has detected the tone. If the setting is incorrect, the pitch wave will appear mispositioned on the notes, when the singer matches his timing on what he hears (rather than on the notes seen on screen).
+
+While in singing screen, press <strong>F4</strong> to enter synth mode, which will play the notes using synthesized sine waves. Place the microphone near a speaker and adjust with <strong>F7</strong> and <strong>F8</strong> until the pitch wave matches the notes.
+
+:h3:Tips for reducing audio latency
+
+In order to see your singing on screen as realtime as possible, you should try to minimize the audio input latency and the video output latency. The video output latency can be affected by frame rate and by your display, but there is little you can do about it, and also the amount of latency is usually not more than 50 milliseconds at most. The audio input latency is affected by resampling/mixing audio servers such as Pulseaudio. Preferrably you should use ALSA or JACK directly with your card, as this will provide the minimum latency.
+
+Using analog connection to your stereo instead of S/PDIF can also often reduce the latency slightly.
+
