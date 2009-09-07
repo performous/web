@@ -13,6 +13,7 @@
 .http://sourceforge.net/forum/forum.php?forum_id=871563 Forum
 .http://sourceforge.net/projects/performous/ SF.net
 .http://www.ohloh.net/projects/performous Ohloh.net
+.http://cia.vc/stats/project/performous CIA.vc
 .http://www.facebook.com/pages/Performous/35682224529 Facebook
 .awstats/awstats.pl Site stats
 % Competing projects:
