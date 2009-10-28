@@ -1,5 +1,12 @@
 Announcements
 
+:h2:2009-10-28 - Status update
+The development has been quiet during the last two months, but we have done various smaller fixes. The guitar support has been improved with pull-off support and new scoring. MIDI drum support is in the works. We decided not to release 0.4 yet, even though it would bring major new features, as the sound code has some regressions that may hurt users who don't even need the band game features. A release will be made once these issues have been fixed.
+
+In other news, we have three new developers working on a dance game feature in a separate branch. If all goes well, that should be available in the 0.5 release in January or so.
+
+The current band game graphics suck, so we are desperately looking for talented SVG graphicians. If you think you can work fluently in Inkscape or some other SVG software, and think you can help, please contact us (preferrably on IRC channel #performous on Freenode).
+
 :h2:2009-08-23 - Git repository address changed
 SF.net now supports multiple repositories and because of that the address has changed. Use <strong>git config remote.origin.url git://git.performous.org/gitroot/performous/performous</strong> to set the new URL in your existing repository.
 
