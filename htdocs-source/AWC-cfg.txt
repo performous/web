@@ -14,7 +14,7 @@
 .http://sourceforge.net/projects/performous/ SF.net
 .http://www.ohloh.net/projects/performous Ohloh.net
 .http://cia.vc/stats/project/performous CIA.vc
-.http://www.facebook.com/pages/Performous/35682224529 Facebook
+.http://www.facebook.com/performous Facebook
 .awstats/awstats.pl Site stats
 % Competing projects:
 .http://sourceforge.net/projects/ultrastardx/ UltraStar Deluxe
