@@ -23,9 +23,11 @@ None yet, but it compiles on Microsoft Visual Studio and we'll probably get some
 
 No software bundle currently available, but we expect one of the Mac users to package one shortly.
 
-:h2:Other systems
+:h2:Other systems and development version
 
 	Source code: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Source.tar.bz2">universal</a>
+
+	The very latest source code is available in our Git repository. See the <strong>hacking</strong> page for more information.
 
 :h2:Troubleshooting
 

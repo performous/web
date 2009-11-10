@@ -16,10 +16,9 @@
 .http://cia.vc/stats/project/performous CIA.vc
 .http://www.facebook.com/performous Facebook
 .awstats/awstats.pl Site stats
-% Competing projects:
+% Similar projects:
 .http://sourceforge.net/projects/ultrastardx/ UltraStar Deluxe
 .http://singthegame.com/ SingSong
-.http://sinatra.nu/ Sinatra
 .http://www.canta-game.org/ Canta
 .http://www.karaokeparty.com/ KaraokeParty
 

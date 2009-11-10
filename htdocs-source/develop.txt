@@ -27,7 +27,7 @@ Fedora:
 
 OS X:
 
-	<strong>sudo port install</strong> git cmake help2man libsdl cairo librsvg portaudio libxmlxx2 boost +complete imagemagick ffmpeg +avfilter libsamplerate
+	<strong>sudo port install</strong> git-core cmake help2man libsdl glew cairo librsvg portaudio libxmlxx2 boost +complete imagemagick ffmpeg +avfilter libsamplerate
 
 We try to keep these lists accurate and up-to-date with the development version. If you find that something is missing or that there are unnecessary package installs, please let us know.
 
