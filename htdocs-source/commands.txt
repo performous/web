@@ -1,6 +1,6 @@
-Commands
+Keyboard commands
 
-:h2:All screens
+:h2:Global shortcuts
 
 <span class="key">Alt</span>+<span class="key">↵</span>: Switch between window and full screen.
 <span class="key">Space</span> or <span class="key">Pause</span> or <span class="key">Ctrl</span> + <span class="key">P</span>: Pause audio.
@@ -17,16 +17,17 @@ Some of the above keys might be unavailable in some situations, e.g. if needed f
 
 :h2:Practice screen
 
-The only input is your microphone. Exit when you are done.
+The only inputs are your microphone and drums. Exit when you are done.
 
-:h2:Configuration screen
+:h2:Configuration menu
 
 <span class="key">↑</span>/<span class="key">↓</span>: Browse configuration options.
 <span class="key">←</span>/<span class="key">→</span>: Modify the value (only numeric values for now).
 <span class="key">Ctrl</span> + <span class="key">R</span>: Restore factory/system setting for the value.
-<span class="key">Ctrl</span> + <span class="key">S</span>: Save the current settings to the config file.
+<span class="key">Ctrl</span> + <span class="key">S</span>: Save the current settings to the user config file.
+<span class="key">Ctrl</span> + <span class="key">Alt</span> + <span class="key">S</span>: Save the current settings to the system config file (needs permissions).
 
-:h2:Songs screen
+:h2:Song selection
 
 <span class="key">↵</span>: Sing the song.
 <span class="key">←</span>/<span class="key">→</span>: Browse songs.
@@ -43,9 +44,9 @@ The only input is your microphone. Exit when you are done.
 <span class="key">↓</span>/<span class="key">↑</span>: Seek in 5 second steps.
 <span class="key">PgDn</span>/<span class="key">PgUp</span>: Seek in 30 second steps.
 
-:h2:Singing screen
+:h2:Performing
 
-<span class="key">↵</span>: Skip over intrumental breaks.
+<span class="key">↵</span>: Skip over intrumental breaks (when singing only).
 <span class="key">F4</span>: Toggle synthesizer mode.
 <span class="key">F5</span>/<span class="key">F6</span>: Adjust A/V delay (when the notes cross the black line).
 <span class="key">F7</span>/<span class="key">F8</span>: Adjust audio round-trip latency (easier with the synth mode enabled).
@@ -55,4 +56,13 @@ The only input is your microphone. Exit when you are done.
 <span class="key">Home</span>: Seek to the beginning.
 <span class="key">←</span>/<span class="key">→</span>: Seek in 5 second steps.
 <span class="key">↓</span>/<span class="key">↑</span>: Seek in 30 second steps.
+
+:h3:Keyboard as guitar controller
+<span class="key">F1</span>/<span class="key">1</span>: Fret (<span style="color:#0f0;">⚫</span>) 
+<span class="key">F2</span>/<span class="key">2</span>: Fret (<span style="color:#f00;">⚫</span>)
+<span class="key">F3</span>/<span class="key">3</span>: Fret (<span style="color:#ff0;">⚫</span>)
+<span class="key">F4</span>/<span class="key">4</span>: Fret (<span style="color:#00f;">⚫</span>)
+<span class="key">F5</span>/<span class="key">5</span>: Fret (<span style="color:#f80;">⚫</span>)
+<span class="key">↵</span>/<span class="key">Right Shift</span>: Pick
+<span class="key">Backspace</span>: Whammy bar
 
