@@ -1,5 +1,23 @@
 Archived news
 
+:h2:2009-08-23 - Git repository address changed
+SF.net now supports multiple repositories and because of that the address has changed. Use <strong>git config remote.origin.url git://git.performous.org/gitroot/performous/performous</strong> to set the new URL in your existing repository.
+
+:h2:2009-08-07 - Performous BAND at Assembly gamedev
+In the past few weeks we have been working on band game features for Performous. They are developed in a private repository because we wanted to participate in the <a href="http://assembly.org/">Assembly</a> game development competition, where the new features were released under the special Performous BAND release that had the singing features disabled. While this code is still very experimental and quickly hacked together, we plan to improve it in the coming weeks and release Performous 0.4 with all the features combined (you can already find this in our git repo).
+
+If you happen to be at Assembly, please come over to table F0 to try it out yourself! I can assure you that it does not have audio sync issues (we take care of these using three separate latency settings).
+
+The game autodetects any connected Guitar Hero and Rock Band instruments, plus you can use a regular keyboard as a guitar. No configuration required. You can have as many players as you have instruments connected. Drums and other tracks of the FoF format songs (e.g. Guitar Hero or Rock Band rips) can be played.
+
+:h2:2009-07-28 - Performous 0.3.2 released
+This is a bugfix release that brings no new features. This is likely to be the last release of the 0.3 series. Changes include:
+	Workaround for FFMPEG bug that was making it crash on i386
+	The Singstar ripping tools now use ss_ prefix in their names
+	The performous.sh wrapper (used for non-standard installation path) now passes parameters properly
+	GStreamer and PortAudio drivers disabled in our binary packages (let us know if you need them)
+	A bunch of other things
+
 :h2:2009-07-14 - Status update
 
 We are currently preparing a bugfix release 0.3.2 that will bring no new features but that fixes various issues of 0.3.1. In order to do this properly, please let us know if there were any issues in 0.3.1 that you'd like to have fixed. Additionally, it would be nice if you also helped testing the git branch 0.3, aiming for this release. Use command <strong>git branch 0.3 origin/0.3 && git checkout 0.3</strong> in your cloned repository to switch to the 0.3 branch (<strong>git checkout master</strong> will switch back to the master branch).

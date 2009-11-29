@@ -1,28 +1,39 @@
 Announcements
 
+:h2:2009-11-28 - Performous 0.4.0 released
+A major new release that not only contains improvements to the singing game you all love but more importantly extends the game into a full-fledged band game. Since the pre-release at <a href="http://assembly.org/">Assembly Summer 2009</a> demo party, a large amount of improvements have been done, improving both the gameplay and the graphics. It is not perfect yet, but this certainly is a good time to make a release. Changes since 0.3.2 include:
+	Guitar, bass and drums
+		Uses songs in <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> / <a href="http://code.google.com/p/fofix/">FoFiX</a> format
+		All tracks (including vocals) are supported
+		Autodetection of any connected Guitar Hero and Rock Band instruments
+		Support for using a keyboard as guitar controller (FoF style)
+		Whammy bar support
+		Better hammer-on/pull-off support than in other games
+		Engine tries to figure out player's intention instead of picking the nearest chord
+		Multiplayer for as many players as you have instruments for
+		Full 3D note visualization
+	Initial hiscore support (press End in song browser)
+	Textual feedback for singers after each line
+	Guessing background/cover images and videos by filenames (if not specified in song files)
+	SVG graphics and fail samples from Frets on Fire (GPL for the win!)
+	Major changes in the internals, including a completely new audio mixer
+	Configuration system improvements, now properly supports system and user conf
+	Always use desktop resolution for full screen mode (instead of mode switching)
+	Many minor bugs fixed
+	Build/install changes and cleanup
+		Installs only minimal amount of cruft
+		Support libraries built into the executable (static linkage)
+		Increased version requirements for Boost, CMake, etc.
+		Various small bugs fixed
+Special thanks to all the new developers who participated in this release (see a list of contributors and their activity at <a href="http://www.ohloh.net/projects/performous">Ohloh.net</a>). Without you it would not be possible to develop the game at a rate greater than ever before :)
+
+:h2:2009-11-16 - Testers needed
+Since the last status update we have had active development and currently the codebase is starting to look suitable for a release. Since waiting more will not make things better, we have set the release date as the next weekend. Please help us test the development version (git master) and let us know if there are any problems, especially if there are any regressions from 0.3.2. The instrument feature is not very pretty, but the playability of it already seems better than that of Frets on Fire. There are a few known issues with the FoF format song parser when dealing with vocal tracks. It is likely that these will not get fixed in time for 0.4.0.
+
 :h2:2009-10-28 - Status update
 The development has been quiet during the last two months, but we have done various smaller fixes. The guitar support has been improved with pull-off support and new scoring. MIDI drum support is in the works. We decided not to release 0.4 yet, even though it would bring major new features, as the sound code has some regressions that may hurt users who don't even need the band game features. A release will be made once these issues have been fixed.
 
 In other news, we have three new developers working on a dance game feature in a separate branch. If all goes well, that should be available in the 0.5 release in January or so.
 
 The current band game graphics suck, so we are desperately looking for talented SVG graphicians. If you think you can work fluently in Inkscape or some other SVG software, and think you can help, please contact us (preferrably on IRC channel #performous on Freenode).
-
-:h2:2009-08-23 - Git repository address changed
-SF.net now supports multiple repositories and because of that the address has changed. Use <strong>git config remote.origin.url git://git.performous.org/gitroot/performous/performous</strong> to set the new URL in your existing repository.
-
-:h2:2009-08-07 - Performous BAND at Assembly gamedev
-In the past few weeks we have been working on band game features for Performous. They are developed in a private repository because we wanted to participate in the <a href="http://assembly.org/">Assembly</a> game development competition, where the new features were released under the special Performous BAND release that had the singing features disabled. While this code is still very experimental and quickly hacked together, we plan to improve it in the coming weeks and release Performous 0.4 with all the features combined (you can already find this in our git repo).
-
-If you happen to be at Assembly, please come over to table F0 to try it out yourself! I can assure you that it does not have audio sync issues (we take care of these using three separate latency settings).
-
-The game autodetects any connected Guitar Hero and Rock Band instruments, plus you can use a regular keyboard as a guitar. No configuration required. You can have as many players as you have instruments connected. Drums and other tracks of the FoF format songs (e.g. Guitar Hero or Rock Band rips) can be played.
-
-:h2:2009-07-28 - Performous 0.3.2 released
-This is a bugfix release that brings no new features. This is likely to be the last release of the 0.3 series. Changes include:
-	Workaround for FFMPEG bug that was making it crash on i386
-	The Singstar ripping tools now use ss_ prefix in their names
-	The performous.sh wrapper (used for non-standard installation path) now passes parameters properly
-	GStreamer and PortAudio drivers disabled in our binary packages (let us know if you need them)
-	A bunch of other things
-
 
