@@ -50,3 +50,7 @@ Press Ctrl+S to save the currently active settings after changes or to store the
 
 See the keys page for more information.
 
+:h2:IRC channel
+
+You can reach us at <a href="irc://irc.freenode.net/performous">#performous</a> on Freenode. If you are not familiar with IRC, you can use <a href="http://webchat.freenode.net/?channels=#performous" target="performous_irc">webchat</a>.
+

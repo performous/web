@@ -70,5 +70,5 @@ Hack the source, find things that you could do better. We accept small and large
 
 :h2:IRC channel
 
-Most development discussion happens on <a href="irc://irc.freenode.net/#performous">#performous</a> on Freenode, so you'd better come there.
+Most development discussion happens on <a href="irc://irc.freenode.net/performous">#performous</a> on Freenode, so you'd better come there. If you are not familiar with IRC, you can use <a href="http://webchat.freenode.net/?channels=#performous" target="performous_irc">webchat</a>.
 
