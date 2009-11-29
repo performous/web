@@ -1,13 +1,13 @@
 Announcements
 
 :h2:2009-11-28 - Performous 0.4.0 released
+<img src="imgs/guitar_sing-small.jpg"><img src="imgs/band-small.jpg" style="margin-left: 1mm">
 A major new release that not only contains improvements to the singing game you all love but more importantly extends the game into a full-fledged band game. Since the pre-release at <a href="http://assembly.org/">Assembly Summer 2009</a> demo party, a large amount of improvements have been done, improving both the gameplay and the graphics. It is not perfect yet, but this certainly is a good time to make a release. Changes since 0.3.2 include:
 	Guitar, bass and drums
 		Uses songs in <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> / <a href="http://code.google.com/p/fofix/">FoFiX</a> format
 		All tracks (including vocals) are supported
 		Autodetection of any connected Guitar Hero and Rock Band instruments
 		Support for using a keyboard as guitar controller (FoF style)
-		Whammy bar support
 		Better hammer-on/pull-off support than in other games
 		Engine tries to figure out player's intention instead of picking the nearest chord
 		Multiplayer for as many players as you have instruments for
@@ -22,7 +22,6 @@ A major new release that not only contains improvements to the singing game you 
 	Many minor bugs fixed
 	Build/install changes and cleanup
 		Installs only minimal amount of cruft
-		Support libraries built into the executable (static linkage)
 		Increased version requirements for Boost, CMake, etc.
 		Various small bugs fixed
 Special thanks to all the new developers who participated in this release (see a list of contributors and their activity at <a href="http://www.ohloh.net/projects/performous">Ohloh.net</a>). Without you it would not be possible to develop the game at a rate greater than ever before :)

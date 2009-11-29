@@ -1,21 +1,22 @@
 Screenshots
 
-:h2:Main menu
-<img src="screenshots/Performous-0.3.1-menu.png">
+:h2:Select a song
+Fully animated cover browser, live background video preview and other visual goodness:
+<img src="screenshots/Performous-0.4.0-songs.jpg">
+
+:h2:Perform
+Scrolling notes allow singing without unwanted interruptions. As usual, plenty of animations are included as eyecandy.
+<img src="screenshots/Performous-0.3.1-sing.jpg">
+The major new feature of 0.4 is that you can also play drums and guitar at the same time:
+<img src="screenshots/Performous-0.4.0-band.jpg">
+Custom background images or videos can be used as a fallback when the song doesn't have any:
+<img src="screenshots/Performous-0.4.0-choose_instruments.jpg">
+<img src="screenshots/Performous-0.4.0-guitar_sing.jpg">
+<img src="screenshots/Performous-0.4.0-guitar.jpg">
 
 :h2:Practice screen
 This is a good place to setup microphone levels or to do voice-opening exercises.
 <img src="screenshots/Performous-0.3.1-practice.png">
-
-:h2:Select a song
-Fully animated cover browser, live background video preview and other visual goodness:
-<img src="screenshots/Performous-0.3.1-songs.png">
-
-:h2:Sing
-
-Scrolling notes allow singing without unwanted interruptions. As usual, plenty of animations are included as eyecandy.
-
-<img src="screenshots/Performous-0.3.1-sing.png">
 
 :h2:In action
 
