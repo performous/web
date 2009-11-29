@@ -16,11 +16,17 @@
 .http://cia.vc/stats/project/performous CIA.vc
 .http://www.facebook.com/performous Facebook
 .awstats/awstats.pl Site stats
-% Similar projects:
+% Competitors
+% Singing games:
 .http://sourceforge.net/projects/ultrastardx/ UltraStar Deluxe
 .http://singthegame.com/ SingSong
 .http://www.canta-game.org/ Canta
 .http://www.karaokeparty.com/ KaraokeParty
+% Guitar games:
+.http://fretsonfire.sourceforge.net/ Frets on Fire
+.http://code.google.com/p/fofix/ FoFiX
+% Dance games:
+.http://www.stepmania.com/ StepMania
 
 # First char of the line selects:
 # + a page that is converted (.txt -> .html)
