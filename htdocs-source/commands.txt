@@ -31,6 +31,7 @@ The only inputs are your microphone and drums. Exit when you are done.
 
 <span class="key">↵</span>: Sing the song.
 <span class="key">←</span>/<span class="key">→</span>: Browse songs.
+<span class="key">End</span>: Display song hiscores.
 
 :h3:In normal mode
 <span class="key">A</span><span class="key">B</span><span class="key">C</span>...: Type ahead to find/filter songs (<span class="key">Esc</span> to clear).
