@@ -1,18 +1,17 @@
 #/bin/sh
 
-SVNPATH=~/ultrastar-ng
-SITEPATH=/home/groups/u/ul/ultrastar-ng/htdocs
+GITPATH=~/src/performous-web
+SITEPATH=~/public_html/performous
 
-echo ">>> Updating the SVN repository"
-svn up ${SVNPATH} || exit 1
+echo ">>> Updating the GIT repository"
+git pull ${GITPATH} master || exit 1
 
 echo ">>> Rebuilding and installing the website"
 
 TEMPPATH=`mktemp -d`
-svn export ${SVNPATH}/htdocs ${TEMPPATH}/htdocs &&
-${SVNPATH}/webconv/webconv-x86-linux.bin ${SVNPATH}/htdocs-source ${TEMPPATH}/htdocs &&
+${GITPATH}/webconv/webconv-x86-linux.bin ${GITPATH}/htdocs-source ${TEMPPATH} &&
 rm -rf ${SITEPATH} &&
-mv ${TEMPPATH}/htdocs ${SITEPATH} &&
+mv ${TEMPPATH} ${SITEPATH} &&
 echo ">>> INSTALLATION SUCCESSFUL" ||
 echo "-!- INSTALLATION FAILED"
 
