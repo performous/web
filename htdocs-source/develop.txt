@@ -13,7 +13,7 @@ If you happen to be running one of these, please start by installing the followi
 
 Debian (testing/unstable) and Ubuntu:
 
-	<strong>sudo aptitude install</strong> git-core cmake build-essential help2man libglew1.5-dev libsdl1.2-dev libcairo2-dev librsvg2-dev libboost1.35-dev libavcodec-dev libavformat-dev libswscale-dev libmagick++-dev libsamplerate0-dev libxml++2.6-dev libasound2-dev libjack-dev libpulse-dev portaudio19-dev libgstreamer0.10-dev
+	<strong>sudo aptitude install</strong> git-core cmake build-essential help2man libglew1.5-dev libsdl1.2-dev libcairo2-dev librsvg2-dev libboost1.40-dev libavcodec-dev libavformat-dev libswscale-dev libmagick++-dev libsamplerate0-dev libxml++2.6-dev libasound2-dev libjack-dev libpulse-dev portaudio19-dev libgstreamer0.10-dev
 
 Note: the audio libraries (at the end of the list) are optional. Install only the ones that you are going to use. If you are packaging Performous, install all of them (the ones actually available are detected runtime).
 
