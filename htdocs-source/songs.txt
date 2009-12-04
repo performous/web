@@ -68,3 +68,9 @@ Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-son
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/ultrastar-songs-shearer-1.zip">ZIP</a> (50 MB)
 </p><br clear="both"></div><p>
 
+:h2:More songs?
+
+Performous comes with a tool named <b>ss_extract</b> that can be used for extracting your SingStar DVDs.
+
+Additionally, you may search Google for good songs in <a href="http://www.google.com/search?q=ultrastar+djpo">UltraStar</a> or <a href="http://www.google.fi/search?q=frets+on+fire+filetype:torrent">FoF</a> formats.
+
