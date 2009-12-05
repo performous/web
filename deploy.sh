@@ -29,8 +29,8 @@ echo ">>> Rebuilding and installing the website"
 
 TEMPPATH=`mktemp -d`
 ${GITPATH}/webconv/webconv-x86-linux.bin ${GITPATH}/htdocs-source ${TEMPPATH} &&
-rsync --rsh ${RSH} --archive --verbose ${TEMPPATH}/* ${SITEPATH} &&
-rsync --rsh ${RSH} --archive --verbose ${GITPATH}/htdocs-binary/* ${SITEPATH} &&
+rsync -r --verbose ${TEMPPATH}/* ${SITEPATH} &&
+rsync -r --verbose ${GITPATH}/htdocs-binary/* ${SITEPATH} &&
 echo ">>> INSTALLATION SUCCESSFUL" ||
 echo "-!- INSTALLATION FAILED"
 

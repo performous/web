@@ -1,12 +1,15 @@
 Announcements
 
-:h2:2009-12-05 - The Slashd-- Life Hacker Effect
-I was wondering why my network connection was getting slow while playing <a href="http://springrts.com/">TA Spring</a> (a great open-source RTS game, you should check it out too). The site stats revealed that <a href="http://lifehacker.com/5419099/performous-is-like-rock-band-for-your-linux-pc">LifeHacker</a> had linked to us and even though I had never heard of that site before, it is apparently very popular. Just today there have been more page views than in the entire October and the day isn't even over yet :)
+:h2:2009-12-05 - The Slashd-- LifeHacker Effect
+<img src="imgs/lifehacker-effect.png" style="float: right; border: 0;">
+I was wondering why my network connection was lagging while playing <a href="http://springrts.com/">TA Spring</a> (a great open-source RTS game which you should also check out). The site stats revealed that <a href="http://lifehacker.com/5419099/performous-is-like-rock-band-for-your-linux-pc">LifeHacker</a> had linked to us and even though I had never heard of that site before, it is apparently very popular, as seen in the statistic where you can see a huge peak even though the day isn't even over yet (picture taken at 15:00). :)
 
-Someone also made a <a href="http://www.youtube.com/watch?v=nmSTnbBZoqI">Youtube video</a> of Performous 0.3.2 today. Check it out and see if you can listen. He doesn't have microphone connected to the game, apparently, so you can't see the pitch display and scoring parts at all :(
+Someone also made a <a href="http://www.youtube.com/watch?v=nmSTnbBZoqI">Youtube video</a> of Performous 0.3.2 today. Unfortunately he doesn't have microphone connected to the game, apparently, so you can't see the pitch display and scoring parts at all :(
 
-<img src="imgs/windows.jpg">
-In other news, we have working Windows binaries (thanks to the hard work by <strong>Xaldyz</strong>) and it seems that we will be able to release these with the upcoming 0.4.1 release. OSX bundle doesn't look so good as apparently there are problems with bundling some of the libraries use. Compiling on MacPorts yourself is easy, so please consider that if you are a Mac user (instructions on the Hacking page).
+<a href="screenshots/Performous-0.4.0-Windows.jpg"><img src="imgs/windows.jpg" style="float: left; margin-right: 2mm;"></a>
+In other news, we have working <strong>Windows binaries</strong> (thanks to the hard work by Xaldyz) and it seems that we will be able to release these with the upcoming 0.4.1 release, even though some cleanup and an installer are required.
+
+The OSX bundle doesn't look so good as apparently there are problems with bundling some of the libraries used. Compiling on MacPorts yourself is easy, so please consider that if you are a Mac user (there are instructions on the Hacking page).
 
 :h2:2009-11-28 - Performous 0.4.0 released
 <img src="imgs/guitar_sing-small.jpg"><img src="imgs/band-small.jpg" style="margin-left: 1mm">
