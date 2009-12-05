@@ -24,6 +24,7 @@
 % Guitar games:
 .http://fretsonfire.sourceforge.net/ Frets on Fire
 .http://code.google.com/p/fofix/ FoFiX
+.http://www.jamlegend.com/ JamLegend
 % Dance games:
 .http://www.stepmania.com/ StepMania
 
