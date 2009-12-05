@@ -1,5 +1,13 @@
 Announcements
 
+:h2:2009-12-05 - The Slashd-- Life Hacker Effect
+I was wondering why my network connection was getting slow while playing <a href="http://springrts.com/">TA Spring</a> (a great open-source RTS game, you should check it out too). The site stats revealed that <a href="http://lifehacker.com/5419099/performous-is-like-rock-band-for-your-linux-pc">LifeHacker</a> had linked to us and even though I had never heard of that site before, it is apparently very popular. Just today there have been more page views than in the entire October and the day isn't even over yet :)
+
+Someone also made a <a href="http://www.youtube.com/watch?v=nmSTnbBZoqI">Youtube video</a> of Performous 0.3.2 today. Check it out and see if you can listen. He doesn't have microphone connected to the game, apparently, so you can't see the pitch display and scoring parts at all :(
+
+<img src="imgs/windows.jpg">
+In other news, we have working Windows binaries (thanks to the hard work by <strong>Xaldyz</strong>) and it seems that we will be able to release these with the upcoming 0.4.1 release. OSX bundle doesn't look so good as apparently there are problems with bundling some of the libraries use. Compiling on MacPorts yourself is easy, so please consider that if you are a Mac user (instructions on the Hacking page).
+
 :h2:2009-11-28 - Performous 0.4.0 released
 <img src="imgs/guitar_sing-small.jpg"><img src="imgs/band-small.jpg" style="margin-left: 1mm">
 A major new release that not only contains improvements to the singing game you all love but more importantly extends the game into a full-fledged band game. Since the pre-release at <a href="http://assembly.org/">Assembly Summer 2009</a> demo party, a large amount of improvements have been done, improving both the gameplay and the graphics. It is not perfect yet, but this certainly is a good time to make a release. Changes since 0.3.2 include:
