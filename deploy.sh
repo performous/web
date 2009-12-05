@@ -9,12 +9,10 @@ case $1 in
 	tronic)
 		GITPATH=~/performous-web
 		SITEPATH=performous.org:/wwwhome/performous/
-		RSH=sh
 		;;
 	yoda)
 		GITPATH=~/git/web
 		SITEPATH=root@www:/pub/www/performous/
-		RSH=ssh
 		;;
 	*)
 		echo "-!- \"$1\" is not a valid profile"
