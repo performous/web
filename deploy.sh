@@ -7,8 +7,8 @@ fi
 
 case $1 in
 	tronic)
-		GITPATH=~/src/performous-web
-		SITEPATH=~/public_html/performous
+		GITPATH=~/performous-web
+		SITEPATH=performous.org:/wwwhome/performous/
 		RSH=sh
 		;;
 	yoda)
