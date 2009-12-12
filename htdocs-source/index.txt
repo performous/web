@@ -1,5 +1,10 @@
 Announcements
 
+:h2:2009-12-12 - 0.4.1 cancelled, Windows alpha available
+We have rather large new features in the development version and because of this the next release will be 0.5.0 rather than 0.4.1. The hilights include a new menu and of course the dance game feature, which we just tested in two player mode with actual dance pads. No release date other than "soon" has been set.
+
+Windows alpha build from a few days ago is available <a href="http://fast.performous.org/setup.exe">here</a>. A release is coming later, once we manage to remove the rough edges, hopefully with the 0.5.0 Linux release. The OS X bundling effort has ceased for now and we really need more Mac developers to get the job done. Compiling the software is easy, but bundling has proven to be difficult.
+
 :h2:2009-12-05 - The Slashd-- LifeHacker Effect
 <img src="imgs/lifehacker-effect.png" style="float: right; border: 0;">
 I was wondering why my network connection was lagging while playing <a href="http://springrts.com/">TA Spring</a> (a great open-source RTS game which you should also check out). The site stats revealed that <a href="http://lifehacker.com/5419099/performous-is-like-rock-band-for-your-linux-pc">LifeHacker</a> had linked to us and even though I had never heard of that site before, it is apparently very popular, as seen in the statistic where you can see a huge peak even though the day isn't even over yet (picture taken at 15:00). :)
