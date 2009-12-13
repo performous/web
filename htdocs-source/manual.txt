@@ -4,16 +4,6 @@ Documentation
 
 You may put all songs to ~/.ultrastar/songs or to /usr/local/share/games/ultrastar/songs, even if they are not in UltraStar format. In future versions we will provide something Performous-specific and possibly also look for Frets on Fire song folders.
 
-:h2:Setting up audio output
-
-Usually Performous can automatically figure out how to output audio, but if you have multiple sound cards or otherwise problematic setup, you may need to specify it manually. Use --pdev &lt;device string&gt; to set the audio API (alsa, pulse, jack, ...). Some devices also take parameters, e.g. alsa:plughw:0,2 will use driver alsa with ALSA device string "plughw:0,2" (conversion plugin + first sound card and the third subdevice of that). Use --pdevhelp to get the list of available devices and further help.
-
-:h2:Setting up mics
-
-The same as audio outputs, mics are normally detected automatically. --mics may be used for manual configuration and --michelp displays the list of devices and their usage. You may also specify the mics option multiple times to use more than one sound card, if you have many.
-
-If you don't specify anything, Performous defaults to two microphones and will prefer the SingStar or Rock Band ones, if available.
-
 
 :h2:Singing
 
@@ -79,6 +69,27 @@ The maximum number of points is always 10000. Hitting all the notes correctly is
 Picking or drumming incorrectly will reduce your points slightly, but the score cannot go below 0.
 
 
+:h2:Audio configuration
+
+Normally Performous detects everything automatically and just works. This process may, however, fail if other applications are keeping your sound card to themselves or if you have strange audio hardware.
+
+One problem worth a special mention is PulseAUdio, an audio server used by modern Linux distros. If you are having any audio issues, try starting Performous with PulseAudio suspended:
+
+	pasuspender -- performous
+
+The pasuspender program comes with PulseAudio utilities.
+
+:h3:Audio playback (if autodetection fails)
+
+Use --pdev &lt;device string&gt; to set the audio API (alsa, pulse, jack, ...). Some devices also take parameters, e.g. alsa:plughw:0,2 will use driver alsa with ALSA device string "plughw:0,2" (conversion plugin + first sound card and the third subdevice of that). Use --pdevhelp to get the list of available devices and further help.
+
+:h3:Microphones (if autodetection fails)
+
+--mics may be used for manual configuration and --michelp displays the list of devices and their usage. You may also specify the mics option multiple times to use more than one sound card, if you have many.
+
+If you don't specify anything, Performous defaults to two microphones and will prefer the SingStar or Rock Band ones, if available.
+
+
 :h2:Adjusting audio sync
 
 Usually it takes a fraction of a second for the sound to come out of the speakers after it has been sent out by Performous. Similarly, there's a delay on audio input. Some flat panel displays also introduce rather long delay from when the image is rendered to when it is actually displayed. Performous has to compensate for all these latencies in order to allow smooth gameplay.
@@ -97,9 +108,10 @@ While in singing screen, press <strong>F4</strong> to enter synth mode, which wi
 
 :h3:Tips for reducing audio latency
 
-In order to see your singing on screen as realtime as possible, you should try to minimize the audio input latency and the video output latency. The video output latency can be affected by frame rate and by your display, but there is little you can do about it, and also the amount of latency is usually not more than 50 milliseconds at most. The audio input latency is affected by resampling/mixing audio servers such as Pulseaudio. Preferrably you should use ALSA or JACK directly with your card, as this will provide the minimum latency.
+In order to see your singing on screen as realtime as possible, you should try to minimize the audio input latency and the video output latency. The video output latency can be affected by frame rate and by your display, but there is little you can do about it, and also the amount of latency is usually not more than 50 milliseconds at most. The audio input latency is affected by resampling/mixing audio servers such as PulseAudio. Preferrably you should use ALSA or JACK directly with your card, as this will provide the minimum latency.
 
 Using analog connection to your stereo instead of S/PDIF can also often reduce the latency slightly.
+
 
 :h2:Configuration menu
 
@@ -109,9 +121,11 @@ Press Ctrl+S to save the currently active settings after changes or to store the
 
 See the keys page for more information.
 
+
 :h2:Making songs
 
 Performous does not currently contain (useful) song editor. UltraStar format songs can be modified with a text editor or with one of the many available editors such as <a href="http://www.yass-along.com/home.html">YASS</a>. FoF format songs can be modified and created with a MIDI sequencer like <a href="http://www.rosegardenmusic.com/">Rosegarden</a>. It is recommended to use an existing song as a template when making a new one. With both formats, you need audio tracks (background with or without vocals and each instrument needs a separate track) in MP3 or other supported format and it is also good to have a cover image and a background video or image.
+
 
 :h2:IRC channel
 
