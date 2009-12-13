@@ -19,11 +19,11 @@ Note: the audio libraries (at the end of the list) are optional. Install only th
 
 Gentoo:
 
-	<strong>emerge</strong> boost ffmpeg help2man imagemagick libsamplerate libsdl libxmlpp git cmake
+	<strong>sudo emerge</strong> boost ffmpeg help2man imagemagick libsamplerate libsdl libxmlpp git cmake
 
 Fedora:
 
-	<strong>yum install</strong> git cmake gtk2-devel cairo-devel librsvg2-devel libsigc++20-devel glibmm24-devel libxml++-devel ImageMagick-c++-devel boost-devel SDL-devel glew-devel ffmpeg-devel pulseaudio-libs-devel
+	<strong>sudo yum install</strong> git cmake gtk2-devel cairo-devel librsvg2-devel libsigc++20-devel glibmm24-devel libxml++-devel ImageMagick-c++-devel boost-devel SDL-devel glew-devel ffmpeg-devel pulseaudio-libs-devel
 
 OS X:
 
