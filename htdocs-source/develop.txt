@@ -23,7 +23,7 @@ Gentoo:
 
 Fedora:
 
-	<strong>yum install</strong> cmake gtk2-devel cairo-devel librsvg2-devel libsigc++20-devel glibmm24-devel libxml++-devel ImageMagick-devel ImageMagick-c++-devel pulseaudio-libs-devel
+	<strong>yum install</strong> git cmake gtk2-devel cairo-devel librsvg2-devel libsigc++20-devel glibmm24-devel libxml++-devel ImageMagick-c++-devel boost-devel SDL-devel glew-devel ffmpeg-devel pulseaudio-libs-devel
 
 OS X:
 
