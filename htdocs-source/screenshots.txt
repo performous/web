@@ -2,35 +2,35 @@ Screenshots
 
 :h2:Select a song
 Fully animated cover browser, live background video preview and other visual goodness:
-<img src="screenshots/Performous-0.4.0-songs.jpg">
+<img src="screenshots/Performous-0.4.0-songs.jpg" alt=""/>
 
 :h2:Perform
 Scrolling notes allow singing without unwanted interruptions. As usual, plenty of animations are included as eyecandy.
-<img src="screenshots/Performous-0.3.1-sing.jpg">
+<img src="screenshots/Performous-0.3.1-sing.jpg" alt=""/>
 The major new feature of 0.4 is that you can also play drums and guitar at the same time:
-<img src="screenshots/Performous-0.4.0-band.jpg">
+<img src="screenshots/Performous-0.4.0-band.jpg" alt=""/>
 Custom background images or videos can be used as a fallback when the song doesn't have any:
-<img src="screenshots/Performous-0.4.0-choose_instruments.jpg">
-<img src="screenshots/Performous-0.4.0-guitar_sing.jpg">
-<img src="screenshots/Performous-0.4.0-guitar.jpg">
+<img src="screenshots/Performous-0.4.0-choose_instruments.jpg" alt=""/>
+<img src="screenshots/Performous-0.4.0-guitar_sing.jpg" alt=""/>
+<img src="screenshots/Performous-0.4.0-guitar.jpg" alt=""/>
 
 :h2:Practice screen
 This is a good place to setup microphone levels or to do voice-opening exercises.
-<img src="screenshots/Performous-0.3.1-practice.png">
+<img src="screenshots/Performous-0.3.1-practice.png" alt=""/>
 
 :h2:In action
 
 But instead of the boring screenshots, why don't you see how Performous (various pre-0.3.1 development versions) looks in action?
 
-:~center:<a href="http://www.youtube.com/watch?v=riqkWgThp7s" target="_new"><img src="photos/youtube-joanna.jpg" style="display: inline; border: 2px solid blue;" target=_blank></a><br>Youtube: Joanna demonstrates Performous on a 700 MHz Athlon HTPC.
+:~center:<a href="http://www.youtube.com/watch?v=riqkWgThp7s" target="_new"><img src="photos/youtube-joanna.jpg" style="display: inline; border: 2px solid blue;" alt="" target="_blank"/></a><br/>Youtube: Joanna demonstrates Performous on a 700 MHz Athlon HTPC.
 
 Bring Performous to your party for an instant hit:
 
-<img src="photos/img1.jpg">
-<img src="photos/img2.jpg">
-<img src="photos/img3.jpg">
-<img src="photos/img4.jpg">
-<img src="photos/img5.jpg">
+<img src="photos/img1.jpg" alt=""/>
+<img src="photos/img2.jpg" alt=""/>
+<img src="photos/img3.jpg" alt=""/>
+<img src="photos/img4.jpg" alt=""/>
+<img src="photos/img5.jpg" alt=""/>
 
 Got more photos to share? Send them to <a href="mailto:tronic+wofn&#64;trn.iki.&#102;&#x69;">Tronic</a>.
 

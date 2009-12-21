@@ -14,22 +14,22 @@ Extract the ZIP files to <strong>/usr/local/share/games/ultrastar</strong> or <s
 
 The songs here are only repackaged by the Performous project. The packages contain license files listing the authors of the materials used and in many cases also of the Ultrastar conversion.
 
-</p><img src="songimgs/libre.png" alt="" style="float: left"><div style="margin-left: 280px;"><p>
+</p><img src="songimgs/libre.png" alt="" style="float: left"/><div style="margin-left: 280px;"><p>
 The <strong>libre</strong> package contains songs with very permissive licenses.
 	<strong>Free Software Song</strong> by Thor
 	<strong>On the run</strong> by Joshua Morin
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/ultrastar-songs-libre-3.zip">ZIP</a> (5 MB)
-</p><br clear="both"></div><p>
+</p><br style="clear:both"/></div><p>
 
-</p><img src="songimgs/restricted.png" alt="" style="float: left"><div style="margin-left: 280px;"><p>
+</p><img src="songimgs/restricted.png" alt="" style="float: left"/><div style="margin-left: 280px;"><p>
 The <strong>restricted</strong> package contains songs that use more restrictive licenses not permitting modifications and/or commercial use.
 	<strong>I 18</strong> by Dead Smiling Pirates
 	<strong>Northern Star</strong> by Steven Dunston
 	<strong>Space Invaders</strong> by Pornophonique
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/ultrastar-songs-restricted-3.zip">ZIP</a> (10 MB)
-</p><br clear="both"></div><p>
+</p><br style="clear:both"/></div><p>
 
-</p><img src="songimgs/jc.jpg" alt="" style="float: left"><div style="margin-left: 280px;"><p>
+</p><img src="songimgs/jc.jpg" alt="" style="float: left"/><div style="margin-left: 280px;"><p>
 <a href="http://www.jonathancoulton.com/">Jonathan Coulton</a> collection, licensed CC by-nc-sa.
 	<strong>A Talk with George</strong>
 	<strong>Better</strong>
@@ -56,9 +56,9 @@ Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-son
 	<strong>The Future Soon</strong>
 	<strong>When You Go</strong>
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/ultrastar-songs-jc-1.zip">ZIP</a> (240 MB)
-</p><br clear="both"></div><p>
+</p><br style="clear:both"/></div><p>
 
-</p><img src="songimgs/shearer.jpg" alt="" style="float: left"><div style="margin-left: 280px;"><p>
+</p><img src="songimgs/shearer.jpg" alt="" style="float: left"/><div style="margin-left: 280px;"><p>
 <strong>Shearer</strong> collection, licensed CC by-nc-sa.
 	<strong>69</strong> (with karaoke)
 	<strong>Can't stop it</strong> (with karaoke)
@@ -66,7 +66,7 @@ Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-son
 	<strong>Man Song</strong> (with karaoke)
 	<strong>Stay with me</strong> (with karaoke)
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/ultrastar-songs-shearer-1.zip">ZIP</a> (50 MB)
-</p><br clear="both"></div><p>
+</p><br style="clear:both"/></div><p>
 
 :h2:More songs?
 
