@@ -89,22 +89,32 @@ Use --pdev &lt;device string&gt; to set the audio API (alsa, pulse, jack, ...). 
 
 If you don't specify anything, Performous defaults to two microphones and will prefer the SingStar or Rock Band ones, if available.
 
+:h3:Microphone to speakers
+
+Performous does not currently support forwarding audio from microphones to audio playback device. Preferrably you should use hardware for this, e.g. see if you can adjust your volume controls to allow this, if the microphones are connected to your sound card. With separate USB microphones you may use some external software for forwarding but we haven't tried that.
+
+Adding software forwarding (and effects) in Performous is planned, but it will take a while to get implemented.
+
 
 :h2:Adjusting audio sync
 
 Usually it takes a fraction of a second for the sound to come out of the speakers after it has been sent out by Performous. Similarly, there's a delay on audio input. Some flat panel displays also introduce rather long delay from when the image is rendered to when it is actually displayed. Performous has to compensate for all these latencies in order to allow smooth gameplay.
 
-:h3:A/V synchronization
+:h3:A/V synchronization (all modes)
 
 This is the difference between the time it takes for the audio and the video to get out of the system. If the setting is incorrect, notes on screen will pass the black line at an incorrect time.
 
 Adjust with <strong>F5</strong> and <strong>F6</strong> in singing screen.
 
-:h3:Audio roundtrip latency
+:h3:Audio roundtrip latency (singing only)
 
 This is the time it takes for the audio to go out thru the sound card, to the speakers, and in via the microphone and the sound card back, all around until Performous has detected the tone. If the setting is incorrect, the pitch wave will appear mispositioned on the notes, when the singer matches his timing on what he hears (rather than on the notes seen on screen).
 
 While in singing screen, press <strong>F4</strong> to enter synth mode, which will play the notes using synthesized sine waves. Place the microphone near a speaker and adjust with <strong>F7</strong> and <strong>F8</strong> until the pitch wave matches the notes.
+
+:h3:Audio/controller latency (instruments and dancing)
+
+This setting controls the synchronization between audio output and controller input. The value should be the controller input latency plus the audio output latency. Adjust it so that you can hit the notes most precisely by ear (without looking on the screen).
 
 :h3:Tips for reducing audio latency
 

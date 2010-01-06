@@ -13,7 +13,7 @@ If you happen to be running one of these, please start by installing the followi
 
 Debian (testing/unstable) and Ubuntu:
 
-	<strong>sudo aptitude install</strong> git-core cmake build-essential help2man libglew1.5-dev libsdl1.2-dev libcairo2-dev librsvg2-dev libboost1.40-all-dev libavcodec-dev libavformat-dev libswscale-dev libmagick++-dev libsamplerate0-dev libxml++2.6-dev libasound2-dev libjack-dev libpulse-dev portaudio19-dev libgstreamer0.10-dev
+	<strong>sudo aptitude install</strong> git-core cmake build-essential gettext help2man libglew1.5-dev libsdl1.2-dev libcairo2-dev librsvg2-dev libboost1.40-all-dev libavcodec-dev libavformat-dev libswscale-dev libpng-dev libjpeg-dev libsamplerate0-dev libxml++2.6-dev libasound2-dev libjack-dev libpulse-dev portaudio19-dev libgstreamer0.10-dev
 
 Note: the audio libraries (at the end of the list) are optional. Install only the ones that you are going to use. If you are packaging Performous, install all of them (the ones actually available are detected runtime).
 
@@ -23,7 +23,9 @@ Gentoo:
 
 Fedora:
 
-	<strong>sudo yum install</strong> git cmake gtk2-devel cairo-devel librsvg2-devel libsigc++20-devel glibmm24-devel libxml++-devel ImageMagick-c++-devel boost-devel SDL-devel glew-devel ffmpeg-devel pulseaudio-libs-devel
+	<strong>sudo yum install</strong> git cmake gcc-c++ gettext gtk2-devel cairo-devel librsvg2-devel libsigc++20-devel glibmm24-devel libxml++-devel ImageMagick-c++-devel boost-devel SDL-devel glew-devel ffmpeg-devel pulseaudio-libs-devel
+
+Note: <a href="http://rpmfusion.org/Configuration">RPM Fusion Free</a> repository is needed for ffmpeg.
 
 OS X:
 
