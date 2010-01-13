@@ -5,11 +5,8 @@
 +screenshots Screenshots
 +install Download
 +songs Songs
-% Documentation:
-+manual Manual
-+commands Keys
-+develop Hacking
 % Project links:
+.http://wiki.performous.org/ Documentation
 .http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .http://sourceforge.net/projects/performous/ SF.net
 .http://www.ohloh.net/projects/performous Ohloh.net

@@ -13,6 +13,8 @@ Custom background images or videos can be used as a fallback when the song doesn
 <img src="screenshots/Performous-0.4.0-choose_instruments.jpg" alt=""/>
 <img src="screenshots/Performous-0.4.0-guitar_sing.jpg" alt=""/>
 <img src="screenshots/Performous-0.4.0-guitar.jpg" alt=""/>
+Since 0.5 you can also dance (with rather basic graphics):
+<img src="screenshots/0.5.0/dance-solo.jpg" alt=""/>
 
 :h2:Practice screen
 This is a good place to setup microphone levels or to do voice-opening exercises.
