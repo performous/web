@@ -6,10 +6,11 @@ This is the first release to include <strong>Windows</strong> and <strong>Mac</s
 
 	Dance mode
 		StepMania .sm format
-		4-8 panels on one dancepad
+		4-8 panels on each dancepad
 		Multiplayer (but not together with band yet)
+		Mines, hold and regular notes in various different game modes
 		Keyboard and USB dancepad support
-		Crappy graphics and no customization (for now)
+		Crappy graphics, no ITG colors and no customization (for now)
 	Band mode improvements
 		God Mode for guitars (similar to StarPower)
 		More graphical effects (glow, fire, ...)
@@ -32,6 +33,7 @@ This is the first release to include <strong>Windows</strong> and <strong>Mac</s
 		Instrumental part skipping for singing with FoF songs
 		Previews start from further of the song
 		In-game volume control
+		Keyboard key repeat disabled (preparing for generic controller repeat)
 	Internal
 		Use libpng/libjpeg directly, instead of Magick++
 		Navigation abstraction
