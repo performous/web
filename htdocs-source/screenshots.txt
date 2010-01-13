@@ -7,13 +7,13 @@ Fully animated cover browser, live background video preview and other visual goo
 :h2:Perform
 Scrolling notes allow singing without unwanted interruptions. As usual, plenty of animations are included as eyecandy.
 <img src="screenshots/Performous-0.3.1-sing.jpg" alt=""/>
-The major new feature of 0.4 is that you can also play drums and guitar at the same time:
+Add some instruments and play as a band with your friends:
 <img src="screenshots/Performous-0.4.0-band.jpg" alt=""/>
+<img src="screenshots/0.5.0/band.jpg" alt=""/>
 Custom background images or videos can be used as a fallback when the song doesn't have any:
 <img src="screenshots/Performous-0.4.0-choose_instruments.jpg" alt=""/>
-<img src="screenshots/Performous-0.4.0-guitar_sing.jpg" alt=""/>
 <img src="screenshots/Performous-0.4.0-guitar.jpg" alt=""/>
-Since 0.5 you can also dance (with rather basic graphics):
+The major new feature of 0.5 is that you can also dance (with rather basic graphics):
 <img src="screenshots/0.5.0/dance-solo.jpg" alt=""/>
 
 :h2:Practice screen

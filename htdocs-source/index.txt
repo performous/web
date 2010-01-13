@@ -12,7 +12,7 @@ This is the first release to include <strong>Windows</strong> and <strong>Mac</s
 		Crappy graphics and no customization (for now)
 	Band mode improvements
 		God Mode for guitars (similar to StarPower)
-		Better graphics (glow, fire, ...)
+		More graphical effects (glow, fire, ...)
 		Joining during game &amp; dead coming back to life
 		Whammy bar gameplay
 		Streak counter popup
@@ -20,7 +20,12 @@ This is the first release to include <strong>Windows</strong> and <strong>Mac</s
 	Star when singing a note well
 	Main menu completely reworked
 	Localizations: Finnish, French, German, Italian and Spanish
-	Support for random background images
+	New song folder [Performous data]/songs
+		The data folders depend on the OS the game is running on, including:
+		On UNIX ~/.local/share/games/performous
+		On Windows [Application data]/performous
+		On all systems the data installation path (relative to executable)
+		Old ~/.ultrastar/songs and other such folders continue to function.
 	Usability
 		Confirmation for song quitting
 		Better usb controller navigation (e.g. drum/dancepads can be used)
