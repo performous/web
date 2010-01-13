@@ -19,6 +19,10 @@ Until version 0.3 we aimed to create a free cross-platform alternative for SingS
 
 Performous uses the same instruments and songs as these games and obviously the gameplay is quite similar. However, we have deviated from the original concept by changing the scoring system and other things. We aim to make the game fun to play with and to make the scoring system judge playing skills as accurately as possible so that scores rather than percentages can be used for comparing players.
 
+:h2:StepMania or Dance Dance Revolution?
+
+Since 0.5.0 you can use dance pad to play dance songs in StepMania format. Again, the performance is scored based on how accurately the scrolling notes are hit. Let the rhythm guide your feet!
+
 :h2:Features
 
 	Should work on almost any platform
@@ -29,8 +33,10 @@ Performous uses the same instruments and songs as these games and obviously the 
 		The engine determines what was intended rather than simply picking the nearest chord
 		Hammer-ons and pull-offs are undoed when the player accidentally does them and then picks the note in the regular way
 	Drums
+	Dance pads
 	Device autodetection
 		Guitar Hero and Rock Band instruments
+		Generic dance pads
 		SingStar and Rock Band microphones (Linux only)
 		Fallback to other audio devices when no SS/RB mics are detected
 	Top-notch visuals
