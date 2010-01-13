@@ -4,6 +4,14 @@ How to get performing
 
 Song downloads can be found on the separate <strong>songs page</strong>.
 
+:h2:Windows
+
+	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.exe/download">installer</a>
+
+:h2:Mac OS X 
+
+	OS X 10.5: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download">bundle</a>
+
 :h2:Linux binaries
 
 	Ubuntu 9.10 Karmic Koala: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-i386.deb/download">i386</a> <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-amd64.deb/download">amd64</a>
@@ -14,13 +22,6 @@ Song downloads can be found on the separate <strong>songs page</strong>.
 
 If you get an error about unsatisfied dependencies on Ubuntu, you may have to enable the community-supported software source <strong>universe</strong> via <strong>System | Administration | Software Sources</strong>. Most users already have this enabled.
 
-:h2:Windows
-
-Building software on Windows has turned out to be extremely difficult but we are still actively working on this!
-
-:h2:Mac OS X 
-
-No software bundle currently available, but we expect one of the Mac users to package one shortly.
 
 :h2:Other systems and development version
 
