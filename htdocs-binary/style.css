@@ -74,6 +74,7 @@ h3 {
 /* page */
 #sitebox {
     width: 800px;
+    /* FIXME: this is not CSS valid */
     float: center;
     margin: 0 auto;
     border: 4px solid black;
