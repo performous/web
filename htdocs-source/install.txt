@@ -6,7 +6,7 @@ Song downloads can be found on the separate <strong>songs page</strong>.
 
 :h2:Linux binaries
 
-	Ubuntu 9.10 Karmic Koala: <a href="https://sourceforge.net/projects/performous/files/performous/0.4.0/Performous-0.4.0-Ubuntu9.10-i386.deb/download">i386</a> <a href="https://sourceforge.net/projects/performous/files/performous/0.4.0/Performous-0.4.0-Ubuntu9.10-amd64.deb/download">amd64</a>
+	Ubuntu 9.10 Karmic Koala: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-i386.deb/download">i386</a> <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-amd64.deb/download">amd64</a>
 	Ubuntu 8.04 LTS Hardy Heron: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-amd64.deb">amd64</a>
 	Debian: <strong>performous</strong> in official repositories
 	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/">packages</a>
@@ -24,9 +24,9 @@ No software bundle currently available, but we expect one of the Mac users to pa
 
 :h2:Other systems and development version
 
-	Source code: <a href="https://sourceforge.net/projects/performous/files/performous/0.4.0/Performous-0.4.0-Source.tar.bz2/download">universal</a>
+	Source code: <a href="http://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Source.tar.bz2/download">universal</a>
 
-	The very latest source code is available in our Git repository. See the <strong>hacking</strong> page for more information.
+	The very latest source code is available in our Git repository. See the documentation wiki for more information.
 
 :h2:Troubleshooting
 
