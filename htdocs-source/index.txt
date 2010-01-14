@@ -39,7 +39,7 @@ This is the first release to include <strong>Windows</strong> and <strong>Mac</s
 		Navigation abstraction
 		Windows fixes
 
-Head over to the download page to get the new version. Because of the very large number of new features and due to porting to two new platforms we expect the release to be buggy. Please let us know if you find any problems. We'll try to release 0.5.1 soon with possible fixes and more new features.
+Head over to the download page to get the new version. Because of the very large number of new features and due to porting to two new platforms we expect the release to be buggy. Please let us know if you find any problems. We'll try to release 0.5.1 soon with possible fixes and more new features. The Windows version is known to have various issues but we need all of them reported so that 0.5.1 can be made better (surprisingly we severely lack Windows testers).
 
 :h2:2009-12-12 - 0.4.1 cancelled, Windows alpha available
 We have rather large new features in the development version and because of this the next release will be 0.5.0 rather than 0.4.1. The hilights include a new menu and of course the dance game feature, which we just tested in two player mode with actual dance pads. No release date other than "soon" has been set.
