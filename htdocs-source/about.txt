@@ -1,6 +1,8 @@
 What is it?
 
-:~preface:Performous is a free cross-platform band game game.
+:~preface:Performous is a free cross-platform music and rhythm game.
+
+
 
 :h2:Karaoke?
 
