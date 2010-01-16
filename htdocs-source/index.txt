@@ -13,7 +13,7 @@ This is a source-only bugfix release, most notably fixing issues with Windows ve
 	Add a simple joystick button identification utility (--jstest)
 	Other small tweaks
 
-A full release 0.5.2 will be posted once we sort out the remaining issues (estimated a few days).
+The next version (0.5.2) will be released once we sort out the remaining issues (estimated a few days) and it will also include binaries.
 
 :h2:2010-01-13 - 0.5.0 released
 <img src="imgs/menu_fi-small.jpg" alt=""/><img src="imgs/dance-multi2-small.jpg" style="margin-left: 1mm" alt=""/>
