@@ -7,10 +7,10 @@
 +songs Songs
 % Project links:
 .http://wiki.performous.org/ Documentation
+.http://webchat.freenode.net/?channels=#performous #performous
 .http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .http://sourceforge.net/projects/performous/ SF.net
 .http://www.ohloh.net/projects/performous Ohloh.net
-.http://www.facebook.com/performous Facebook
 .awstats/awstats.pl Site stats
 % Competitors
 % Singing games:
