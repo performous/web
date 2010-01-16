@@ -1,5 +1,20 @@
 Announcements
 
+:h2:2010-01-16 - 0.5.1 released
+This is a bugfix release, most notably fixing issues with Windows version and adding more instrument mappings. List of changes is below and the packages can be found from the download page.
+
+	Advanced audio sync correction
+	Dance gameplay improvements
+	Many controller detection and mapping fixes
+	Fix flashing note issue
+	Fix dance game not working under Windows (missing file)
+	Fix Windows font for scale in singing note lines
+	Dutch translation
+	--jstest, simple joystick button identification utility
+	Other small tweaks
+
+In addition, we would be delighted to receive videos and photos of people performing with Performous!
+
 :h2:2010-01-13 - 0.5.0 released
 <img src="imgs/menu_fi-small.jpg" alt=""/><img src="imgs/dance-multi2-small.jpg" style="margin-left: 1mm" alt=""/>
 This is the first release to include <strong>Windows</strong> and <strong>Mac</strong> binaries as well. A lot of work has been done by Xaldyz, Zar, Stump and others to make this possible. Meanwhile a large number of improvements and new features have been added, including of course the all new dance simulator developed during December by Aave, JNikkola and Kemppi, out of whom Aave has already become a core developer, already boosting about 200 commits. Another new developer who has been very active in this release is Peque who created the new main menu and gave some face lift for the default theme, among other things. The new features include:
