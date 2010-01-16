@@ -6,16 +6,16 @@ Song downloads can be found on the separate <strong>songs page</strong>.
 
 :h2:Windows
 
-	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.exe/download">installer</a>
+	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.1/Performous-0.5.1.exe/download">installer</a>
 
 :h2:Mac OS X 
 
-	OS X 10.5: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download">bundle</a>
+	OS X 10.5: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.1/Performous-0.5.1.dmg/download">bundle</a>
 
 :h2:Linux
 
-	Ubuntu 9.10 Karmic Koala: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-i386.deb/download">i386</a> <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-amd64.deb/download">amd64</a>
-	Ubuntu 8.04 LTS Hardy Heron: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-amd64.deb">amd64</a>
+	Ubuntu 9.10 Karmic Koala: <a href="http://www.playdeb.net/software/Performous">playdeb.net</a>
+	Ubuntu 8.04 LTS Hardy Heron: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-amd64.deb">amd64</a> version 0.3.2
 	Debian: <strong>performous</strong> in official repositories
 	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/">packages</a>
 	ArchLinux: <a href="http://aur.archlinux.org/packages.php?ID=24623">packages</a>
@@ -25,7 +25,7 @@ If you get an error about unsatisfied dependencies on Ubuntu, you may have to en
 
 :h2:Other systems and development version
 
-	Source code: <a href="http://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Source.tar.bz2/download">universal</a>
+	Source code: <a href="http://sourceforge.net/projects/performous/files/performous/0.5.1/Performous-0.5.1-Source.tar.bz2/download">universal</a>
 
 	The very latest source code is available in our Git repository. See the documentation wiki for more information.
 
