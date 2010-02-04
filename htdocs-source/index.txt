@@ -1,5 +1,8 @@
 Announcements
 
+:h2:2010-02-04 - Status update
+Currently we have no easy solution to the Windows audio sync issues that still cause some jerkiness and it appears that most of the audio code will have to be rewritten to really fix the issue properly. Because of this the next release will be delayed further and it is likely to be numbered 0.6 instead of another 0.5 bugfix version as there has been significant work done on improving the graphics and there also are many usability fixes. Part of the problem is that people find implementing new features more interesting that fixing complex bugs, something that I gather to be a very common problem with open-source projects where all the developers are volunteers.
+
 :h2:2010-01-16 - 0.5.1 released
 This is a source-only bugfix release, most notably fixing issues with Windows version and adding more instrument mappings. List of changes is below and the packages can be found from the download page.
 
