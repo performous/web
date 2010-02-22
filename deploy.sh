@@ -7,12 +7,19 @@ fi
 
 case $1 in
 	tronic)
+		# deploying on performous.org
 		GITPATH=~/performous-web
 		SITEPATH=performous.org:/wwwhome/performous/
 		;;
 	yoda)
-		GITPATH=~/git/web
-		SITEPATH=root@www:/pub/www/performous/
+		# deploying on yoda-jm.performous.org (backup)
+		GITPATH=~/git/performous/web
+		SITEPATH=domU-3:/pub/www/performous/
+		;;
+	yoda-jm)
+		# deploying on performous.sf.net (backup)
+		GITPATH=~/git/performous/web
+		SITEPATH=yoda-jm,performous@web.sourceforge.net:htdocs/
 		;;
 	*)
 		echo "-!- \"$1\" is not a valid profile"
