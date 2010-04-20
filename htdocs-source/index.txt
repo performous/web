@@ -1,5 +1,14 @@
 Announcements
 
+:h2:2010-04-20 - Status update
+Many fixes have been made on the code lately (SingStar ripper enhancements, left-handed support, new highscore, Windows fixes and other bugfixes). We now think that the current code is ready for a release really soon. You can help us to make sure there isn't any regression in the current git version by testing it, or for Windows users by testing the latest <a href="http://wiki.performous.org/index.php/Nightly_Builds">nightly build</a>.
+
+We are also proud to announce that Performous has been featured in the HotPicks section of <a href="http://www.linuxformat.com">Linux Format</a>, which is the best-selling Linux title in the UK. You can find the article in English <a href="data/LXF129.hot.pdf">here</a> (&copy;Future Publishing).
+
+Two new videos are also available on YouTube. There is one screencast from cousteau available <a href="http://www.youtube.com/watch?v=0ZQSrt_1LL0">here</a> and one video from Tronic:
+:~center:<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+
+
 :h2:2010-02-04 - Status update
 Currently we have no easy solution to the Windows audio sync issues that still cause some jerkiness and it appears that most of the audio code will have to be rewritten to really fix the issue properly. Because of this the next release will be delayed further and it is likely to be numbered 0.6 instead of another 0.5 bugfix version as there has been significant work done on improving the graphics and there also are many usability fixes. Part of the problem is that people find implementing new features more interesting than fixing complex bugs, something that I gather to be a very common problem with open-source projects where all the developers are volunteers.
 
