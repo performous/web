@@ -2,7 +2,7 @@ How to get performing
 
 :~preface:Installing Performous is very easy using the prebuilt packages. Just click the package and have it installed.
 
-Song downloads can be found on the separate <strong>songs page</strong>.
+Song downloads can be found on the separate <a href="songs.html">songs page</a>.
 
 :h2:Windows
 
@@ -13,10 +13,10 @@ Song downloads can be found on the separate <strong>songs page</strong>.
 	OS X 10.5: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download">bundle</a>
 
 :h2:Linux
-
+	Ubuntu 10.04 Lucid Lynx: <a href="apt:performous">performous</a> in official repositories
 	Ubuntu 9.10 Karmic Koala: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-i386.deb/download">i386</a> <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0-Ubuntu9.10-amd64.deb/download">amd64</a>
-	Ubuntu 8.04 LTS Hardy Heron: <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-amd64.deb">amd64</a>
-	Debian: <strong>performous</strong> in official repositories
+	Ubuntu 8.04 LTS Hardy Heron (v0.3.2): <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-i386.deb">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/Performous-0.3.2-Ubuntu8.04-amd64.deb">amd64</a>
+	Debian: <a href="apt:performous">performous</a> in official repositories
 	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/">packages</a>
 	ArchLinux: <a href="http://aur.archlinux.org/packages.php?ID=24623">packages</a>
 	Mandriva 2010.0: <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/i586/Performous-0.5.1-01bdk2010.0.i586.rpm">i586</a> <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/x86_64/Performous-0.5.1-01bdk2010.0.x86_64.rpm">x86_64</a>
@@ -26,9 +26,11 @@ If you get an error about unsatisfied dependencies on Ubuntu, you may have to en
 
 :h2:Other systems and development version
 
-	Source code: <a href="http://sourceforge.net/projects/performous/files/performous/0.5.1/Performous-0.5.1-Source.tar.bz2/download">universal</a>
+	Source code (v0.5.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.5.1/Performous-0.5.1-Source.tar.bz2/download">universal</a>
 
-	The very latest source code is available in our Git repository. See the documentation wiki for more information.
+	The very latest source code is available in our Git repository. See the <a href="http://wiki.performous.org/index.php/Developing">documentation wiki</a> for more information.
+
+	You can find testing binaries of the development version <a href="http://wiki.performous.org/index.php/Nightly_Builds">here</a>.
 
 :h2:Troubleshooting
 

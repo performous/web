@@ -39,7 +39,7 @@ Since 0.5.0 you can use dance pad to play dance songs in StepMania format. Again
 	Device autodetection
 		Guitar Hero and Rock Band instruments
 		Generic dance pads
-		SingStar and Rock Band microphones (Linux only)
+		SingStar and Rock Band microphones
 		Fallback to other audio devices when no SS/RB mics are detected
 	Top-notch visuals
 		Fully OpenGL-based rendering
@@ -68,8 +68,9 @@ Since 0.5.0 you can use dance pad to play dance songs in StepMania format. Again
 		Rock Band microphones
 		Regular microphones (connected via sound card)
 		Webcams (usable but not recommended)
-	Plenty of instruments
+	Plenty of controllers
 		Guitar Hero or Rock Band drums and guitars
+		Dance pads
 
 :h2:How to get performing?
 
