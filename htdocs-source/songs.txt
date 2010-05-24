@@ -2,15 +2,11 @@ Free songs
 
 :~preface:Do you like the songs? Remember to support the artists who give their work for free!
 
-:h2:Frets on Fire format songs
+:h2:How to add songs to the game?
 
-We haven't had time to get any on this page yet. If you have suggestions on what to include, especially if it also contains drums and vocals, please let us know! (it needs to be freely usable)
+You can find information on supported formats and song folder locations at the <a href="http://wiki.performous.org/index.php/Songs">Wiki page</a>.
 
-There are some guitar-only songs at <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> website.
-
-:h2:UltraStar format songs
-
-Extract the ZIP files to <strong>/usr/local/share/games/ultrastar</strong> or <strong>~/.ultrastar</strong> on UNIX systems and to the game folder on Windows.
+:h2:Karaoke songs (UltraStar format)
 
 The songs here are only repackaged by the Performous project. The packages contain license files listing the authors of the materials used and in many cases also of the Ultrastar conversion.
 
@@ -19,7 +15,7 @@ The <strong>libre</strong> package contains songs with very permissive licenses.
 	<strong>Free Software Song</strong> by Thor
 	<strong>On the run</strong> by Joshua Morin
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/ultrastar-songs-libre-3.zip">ZIP</a> (5 MB)
-</p><br style="clear:both"/></div><p>
+</p><!-- Horrible hack here, but the clear:both -method creates a gap, because it clears for the sidebar too --><br/><br/><br/><br/><br/><br/></div><p>
 
 </p><img src="songimgs/restricted.png" alt="" style="float: left"/><div style="margin-left: 280px;"><p>
 The <strong>restricted</strong> package contains songs that use more restrictive licenses not permitting modifications and/or commercial use.
@@ -68,9 +64,9 @@ Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-son
 Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/ultrastar-songs-shearer-1.zip">ZIP</a> (50 MB)
 </p><br style="clear:both"/></div><p>
 
+
 :h2:More songs?
 
-Performous comes with a tool named <b>ss_extract</b> that can be used for extracting your SingStar DVDs.
+We haven't had time to get any band (FoFiX-format) or dancing (StepMania) songs on this page yet. If you have suggestions on what to include, especially if it also contains drums and vocals, please let us know! (it needs to be freely usable).
 
-Additionally, you may search Google for good songs in <a href="http://www.google.com/search?q=ultrastar+djpo">UltraStar</a> or <a href="http://www.google.com/search?q=frets+on+fire+filetype:torrent">FoF</a> formats.
-
+<a href="http://wiki.performous.org/index.php/Songs#Finding_songs">Some ideas for finding songs elsewhere can be found at the wiki</a>.
