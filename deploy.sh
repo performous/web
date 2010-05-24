@@ -21,6 +21,11 @@ case $1 in
 		GITPATH=~/git/performous/web
 		SITEPATH=yoda-jm,performous@web.sourceforge.net:htdocs/
 		;;
+	aave000)
+		# deploying on performous.sf.net (backup)
+		GITPATH=~/src/performous-web
+		SITEPATH=aave000,performous@web.sourceforge.net:htdocs/
+		;;
 	*)
 		echo "-!- \"$1\" is not a valid profile"
 		exit
