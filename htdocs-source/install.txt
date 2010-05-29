@@ -4,11 +4,14 @@ How to get performing
 
 Song downloads can be found on the separate <a href="songs.html">songs page</a>.
 
+If you have problems, please have a look at the <a href="http://wiki.performous.org/">documentation</a>.
+
 :h2:Windows
 
 	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.exe/download">installer</a>
+	<em>Note:</em> You can find new features and bugfixes in the <a href=http://wiki.performous.org/index.php/Nightly_Builds>testing builds</a>.
 
-:h2:Mac OS X 
+:h2:Mac OS X
 
 	OS X 10.5: <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download">bundle</a>
 
@@ -28,17 +31,10 @@ If you get an error about unsatisfied dependencies on Ubuntu, you may have to en
 
 	Source code (v0.5.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.5.1/Performous-0.5.1-Source.tar.bz2/download">universal</a>
 
-	The very latest source code is available in our Git repository. See the <a href="http://wiki.performous.org/index.php/Developing">documentation wiki</a> for more information.
+	The very latest source code is available in our Git repository. See the <a href="http://wiki.performous.org/index.php/Developing">development wiki pages</a> for more information.
 
 	You can find testing binaries of the development version <a href="http://wiki.performous.org/index.php/Nightly_Builds">here</a>.
 
 :h2:Troubleshooting
 
-If you have previously installed from source, be sure to erase any files left over from that or otherwise Performous may use wrong files. Clear the following files/folders:
-
-	/usr/local/bin/performous
-	/usr/local/lib/libda
-	/usr/local/share/games/performous
-
-Performous installs other files as well, but those won't interfere with the game. See install_manifest.txt in your build folder for a full list of files installed.
-
+Our documentation is gathered in a <a href="http://wiki.performous.org/">wiki</a>, which includes a lot of information on e.g. controls, installing songs and configuring sound. You are also welcomed to ask for help in IRC: <a href="irc://irc.freenode.net/performous">#performous@freenode</a> (<a href="http://webchat.freenode.net/?channels=#performous">webchat</a>)

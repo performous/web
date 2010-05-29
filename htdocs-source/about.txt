@@ -74,5 +74,5 @@ Since 0.5.0 you can use dance pad to play dance songs in StepMania format. Again
 
 :h2:How to get performing?
 
-Install the program from the download page, then get some song packages from the song page.
+Install the program from the <a href="install.html">download page</a>, get some song packages from the <a href="songs.html">song page</a> and browse through the <a href="http://wiki.performous.org/">documentation</a> if you have any problems.
 
