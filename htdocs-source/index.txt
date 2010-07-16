@@ -1,5 +1,19 @@
 Announcements
 
+:h2:2010-07-16 - Status update
+The reason why the next 0.6 release isn't out yet is because of lacking Windows and OSX packaging. However, we haven't been sitting still - there has been significant development in various feature branches. One of them, SVG caching that greatly speeds up screen transitions is already merged to the main code.
+
+Another branch represents the next generation of our audio engine. It gets rid of the complicated plug-in system and relies on a single cross-platform backend: PortAudio. The new code brings many improvements and makes future development easier. The system is already usable - configuration implementation is the only significant thing left to do before taking it into use.
+
+Third exciting new thing is a nearly ready instrument joining menu that allows more intuitive and more expandable per player gaming experience configuration (see development picture below). The same generic menu structure will later be used to implement better configuration screen, among other things.
+
+<a href="imgs/wip-joinmenu.jpg"><img src="imgs/wip-joinmenu-small.jpg" style="margin-left:auto; margin-right:auto; display:block; text-align:center;" alt=""/></a>
+
+We also have the first free Jonathan Coulton full band song (with separate audio for all instruments!). You can try it <a href="http://fast.performous.org/joco-fullband-rev1.tar.bz2">here</a> (note that a recent git version is required due to a bug in midi lyrics parsing).
+
+Although the release time is unknown, Ubuntu users can rejoice as we now have a <a href="https://launchpad.net/~performous-team/+archive/ppa">Launchpad PPA</a> (see details at <a href="http://wiki.performous.org/index.php/Nightly_Builds#Ubuntu_PPA"> our wiki</a>), from where cutting edge builds of Performous can be easily installed and tested. PPA builds also include somewhat expermental midi drums and webcam background features. We have also been looking into the possibility to cross-compile Performous for Windows on Linux host. That would not only make releasing much easier, but would also allow automated nightly Windows builds.
+
+
 :h2:2010-04-20 - Status update
 Many fixes have been made on the code lately (SingStar ripper enhancements, left-handed support, new highscore, Windows fixes and other bugfixes). We now think that the current code is ready for a release really soon. You can help us to make sure there isn't any regression in the current git version by testing it, or for Windows users by testing the latest <a href="http://wiki.performous.org/index.php/Nightly_Builds">nightly build</a>.
 
