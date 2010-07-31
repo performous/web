@@ -1,5 +1,12 @@
 Announcements
 
+:h2:2010-07-31 - Status update
+We have progressed to the point where the new audio engine is pretty much on par with the previous one feature-wise. For merging, it would seem we only need some testing and tweaks to the time code calculation. Due to a bug with pause in the current audio system, the joining menu branch might require the new audio code before taken into use. Some visual clean-up is also in order. In addition, there has been initial work to move the controller mappings out of the executable, to make it much easier to add new ones.
+
+On packaging side, stump created a script that can easily cross-compile the dependencies and Performous itself for Windows from Debian/Ubuntu. It even produces a working installer. Sadly, the resulting build is very unstable, sometimes allowing singing or dancing, but mostly just crashing when entering the song. This seems somewhat consistent with the earlier expirements when compiling in a native mingw32 environment. So, if you have experience with stabilizing gcc builds for Windows, feel free to pitch in!
+
+Luckily, Mac OSX side appears brighter - we now have a fresh testing build at the <a href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">wiki</a>. There are some rough edges that need filing, e.g. some textures disappear in fullscreen mode, but it is certainly usable and ends the era where our last OSX binaries date back to 0.5.0.
+
 :h2:2010-07-16 - Status update
 The reason why the next 0.6 release isn't out yet is because of lacking Windows and OSX packaging. However, we haven't been sitting still - there has been significant development in various feature branches. One of them, SVG caching that greatly speeds up screen transitions is already merged to the main code.
 
