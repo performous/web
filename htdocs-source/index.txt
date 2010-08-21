@@ -1,5 +1,12 @@
 Announcements
 
+:h2:2010-08-21 - Status update
+Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a href="http://wiki.performous.org/index.php/Nightly_Builds#Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.
+
+We've now switched to using the new audio code and things seem to work rather well. Also the branch that moves controller configuration to an xml file has been merged. Although it is not yet perfect, it presents users a way to create own mappings and autodetections even though there is not yet a graphical UI for that.
+
+The new joining menu is also now part of main codebase, but didn't arrive in time to be included in the provided testing builds. Anyway, if no significant issues rise in overall testing, perhaps we might start looking into making that long overdue 0.6 release...
+
 :h2:2010-07-31 - Status update
 We have progressed to the point where the new audio engine is pretty much on par with the previous one feature-wise. For merging, it would seem we only need some testing and tweaks to the time code calculation. Due to a bug with pause in the current audio system, the joining menu branch might require the new audio code before taken into use. Some visual clean-up is also in order. In addition, there has been initial work to move the controller mappings out of the executable, to make it much easier to add new ones.
 
