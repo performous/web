@@ -1,5 +1,44 @@
 Announcements
 
+:h2:2010-10-XX - 0.6.0 released
+
+The long overdue 0.6.0 release is now here. The lengthy changelog can be read below. Thanks for all the new (and old) contributors.
+
+	Whole new audio system
+		Single backend: PortAudio (no more plugins)
+		Can still use jack/pulse/alsa etc. through PA
+		Easier to maintain, simplier architecture
+	Audio device configuration GUI
+		No more command line magic for simple stuff
+		No need to restart Performous
+	Better general configuration
+		More items visible at once
+		Sorted to category submenus
+	Instrument joining and pause menu
+		Each instrument has its own menu to manipulate
+	SVG caching system
+		After first time, menus load muuuuuch faster
+	Controller mappings are now in XML config file
+		Allows adding/modifying without touching game source code
+		Also added more detections and fixed old ones
+	Notification system (more UI feedback)
+	Drum Fills (+ GodMode for drums)
+	Solo parts for guitars
+	Big Rock Endings
+	Multiple vocal track management
+	Instrument hit error indicator
+	Song filtering by instrument type (F5-F8)
+	Lefty-mode for guitar and drums
+	Uses less memory (songs are only partially loaded at start-up)
+	Song parser improvements
+	Instrument graphics improvements
+	UltraStar ripper supports more DVDs
+	MIDI drum support
+	Experimental webcam support (needs to be compiled in)
+	Translation updates, including config localization
+	Logging/terminal output verbosity control on subsystem level
+	Hordes of other tweaks and fixes
+
 :h2:2010-08-21 - Status update
 Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a href="http://wiki.performous.org/index.php/Nightly_Builds#Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.
 
