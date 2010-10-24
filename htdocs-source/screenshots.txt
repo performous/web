@@ -2,19 +2,19 @@ Screenshots
 
 :h2:Select a song
 Fully animated cover browser, live background video preview and other visual goodness:
-<img src="screenshots/Performous-0.4.0-songs.jpg" alt=""/>
+<img src="screenshots/0.6.0/song_browser.jpg" alt=""/>
 
 :h2:Perform
 Scrolling notes allow singing without unwanted interruptions. As usual, plenty of animations are included as eyecandy.
-<img src="screenshots/Performous-0.3.1-sing.jpg" alt=""/>
+<img src="screenshots/0.6.0/sing.jpg" alt=""/>
 Add some instruments and play as a band with your friends:
-<img src="screenshots/Performous-0.4.0-band.jpg" alt=""/>
-<img src="screenshots/0.5.0/band.jpg" alt=""/>
-Custom background images or videos can be used as a fallback when the song doesn't have any:
-<img src="screenshots/Performous-0.4.0-choose_instruments.jpg" alt=""/>
-<img src="screenshots/Performous-0.4.0-guitar.jpg" alt=""/>
-The major new feature of 0.5 is that you can also dance (with rather basic graphics):
+<img src="screenshots/0.6.0/joinmenu.jpg" alt=""/>
+<img src="screenshots/0.6.0/full_band.jpg" alt=""/>
+<img src="screenshots/0.6.0/guitarsing.jpg" alt=""/>
+You can dance also!
 <img src="screenshots/0.5.0/dance-solo.jpg" alt=""/>
+In 0.6.0 you can configure audio devices with a GUI:
+<img src="screenshots/0.6.0/audiodevices.jpg" alt=""/>
 
 :h2:Practice screen
 This is a good place to setup microphone levels or to do voice-opening exercises.
@@ -22,7 +22,9 @@ This is a good place to setup microphone levels or to do voice-opening exercises
 
 :h2:In action
 
-But instead of the boring screenshots, why don't you see how Performous (various pre-0.3.1 development versions) looks in action?
+But instead of the boring screenshots, why don't you see how Performous looks in action?
+
+:~center:<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
 
 :~center:<a href="http://www.youtube.com/watch?v=riqkWgThp7s" target="_new"><img src="photos/youtube-joanna.jpg" style="display: inline; border: 2px solid blue;" alt="" target="_blank"/></a><br/>Youtube: Joanna demonstrates Performous on a 700 MHz Athlon HTPC.
 
