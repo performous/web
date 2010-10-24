@@ -1,43 +1,46 @@
 Announcements
 
-:h2:2010-10-XX - 0.6.0 released
+:h2:2010-10-24 - 0.6.0 released
 
-The long overdue 0.6.0 release is now here. The lengthy changelog can be read below. Thanks for all the new (and old) contributors.
+The long overdue 0.6.0 release is now here. This release brings many technological improvements as well as a lot of new gameplay features. Thanks for all the new (and old) contributors.
 
-	Whole new audio system
-		Single backend: PortAudio (no more plugins)
+	Gameplay
+		Multiple vocal track support (duet)
+		Toggleable karaoke with songs that have separate song and vocal tracks
+		Solo parts for guitars
+		Big Rock Endings
+		Drum Fills (with God Mode for drums)
+		Instrument hit timing indicator
+		Lefty-mode for guitar and drums
+		Join menu for difficulty/track configuration
+	Audio system completely rewritten
+		Single backend: PortAudio v19 (no more plugins)
 		Can still use jack/pulse/alsa etc. through PA
-		Easier to maintain, simplier architecture
-	Audio device configuration GUI
-		No more command line magic for simple stuff
-		No need to restart Performous
-	Better general configuration
-		More items visible at once
-		Sorted to category submenus
-	Instrument joining and pause menu
-		Each instrument has its own menu to manipulate
-	SVG caching system
-		After first time, menus load muuuuuch faster
-	Controller mappings are now in XML config file
-		Allows adding/modifying without touching game source code
-		Also added more detections and fixed old ones
-	Notification system (more UI feedback)
-	Drum Fills (+ GodMode for drums)
-	Solo parts for guitars
-	Big Rock Endings
-	Multiple vocal track management
-	Instrument hit error indicator
-	Song filtering by instrument type (F5-F8)
-	Lefty-mode for guitar and drums
-	Uses less memory (songs are only partially loaded at start-up)
-	Song parser improvements
-	Instrument graphics improvements
-	UltraStar ripper supports more DVDs
-	MIDI drum support
-	Experimental webcam support (needs to be compiled in)
-	Translation updates, including config localization
-	Logging/terminal output verbosity control on subsystem level
-	Hordes of other tweaks and fixes
+		Easier to maintain, simple architecture
+		Different bugs and workarounds than before
+	Configuration
+		Sorted to category submenus and displays multiple items at once
+		Ingame audio config with no need to restart Performous (except when audio devices hang)
+	Controllers
+		More controllers are autodetected and supported properly
+		XML config file allows adding/modifying controller types without touching C++
+		MIDI drum support (build-time option)
+	Song browser
+		Song filtering by instrument type (F5-F8)
+		Song parsing improved for faster loading and other improvements
+		Uses less memory due to notes not being loaded before entering a song
+	Miscellaneous
+		Webcam support (build-time option)
+		Graphical improvements and more random backgrounds
+		SVG caching system (menus load muuuch faster once cached)
+		Notification system (more UI feedback)
+		ss_extract now supports all SingStar PS2 DVDs (PS3 is not supported)
+		Translation updates, including config localization
+		Detailed verbosity controls via new logging system
+		Hordes of other tweaks and fixes
+
+For many languages the translations are currently lacking updates. Another thing we are lacking is good graphics as well as developers for the dance mode. If you think you'll be able to do better, offer your work on #performous.
+
 
 :h2:2010-08-21 - Status update
 Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a href="http://wiki.performous.org/index.php/Nightly_Builds#Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.
