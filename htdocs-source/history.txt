@@ -1,5 +1,64 @@
 Archived news
 
+:h2:2010-02-04 - Status update
+Currently we have no easy solution to the Windows audio sync issues that still cause some jerkiness and it appears that most of the audio code will have to be rewritten to really fix the issue properly. Because of this the next release will be delayed further and it is likely to be numbered 0.6 instead of another 0.5 bugfix version as there has been significant work done on improving the graphics and there also are many usability fixes. Part of the problem is that people find implementing new features more interesting than fixing complex bugs, something that I gather to be a very common problem with open-source projects where all the developers are volunteers.
+
+:h2:2010-01-16 - 0.5.1 released
+This is a source-only bugfix release, most notably fixing issues with Windows version and adding more instrument mappings. List of changes is below and the packages can be found from the download page.
+
+	Advanced timing code for reducing jerkiness (but causes more jerkiness for some because it is not properly tuned yet)
+	Dance gameplay improvements
+	Many controller detection and mapping fixes
+	Fix flashing singing note issue
+	Fix dance game not working under Windows (missing file)
+	Fix Windows font for scale in singing note lines
+	Dutch translation
+	Add a simple joystick button identification utility (--jstest)
+	Other small tweaks
+
+The next version (0.5.2) will be released once we sort out the remaining issues (estimated a few days) and it will also include binaries.
+
+:h2:2010-01-13 - 0.5.0 released
+<img src="imgs/menu_fi-small.jpg" alt=""/><img src="imgs/dance-multi2-small.jpg" style="margin-left: 1mm" alt=""/>
+This is the first release to include <strong>Windows</strong> and <strong>Mac</strong> binaries as well. A lot of work has been done by Xaldyz, Zar, Stump and others to make this possible. Meanwhile a large number of improvements and new features have been added, including of course the all new dance simulator developed during December by Aave, JNikkola and Kemppi, out of whom Aave has already become a core developer, already boosting about 200 commits. Another new developer who has been very active in this release is Peque who created the new main menu and gave some face lift for the default theme, among other things. The new features include:
+
+	Dance mode
+		StepMania .sm format
+		4-8 panels on each dancepad
+		Multiplayer (but not together with band yet)
+		Mines, hold and regular notes in various different game modes
+		Keyboard and USB dancepad support
+		Crappy graphics, no ITG colors and no customization (for now)
+	Band mode improvements
+		God Mode for guitars (similar to StarPower)
+		More graphical effects (glow, fire, ...)
+		Joining during game &amp; dead coming back to life
+		Whammy bar gameplay
+		Streak counter popup
+		Guitar Hero X0 guitar support (not tested)
+	Star when singing a note well
+	Main menu completely reworked
+	Localizations: Finnish, French, German, Italian and Spanish
+	New song folder [Performous data]/songs
+		The data folders depend on the OS the game is running on, including:
+		On UNIX ~/.local/share/games/performous
+		On Windows [Application data]/performous
+		On all systems the data installation path (relative to executable)
+		Old ~/.ultrastar/songs and other such folders continue to function.
+	Usability
+		Confirmation for song quitting
+		Better usb controller navigation (e.g. drum/dancepads can be used)
+		Instrumental part skipping for singing with FoF songs
+		Previews start from further of the song
+		In-game volume control
+		Keyboard key repeat disabled (preparing for generic controller repeat)
+	Internal
+		Use libpng/libjpeg directly, instead of Magick++
+		Navigation abstraction
+		Windows fixes
+
+Head over to the download page to get the new version. Because of the very large number of new features and due to porting to two new platforms we expect the release to be buggy. Please let us know if you find any problems. We'll try to release 0.5.1 soon with possible fixes and more new features. The Windows version is known to have various issues but we need all of them reported so that 0.5.1 can be made better (surprisingly we severely lack Windows testers).
+
 :h2:2009-12-12 - 0.4.1 cancelled, Windows alpha available
 We have rather large new features in the development version and because of this the next release will be 0.5.0 rather than 0.4.1. The hilights include a new menu and of course the dance game feature, which we just tested in two player mode with actual dance pads. No release date other than "soon" has been set.
 
