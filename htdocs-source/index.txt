@@ -5,7 +5,7 @@ Announcements
 The long overdue 0.6.0 release is now here. This release brings many technological improvements as well as a lot of new gameplay features. Thanks for all the new (and old) contributors.
 
 	Gameplay
-		Multiple vocal track support (duet)
+		Multiple vocal track support (no duet yet)
 		Toggleable karaoke with songs that have separate song and vocal tracks
 		Solo parts for guitars
 		Big Rock Endings
@@ -41,6 +41,7 @@ The long overdue 0.6.0 release is now here. This release brings many technologic
 
 For many languages the translations are currently lacking updates. Another thing we are lacking is good graphics as well as developers for the dance mode. If you think you'll be able to do better, offer your work on #performous.
 
+With this release, we provide a <a href="https://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0.exe/download">Windows installer</a>. Ubuntu packages should be available soon at <a href="http://www.playdeb.net/">playdeb.net</a> and hasty ones can use our <a href="https://launchpad.net/~performous-team/+archive/ppa">PPA at Launchpad</a>. Binaries for other platforms follow when the packagers have time to create them - in the mean time you can compile yourself from the <a href="http://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0-Source.tar.bz2/download">source.</a>
 
 :h2:2010-08-21 - Status update
 Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a href="http://wiki.performous.org/index.php/Nightly_Builds#Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.
