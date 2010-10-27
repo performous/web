@@ -26,7 +26,7 @@ If you have problems, please have a look at the <a href="http://wiki.performous.
 :h3:Other distributions
 	Debian: <a href="apt:performous">performous</a> in official repositories
 	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/">packages</a>
-	ArchLinux: <a href="http://www.archlinux.org/packages/community/i686/performous/">packages</a>
+	ArchLinux: <a href="http://www.archlinux.org/packages/community/i686/performous/">i686</a> <a href="http://www.archlinux.org/packages/community/x86_64/performous/">x86_64</a>
 	Mandriva 2010.0: <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/i586/Performous-0.5.1-01bdk2010.0.i586.rpm">i586</a> <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/x86_64/Performous-0.5.1-01bdk2010.0.x86_64.rpm">x86_64</a>
 
 If you get an error about unsatisfied dependencies on Ubuntu, you may have to enable the community-supported software source <strong>universe</strong> via <strong>System | Administration | Software Sources</strong>. Most users already have this enabled.
