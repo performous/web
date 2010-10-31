@@ -8,7 +8,7 @@ If you have problems, please have a look at the <a href="http://wiki.performous.
 
 :h2:Windows
 
-	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0.exe/download">installer</a>
+	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1.exe/download">installer</a>
 	<em>Note:</em> You can find new features and bugfixes in the <a href=http://wiki.performous.org/index.php/Nightly_Builds>testing builds</a>.
 
 :h2:Mac OS X
@@ -34,7 +34,7 @@ If you get an error about unsatisfied dependencies on Ubuntu, you may have to en
 
 :h2:Other systems and development version
 
-	Source code (v0.6.0): <a href="http://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0-Source.tar.bz2/download">universal</a>
+	Source code (v0.6.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Source.tar.bz2/download">universal</a>
 
 	The very latest source code is available in our Git repository. See the <a href="http://wiki.performous.org/index.php/Developing">development wiki pages</a> for more information.
 
