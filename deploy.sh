@@ -21,6 +21,11 @@ case $1 in
 		GITPATH=~/git/performous/web
 		SITEPATH=yoda-jm,performous@web.sourceforge.net:htdocs/
 		;;
+	aave)
+		# deploying on performous.org
+		GITPATH=~/src/performous-web
+		SITEPATH=performous.org:/wwwhome/performous/
+		;;
 	aave000)
 		# deploying on performous.sf.net (backup)
 		GITPATH=~/src/performous-web
