@@ -3,6 +3,13 @@ What is it?
 :~preface:Performous is a free cross-platform music and rhythm game.
 
 
+:h2:Performous in a nutshell
+
+Performous is a free party game that originally started as a Linux replacement for SingStar under the name UltraStar-NG, but has since grown into a cross-platform open-source alternative for Rock Band and friends. It even includes a dancing component!
+
+The core idea in every game mode is to hit the notes scrolling on the screen as accurately as possible. However, Performous doesn't try to clone the other similar games accurately, but walks its own path in many ways - offering for example accurate pitch wave display for singing, unified scoring scheme across songs and game modes plus original features such as webcam background.
+
+Performous can use and automatically configure most of the instruments/dance pads from other games and supports songs in three formats (UltraStar, FretsOnFire/FoFiX, StepMania).
 
 :h2:Karaoke?
 
