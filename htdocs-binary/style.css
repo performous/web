@@ -1,5 +1,6 @@
 body {
     background: #000 url('bgs/fantasy_16.jpg') no-repeat;
+    /* Sadly this is too slow: background-attachment: fixed; */
     background-size: 100%;
     font-family: Verdana, Sans-Serif, sans;
     font-size: 13px;
@@ -29,11 +30,13 @@ body {
     -moz-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 /* main column */
 #main {
 	position: relative;
     border-radius: 10px;
+    -moz-border-radius: 10px;
     box-shadow: 0px 0px 50px #448;
     -webkit-box-shadow: 0px 0px 50px #448;
     -moz-box-shadow: 0px 0px 50px #448;
@@ -85,6 +88,7 @@ body {
 #menu li.selected {
     background-color: #448;
     border-radius: 10px;
+    -moz-border-radius: 10px;
     box-shadow: 0px 0px 50px #448;
     -webkit-box-shadow: 0px 0px 50px #448;
     -moz-box-shadow: 0px 0px 50px #448;
