@@ -24,9 +24,9 @@ body {
 #page {
 	height: 600px;
     background-color: rgba(0,0,0,0.6);
-    box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 5px 20px 50px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
 }
@@ -34,11 +34,13 @@ body {
 #main {
 	position: relative;
     border-radius: 10px;
+    box-shadow: 0px 0px 50px #448;
     -webkit-box-shadow: 0px 0px 50px #448;
+    -moz-box-shadow: 0px 0px 50px #448;
     background: #448;
     margin: 20px;
     margin-left: 145px;
-    margin-top: 60px;
+    margin-top: 70px;
     padding: 10px;
 }
 #content {
@@ -56,7 +58,7 @@ body {
     width: 135px;
     float: left;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 14px;
 }
 
@@ -83,7 +85,9 @@ body {
 #menu li.selected {
     background-color: #448;
     border-radius: 10px;
+    box-shadow: 0px 0px 50px #448;
     -webkit-box-shadow: 0px 0px 50px #448;
+    -moz-box-shadow: 0px 0px 50px #448;
     width: 150px;
 }
 
@@ -113,7 +117,7 @@ a:hover, a:active {
 }
 h1 {
 	position: absolute;
-	top: -60px;
+	top: -70px;
     font-size: 40px;
     color: #ddd;
     /*text-shadow: 0px 0px 10px rgba(68, 68, 136, 1.0);*/
@@ -133,7 +137,9 @@ h1 {
 #showcase {
 	background: url('imgs/showcase.jpg') repeat-x;
 	width: 640px;
-	height: 100px;
+	height: 96px;
+	margin-bottom: 30px;
+	-webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(rgba(255,255,255,0.3)));
 }
 
 h3 {
