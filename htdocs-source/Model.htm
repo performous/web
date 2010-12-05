@@ -56,23 +56,11 @@
 			}
 		});
 	}
-	var img = 0;
-	var anim = 0;
-	function showcaseScroll() {
-		var e = document.getElementById('showcase');
-		var pos = 128 * (img + 0.5 * (1 - Math.cos(Math.PI * anim / 30)));
-		e.style.backgroundPositionX = Math.round(-pos) + "px";
-		var timeout = 3500;
-		if (anim > 0) timeout = 16;
-		if (anim == 30) { anim = -1; ++img; }
-		++anim;
-		setTimeout('showcaseScroll()', timeout);
-	}
 </script>
 <!-- /TinyMCE -->
   </head>
 
-  <body onload="showcaseScroll();">
+  <body>
     <div id="sitebox">
       <div id="title"><img src="imgs/title.png" alt="Performous"/></div>
 

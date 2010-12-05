@@ -1,6 +1,6 @@
 The All-in-One Music Game
 
-<div id="showcase"></div>
+<div id="showcase" style="background: url('imgs/showcase.jpg') repeat-x; width: 640px; height: 96px; margin-bottom: 30px; -webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(rgba(255,255,255,0.3)));"></div><script type="text/javascript" src="showcase.js"></script>
 
 Rock your friends or learn to sing better. If you are looking for a fun music game, this is it. No special hardware required, you may play guitar on your PC keyboard, sing on any microphone or webcam you happen to have and so on. If you do have SingStar microphones, Guitar Hero or RockBand instruments, or dance pads, just plug them into your USB ports and they will be autodetected by Performous.
 

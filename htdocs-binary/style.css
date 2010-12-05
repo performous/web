@@ -138,14 +138,6 @@ h1 {
     /*text-decoration: underline;*/
 }
 
-#showcase {
-	background: url('imgs/showcase.jpg') repeat-x;
-	width: 640px;
-	height: 96px;
-	margin-bottom: 30px;
-	-webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(rgba(255,255,255,0.3)));
-}
-
 h3 {
     font-size: 13px;
     text-align: left;
