@@ -1,5 +1,6 @@
 body {
-    background: #448;
+    background: #000 url('bgs/fantasy_16.jpg') no-repeat;
+    background-size: 100%;
     font-family: Verdana, Sans-Serif, sans;
     font-size: 13px;
     line-height: 140%;
@@ -10,11 +11,10 @@ body {
 
 /* banner */
 #title {
-    height: 80px;
-    padding-left: 65px;
+    height: 113px;
 }
 #sitebox {
-    width: 850px;
+    width: 900px;
     margin: 40px auto 40px auto;
     margin: 0 auto;
     border: 0;
@@ -45,20 +45,27 @@ body {
 }
 #content {
 	width: 640px;
+	margin: 0 auto;
 }
-
+.mceContentBody {
+	width: 640px;
+	position: relative;
+    background: #448;
+    margin-top: 60px;
+}
 
 #menu {
     width: 135px;
     float: left;
     padding: 5px;
-    margin-top: -10px;
+    margin-top: 50px;
+    font-size: 14px;
 }
 
 #menu h2 {
     padding-top: 10px;
     margin:0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #menu ul {
@@ -82,7 +89,7 @@ body {
 */
 #menu li.selected {
     background-color: #448;
-    width: 150px;
+    width: 140px;
 }
 
 
@@ -95,6 +102,7 @@ body {
 }
 
 a:link {
+    text-shadow: 0 0 3px #000;
     font-weight: bold;
     text-decoration: none;
     color: #aaf;
@@ -106,29 +114,34 @@ a:visited {
 }
 a:hover, a:active {
     text-decoration: underline;
-    text-shadow: 0 0 3px #000;
     color: #aaf;
 }
-#content h1 {
+h1 {
 	position: absolute;
 	top: -60px;
     font-size: 40px;
-    color: #448;
-    text-shadow: 0 0 5px #000;
+    color: #ddd;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
 }
-#content h2 {
+#content h2, .mceContentBody h2 {
 	display: block;
 	margin: 0;
 	margin-left: -10px;
 	padding: 10px;
-	width: 645px;
+	width: 640px;
 	background: #336;
     font-size: 20px;
     text-align: left;
     /*text-decoration: underline;*/
 }
 
-#content h3 {
+#showcase {
+	background: url('showcase.jpg') repeat-x;
+	width: 640px;
+	height: 100px;
+}
+
+h3 {
     font-size: 13px;
     text-align: left;
     color: #fff;

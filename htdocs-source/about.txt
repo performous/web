@@ -83,3 +83,18 @@ Since 0.5.0 you can use dance pad to play dance songs in StepMania format. Again
 
 Install the program from the <a href="install.html">download page</a>, get some song packages from the <a href="songs.html">song page</a> and browse through the <a href="http://wiki.performous.org/">documentation</a> if you have any problems.
 
+
+:h2:Check out our competitors
+
+Not convinced by Performous? No worries, there are plenty of other options. Just a few interesting ones to get started with:
+
+:h3:Singing games:
+	<a href="http://sourceforge.net/projects/ultrastardx/">UltraStar Deluxe</a> - A cross-platform clone of SingStar
+	<a href="http://www.canta-game.org/">Canta</a> - A simple cross-platform karaoke game
+	<a href="http://www.karaokeparty.com/">KaraokeParty</a> - Runs on your browser with Flash
+:h3:Guitar games:
+	<a href="http://code.google.com/p/fofix/">FoFiX</a> - <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> on steroids, now including band mode too
+	<a href="http://www.jamlegend.com/">JamLegend</a> - A simple Flash game
+:h3:Dance games:
+	<a href="http://www.stepmania.com/">StepMania</a> - The original open-source dance game
+

@@ -1,29 +1,17 @@
 % Performous
-+index News
-+history Archived news
++index Home
++blog Blog
 +about About
 +screenshots Screenshots
 +install Download
 +songs Songs
-% Project links:
+% Project links
 .http://wiki.performous.org/ Documentation
-.http://webchat.freenode.net/?channels=#performous #performous
+.http://webchat.freenode.net/?channels=#performous Webchat
 .http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .http://sourceforge.net/projects/performous/ SF.net
 .http://www.ohloh.net/projects/performous Ohloh.net
 .awstats/awstats.pl Site stats
-% Competitors
-% Singing games:
-.http://sourceforge.net/projects/ultrastardx/ UltraStar Deluxe
-.http://singthegame.com/ SingSong
-.http://www.canta-game.org/ Canta
-.http://www.karaokeparty.com/ KaraokeParty
-% Guitar games:
-.http://fretsonfire.sourceforge.net/ Frets on Fire
-.http://code.google.com/p/fofix/ FoFiX
-.http://www.jamlegend.com/ JamLegend
-% Dance games:
-.http://www.stepmania.com/ StepMania
 
 # First char of the line selects:
 # + a page that is converted (.txt -> .html)
