@@ -130,7 +130,7 @@ h1 {
 }
 
 #showcase {
-	background: url('showcase.jpg') repeat-x;
+	background: url('imgs/showcase.jpg') repeat-x;
 	width: 640px;
 	height: 100px;
 }
