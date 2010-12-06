@@ -23,7 +23,7 @@ body {
 }
 /* page */
 #page {
-	height: 600px;
+	min-height: 600px;
     background-color: rgba(0,0,0,0.6);
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
