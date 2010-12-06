@@ -137,7 +137,9 @@ h1 {
     text-align: left;
     /*text-decoration: underline;*/
 }
-
+img {
+	border: 0;
+}
 h3 {
     font-size: 13px;
     text-align: left;
