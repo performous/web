@@ -2,7 +2,7 @@ body {
     background: #000 url('bgs/fantasy_16.jpg') no-repeat;
     /* Sadly this is too slow: background-attachment: fixed; */
     background-position: center top;
-    font-family: Verdana, Sans-Serif, sans;
+    font-family: DejaVu Sans, Verdana, Sans-Serif, sans;
     font-size: 13px;
     line-height: 140%;
     overflow: scroll;
