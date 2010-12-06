@@ -1,10 +1,11 @@
 % Performous
 +index Home
 +blog Blog
-+about About
++about What is it
 +screenshots Screenshots
-+install Download
-+songs Songs
++download Download
++songs Free songs
++others Other games
 % Project links
 .http://wiki.performous.org/ Documentation
 .http://webchat.freenode.net/?channels=#performous Webchat
