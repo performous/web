@@ -1,10 +1,4 @@
-How to get performing
-
-:~preface:Installing Performous is very easy using the prebuilt packages. Just click the package and have it installed.
-
-Song downloads can be found on the separate <a href="songs.html">songs page</a>.
-
-If you have problems, please have a look at the <a href="http://wiki.performous.org/">documentation</a>.
+Download Performous
 
 :h2:Windows
 
@@ -30,17 +24,11 @@ If you have problems, please have a look at the <a href="http://wiki.performous.
 	Fedora 14: <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-i386.rpm/download">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-amd64.rpm/download">amd64</a>
 	Mandriva 2010.0: <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/i586/Performous-0.5.1-01bdk2010.0.i586.rpm">i586</a> <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/x86_64/Performous-0.5.1-01bdk2010.0.x86_64.rpm">x86_64</a>
 
-If you get an error about unsatisfied dependencies on Ubuntu, you may have to enable the community-supported software source <strong>universe</strong> via <strong>System | Administration | Software Sources</strong>. Most users already have this enabled.
 
 
 :h2:Other systems and development version
 
 	Source code (v0.6.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Source.tar.bz2/download">universal</a>
 
-	The very latest source code is available in our Git repository. See the <a href="http://wiki.performous.org/index.php/Developing">development wiki pages</a> for more information.
+If you are building Performous yourself or wish to do any development on it, you should always use the Git repository rather than source code packages. See the <a href="http://wiki.performous.org/index.php/Developing">development wiki pages</a> for more information.
 
-	You can find testing binaries of the development version <a href="http://wiki.performous.org/index.php/Nightly_Builds">here</a>.
-
-:h2:Troubleshooting
-
-Our documentation is gathered in a <a href="http://wiki.performous.org/">wiki</a>, which includes a lot of information on e.g. controls, installing songs and configuring sound. You are also welcomed to ask for help in IRC: <a href="irc://irc.freenode.net/performous">#performous@freenode</a> (<a href="http://webchat.freenode.net/?channels=#performous">webchat</a>)

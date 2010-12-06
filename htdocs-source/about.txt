@@ -1,100 +1,45 @@
 What is it?
 
-:~preface:Performous is a free cross-platform music and rhythm game.
-
-
 :h2:Performous in a nutshell
 
-Performous is a free party game that originally started as a Linux replacement for SingStar under the name UltraStar-NG, but has since grown into a cross-platform open-source alternative for Rock Band and friends. It even includes a dancing component!
+Everybody loves music and while some might be too shy to dance or sing, there is always some part for everyone. Performous is about improving your skills and having fun at the same time.
 
-The core idea in every game mode is to hit the notes scrolling on the screen as accurately as possible. However, Performous doesn't try to clone the other similar games accurately, but walks its own path in many ways - offering for example accurate pitch wave display for singing, unified scoring scheme across songs and game modes plus original features such as webcam background.
+:h3:Vocals
 
-Performous can use and automatically configure most of the instruments/dance pads from other games and supports songs in three formats (UltraStar, FretsOnFire/FoFiX, StepMania).
+Pick up your microphone and start singing. The game won't just score your performance but your pitch is constantly displayed so you can correct the mistakes and actually learn to sing... And then beat your friends in multiplayer mode :)
 
-:h2:Karaoke?
+For those who <em>sing rather than well</em>, a karaoke mode is provided. In this mode only lyrics are displayed and there are no notes or scoring.
 
-While Performous might be classified as a karaoke program, it is actually much more than that. Instead of just displaying the lyrics, notes are also displayed and the performance is scored based on how well you actually hit the notes. Unlike in most other games in this genre, you will also see the precise pitch that you are singing, so that you can see what you are doing wrong and easily (well, everything is relative) correct your pitch.
+:h3:Guitar and drums
 
-Most of the songs available also contain the original vocals and actual karaoke versions are rare.
+Pick up your keyboard like this... Or if you prefer, connect one of those guitar controllers you can buy for almost nothing at your local gaming store. Playing a plastic guitar with five buttons sure isn't like the real thing but it just happens to be a good deal easier to learn and thus a hit at your party. Just make sure that the guys holding your guitar controllers allow others to play too.
 
-For those who sing <em>rather than well</em>, a karaoke mode is provided. In this mode only lyrics are displayed and there are no notes or scoring.
+Playing drums is like the real thing, especially if you happen to be lucky enough to have one of those professional MIDI drum sets. For the rest of us the el cheapo band game controllers will have to do.
 
+:h3:Dance
 
-:h2:SingStar?
-
-Until version 0.3 we aimed to create a free cross-platform alternative for SingStar but after scrolling notes and other gameplay improvements, and actually seeing SingStar for the first time, Lasse realized that the project has gone past that and thus Performous is now actually quite different from SingStar games.
-
-:h2:Guitar Hero or Rock Band?
-
-Performous uses the same instruments and songs as these games and obviously the gameplay is quite similar. However, we have deviated from the original concept by changing the scoring system and other things. We aim to make the game fun to play with and to make the scoring system judge playing skills as accurately as possible so that scores rather than percentages can be used for comparing players.
-
-:h2:StepMania or Dance Dance Revolution?
-
-Since 0.5.0 you can use dance pad to play dance songs in StepMania format. Again, the performance is scored based on how accurately the scrolling notes are hit. Let the rhythm guide your feet!
+Let the rhythm guide your feet when you show your dance moves on a dance pad, or just be a geek and use the keypad with your fingers instead. The graphics ain't hot yet but nonetheless you can dance all the same.
 
 :h2:Features
 
-	Should work on almost any platform
-	Very accurate singing pitch detection
-		Noisy environments are not an issue
-		Multiple simultaneous tones can be detected and separated properly 
-	Intelligent gameplay with guitar and bass
-		The engine determines what was intended rather than simply picking the nearest chord
-		Hammer-ons and pull-offs are undoed when the player accidentally does them and then picks the note in the regular way
-	Drums
-	Dance pads
-	Device autodetection
-		Guitar Hero and Rock Band instruments
-		Generic dance pads
-		SingStar and Rock Band microphones
-		Fallback to other audio devices when no SS/RB mics are detected
-	Top-notch visuals
-		Fully OpenGL-based rendering
-		Music videos as backgrounds
-		Smooth UI animations and other eye candy
-	Solid C++ engine
-		Performs well on slower machines too
-		Rapid but still safe development thanks to advanced C++ features
-		Plenty of threaded stuff like background loading of songs and videos
+	Vocals, guitars (lead/rhythm/bass), drums and dancing with multiplayer support
+	Extremely good singing pitch detection (usable even with laptop or webcam microphones)
+	Intelligent gameplay determines what the player attempted to do
+		Avoid accidental hammer-ons / pull-offs, among other things
+		No more "wtf, I didn't do any mistake there" feeling (hopefully)
+	Controllers are autodetected (no need to configure keys)
+	Song formats: <a href="http://google.com/search?q=FoF+songs">FoF</a>, <a href="http://google.com/search?q=UltraStar+songs">UltraStar</a>, SingStar PS2 DVD (with ss_extract), <a href="http://google.com/search?q=StepMania+songs">StepMania</a>
+	C++ for high performance, rapid development and solid code
+	OpenGL 2.0 and SVG for nice graphics
 	Free software, licensed under <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a> version 2 or later
 
+:h2:Requirements
 
-:h2:Hardware requirements
+	Windows / Linux / OS X (porting to others should be easy)
+	A computer that can run 3D games (doesn't need to be fast)
+	Microphones for singing (any regular microphones, SingStar/other USB mics)
+	USB guitars and drums (Guitar Hero, Rock Band)
+	USB dance pad for dancing (various brands)
 
-:h3:Minimum
-
-	Graphics chip with OpenGL acceleration (e.g. GF2 MX400)
-	Pentium III 700 MHz or comparable CPU
-
-:h3:Optimal
-
-	OpenGL 2.0 (e.g. Intel GMA950 or any modern ATI/Nvidia card)
-	Faster CPU, multicores are properly utilized
-	Up to four microphones, any combination of:
-		SingStar wired or wireless microphones
-		Rock Band microphones
-		Regular microphones (connected via sound card)
-		Webcams (usable but not recommended)
-	Plenty of controllers
-		Guitar Hero or Rock Band drums and guitars
-		Dance pads
-
-:h2:How to get performing?
-
-Install the program from the <a href="install.html">download page</a>, get some song packages from the <a href="songs.html">song page</a> and browse through the <a href="http://wiki.performous.org/">documentation</a> if you have any problems.
-
-
-:h2:Check out our competitors
-
-Not convinced by Performous? No worries, there are plenty of other options. Just a few interesting ones to get started with:
-
-:h3:Singing games:
-	<a href="http://sourceforge.net/projects/ultrastardx/">UltraStar Deluxe</a> - A cross-platform clone of SingStar
-	<a href="http://www.canta-game.org/">Canta</a> - A simple cross-platform karaoke game
-	<a href="http://www.karaokeparty.com/">KaraokeParty</a> - Runs on your browser with Flash
-:h3:Guitar games:
-	<a href="http://code.google.com/p/fofix/">FoFiX</a> - <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> on steroids, now including band mode too
-	<a href="http://www.jamlegend.com/">JamLegend</a> - A simple Flash game
-:h3:Dance games:
-	<a href="http://www.stepmania.com/">StepMania</a> - The original open-source dance game
+A regular PC keyboard can be used as a controller so don't worry if you don't have all of the plastic toys yet. Rock Band 3 real controllers are not currently supported (properly) but we will look into that as soon as we get our hands on those.
 
