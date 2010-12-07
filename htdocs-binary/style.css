@@ -1,5 +1,5 @@
 body {
-    background: #000 url('bgs/fantasy_16.jpg') no-repeat;
+    background: #000 url('bgs/fantasy_16.jpg') repeat;
     /* Sadly this is too slow: background-attachment: fixed; */
     background-position: center top;
     font-family: DejaVu Sans, Verdana, Sans-Serif, sans;
