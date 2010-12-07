@@ -1,6 +1,5 @@
 function smartDownload() {
 	var e = document.getElementById('download');
-	var agent = navigator.appVersion;
 	if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1) {
 		// Windows
 		e.href = 'http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1.exe/download';
