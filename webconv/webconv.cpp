@@ -30,7 +30,16 @@ struct Page {
 	bool generate;
 	enum { UNINITIALIZED, UNSELECTED, SELECTED, PATH } selection;
 	Page(string title = "", string name = "", bool generate = false): title(title), name(name), link(name), generate(generate), selection(UNINITIALIZED) {
+#if 0
+		// Links for offline use
 		if (generate) link += ".html";
+#else
+		// Apache can guess file extension so we won't use any
+		// index page is unnamed
+		if (link == "index") link = ".";
+#endif
+		// Hack of the year (for adding target="_new" on external links)
+		if (!generate) link += "\" target=\"_new";
 	}
 };
 
@@ -92,6 +101,7 @@ class HTML {
 		m_file << menu_title(page);
 		menu_submenu(page);
 		m_file << "</li>";
+		m_need_newline = true;
 	}
 	
 	/** Print a submenu inside the <li> of an outer menu. **/
@@ -112,13 +122,9 @@ class HTML {
 		} else if (page.name.empty()) {
 			// No link => just print the title with no link
 			return "<h2>" + page.title + "</h2>";
-		} else if (page.selection == Page::SELECTED) {
-			// Selected page => dummy link or no link (comment out the one you don't need)
-			if (useless_links) {
-				return "<a href=\"#\">" + page.title + "</a>";
-			} else {
-				return page.title;
-			}
+		} else if (!useless_links && page.selection == Page::SELECTED) {
+			// No link for current page
+			return page.title;
 		} else {
 			// Normal link
 			return "<a href=\"" + page.link + "\">" + page.title + "</a>";
@@ -163,6 +169,17 @@ struct Block {
 	Block(string t, string i): tag(t), inner_tag(i) {}
 };
 
+namespace {
+	string startTag(string const& tag, string const& cl) {
+		return "<" + tag + (cl.empty() ? "" : " class=\"" + cl + "\"") + ">";
+	}
+	void tagWrap(string& content, string const& tag, string const& cl) {
+		if (tag.empty()) return;
+		content = startTag(tag, cl) + content + "</" + tag + ">";
+	}
+
+}
+
 class Constructor {
 	string m_dir_source, m_dir_dest;
 	Pagelist m_pages;
@@ -177,7 +194,7 @@ public:
 	void body_process(std::istream& in, HTML& document) {
 		string line;
 		std::stack<Block> blocks;
-		while (in.good()) {
+		while (true) {
 			// Eat tabs & count indent level
 			int level = 0;
 			{
@@ -185,9 +202,14 @@ public:
 				while ((ch = in.get()) == '\t') ++level;
 				in.putback(ch);
 			}
-			if (!in.good()) break;
+			// Close any blocks no longer needed
+			while (level < blocks.size()) {
+				document.unindent();
+				document.println("</" + blocks.top().tag + ">");
+				blocks.pop();
+			}
 			// Read the rest of the line
-			getline(in, line);
+			if (!getline(in, line)) break;
 			// Skip empty/comment lines
 			if (line.empty() || (line[0] == '#')) continue;
 			// Find content separator
@@ -208,7 +230,7 @@ public:
 				content = line;
 			}
 			enum { UNORDERED, ORDERED, BLOCK } list_type = UNORDERED;
-			string tag = ((level == 0) ? "p" : blocks.top().inner_tag);
+			string tag = (level == 0 ? "p" : "");
 			string cl; // Class
 			string blocktag; // Used when starting blocks
 			while (ctrl.size()) {
@@ -227,33 +249,30 @@ public:
 				  case 'h':
 					if (cmd.size() != 2) throw string("Invalid syntax for command 'h'");
 					if (!hasContent) throw string("Header without text");
-					if (level == 0) tag = string("h") + cmd[1];
-					else content = string("<h") + cmd[1] + ">" + content + "</h" + cmd[1] + ">";
+					tag = string("h") + cmd[1];
 					break;
 				  case '>':
 					if ((cmd.size() == 2) && (cmd[1] == '#')) list_type = ORDERED;
 					else if ((cmd.size() == 2) && (cmd[1] == '*')) list_type = UNORDERED;
-					else { list_type = BLOCK; blocktag = cmd.substr(1); }
+					else { list_type = BLOCK; blocktag = cmd.substr(1); }
 					break;
 				  default:
 					throw string("Unknown formatting command: \"") + cmd + "\"";
 				}
 			}
-			while (level < blocks.size()) {
-				document.unindent();
-				document.println("</" + blocks.top().tag + ">");
-				blocks.pop();
-			}
+			// Start any new blocks required
 			while (level > blocks.size()) {
 				switch (list_type) {
-				  case UNORDERED: document.println("<ul>"); blocks.push(Block("ul", "li")); break;
-				  case ORDERED: document.println("<ol>"); blocks.push(Block("ol", "li")); break;
-				  case BLOCK: document.println("<" + blocktag + ">"); blocks.push(Block(blocktag, "")); break;
+				  case UNORDERED: document.println(startTag("ul", cl)); blocks.push(Block("ul", "li")); break;
+				  case ORDERED: document.println(startTag("ol", cl)); blocks.push(Block("ol", "li")); break;
+				  case BLOCK: document.println(startTag(blocktag, cl)); blocks.push(Block(blocktag, "")); break;
 				}
 				document.indent();
 			}
 			if (hasContent) {
-				document.println('<' + tag + (cl.empty() ? "" : " class=\"" + cl + '"') + ">" + content + "</" + tag + '>');
+				if (!blocks.empty()) tagWrap(content, blocks.top().inner_tag, cl);
+				tagWrap(content, tag, cl);
+				document.println(content);
 			}
 		}
 		// Close any remaining blocks
@@ -294,9 +313,7 @@ public:
 		HTML document(m_dir_dest, name);
 		document.menu_selections(m_pages);
 		// TODO: rewrite the parser
-		while (model.good()) {
-			string line;
-			getline(model, line);
+		for (string line; getline(model, line);) {
 			size_t pos = line.find("<+MENU+>");
 			if (pos != string::npos) {
 				document.set_indent(line.substr(0, pos));
