@@ -4,69 +4,77 @@ Free songs
 
 :h2:How to add songs to the game?
 
-You can find information on supported formats and song folder locations at the <a href="http://wiki.performous.org/index.php/Songs">Wiki page</a>.
+You can find information on supported formats and song folder locations at the <a href="http://wiki.performous.org/index.php/Songs" target="_new">Wiki page</a>.
 
 :h2:Karaoke songs (UltraStar format)
 
 The songs here are only repackaged by the Performous project. The packages contain license files listing the authors of the materials used and in many cases also of the Ultrastar conversion.
 
-</p><div><img src="songimgs/libre.png" alt="" style="vertical-align: top; display: inline-block"/><div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;"><p>
-The <strong>libre</strong> package contains songs with very permissive licenses.
-	<strong>Free Software Song</strong> by Thor
-	<strong>On the run</strong> by Joshua Morin
-Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/ultrastar-songs-libre-3.zip">ZIP</a> (5 MB)
-</p></div></div><p>
+	:>div,~margin
+	<img src="songimgs/libre.png" alt="" style="vertical-align: top; display: inline-block"/>
+	<div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;">
+	The <strong>libre</strong> package contains songs with very permissive licenses.
+		<strong>Free Software Song</strong> by Thor
+		<strong>On the run</strong> by Joshua Morin
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/ultrastar-songs-libre-3.zip/download" target="_new">ZIP</a> (5 MB)
+	</div>
 
-</p><div><img src="songimgs/restricted.png" alt="" style="vertical-align: top; display: inline-block"/><div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;"><p>
-The <strong>restricted</strong> package contains songs that use more restrictive licenses not permitting modifications and/or commercial use.
-	<strong>I 18</strong> by Dead Smiling Pirates
-	<strong>Northern Star</strong> by Steven Dunston
-	<strong>Space Invaders</strong> by Pornophonique
-Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/ultrastar-songs-restricted-3.zip">ZIP</a> (10 MB)
-</p></div></div><p>
+	:>div,~margin
+	<img src="songimgs/restricted.png" alt="" style="vertical-align: top; display: inline-block"/>
+	<div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;">
+	The <strong>restricted</strong> package contains songs that use more restrictive licenses not permitting modifications and/or commercial use.
+		<strong>I 18</strong> by Dead Smiling Pirates
+		<strong>Northern Star</strong> by Steven Dunston
+		<strong>Space Invaders</strong> by Pornophonique
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/ultrastar-songs-restricted-3.zip/download" target="_new">ZIP</a> (10 MB)
+	</div>
 
-</p><div><img src="songimgs/jc.jpg" alt="" style="vertical-align: top; display: inline-block"/><div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;"><p>
-<a href="http://www.jonathancoulton.com/">Jonathan Coulton</a> collection, licensed CC by-nc-sa.
-	<strong>A Talk with George</strong>
-	<strong>Better</strong>
-	<strong>Big Bad World One</strong>
-	<strong>Chiron Beta Prime</strong> (with video)
-	<strong>Code Monkey</strong> (with video)
-	<strong>Creepy Doll</strong> (with video)
-	<strong>Dance, Soterios Johnson, Dance</strong>
-	<strong>First of May</strong>
-	<strong>Flickr</strong> (with video)
-	<strong>Furry Old Lobster</strong>
-	<strong>I Crush Everything</strong>
-	<strong>I Feel Fantastic</strong>
-	<strong>I'm Your Moon</strong>
-	<strong>Ikea</strong>
-	<strong>Monkey Shines</strong>
-	<strong>Mr. Fancy Pants</strong>
-	<strong>My Beige Bear</strong>
-	<strong>Not About You</strong>
-	<strong>Re: Your Brains</strong>
-	<strong>Shop Vac</strong>
-	<strong>Skullcrusher Mountain</strong>
-	<strong>That Spells DNA</strong>
-	<strong>The Future Soon</strong>
-	<strong>When You Go</strong>
-Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/ultrastar-songs-jc-1.zip">ZIP</a> (240 MB)
-</p></div></div><p>
+	:>div,~margin
+	<img src="songimgs/jc.jpg" alt="" style="vertical-align: top; display: inline-block"/>
+	<div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;">
+	<a href="http://www.jonathancoulton.com/" target="_new">Jonathan Coulton</a> collection, licensed CC by-nc-sa.
+		<strong>A Talk with George</strong>
+		<strong>Better</strong>
+		<strong>Big Bad World One</strong>
+		<strong>Chiron Beta Prime</strong> (with video)
+		<strong>Code Monkey</strong> (with video)
+		<strong>Creepy Doll</strong> (with video)
+		<strong>Dance, Soterios Johnson, Dance</strong>
+		<strong>First of May</strong>
+		<strong>Flickr</strong> (with video)
+		<strong>Furry Old Lobster</strong>
+		<strong>I Crush Everything</strong>
+		<strong>I Feel Fantastic</strong>
+		<strong>I'm Your Moon</strong>
+		<strong>Ikea</strong>
+		<strong>Monkey Shines</strong>
+		<strong>Mr. Fancy Pants</strong>
+		<strong>My Beige Bear</strong>
+		<strong>Not About You</strong>
+		<strong>Re: Your Brains</strong>
+		<strong>Shop Vac</strong>
+		<strong>Skullcrusher Mountain</strong>
+		<strong>That Spells DNA</strong>
+		<strong>The Future Soon</strong>
+		<strong>When You Go</strong>
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/ultrastar-songs-jc-1.zip/download" target="_new">ZIP</a> (240 MB)
+	</div>
 
-</p><div><img src="songimgs/shearer.jpg" alt="" style="vertical-align: top; display: inline-block;"/><div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;"><p>
-<strong>Shearer</strong> collection, licensed CC by-nc-sa.
-	<strong>69</strong> (with karaoke)
-	<strong>Can't stop it</strong> (with karaoke)
-	<strong>In My Hand</strong>
-	<strong>Man Song</strong> (with karaoke)
-	<strong>Stay with me</strong> (with karaoke)
-Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/ultrastar-songs-shearer-1.zip">ZIP</a> (50 MB)
-</p></div></div><p>
+	:>div,~margin
+	<img src="songimgs/shearer.jpg" alt="" style="vertical-align: top; display: inline-block;"/>
+	<div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;">
+	<strong>Shearer</strong> collection, licensed CC by-nc-sa.
+		<strong>69</strong> (with karaoke)
+		<strong>Can't stop it</strong> (with karaoke)
+		<strong>In My Hand</strong>
+		<strong>Man Song</strong> (with karaoke)
+		<strong>Stay with me</strong> (with karaoke)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/ultrastar-songs-shearer-1.zip/download" target="_new">ZIP</a> (50 MB)
+	</div>
 
 
 :h2:More songs?
 
 We haven't had time to get any band (FoFiX-format) or dancing (StepMania) songs on this page yet. If you have suggestions on what to include, especially if it also contains drums and vocals, please let us know! (it needs to be freely usable).
 
-<a href="http://wiki.performous.org/index.php/Songs#Finding_songs">Some ideas for finding songs elsewhere can be found at the wiki</a>.
+<a href="http://wiki.performous.org/index.php/Songs#Finding_songs" target="_new">Some ideas for finding songs elsewhere can be found at the wiki</a>.

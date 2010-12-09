@@ -162,6 +162,10 @@ h3 {
 	white-space: pre;
 }
 
+.margin {
+	margin: 2em 0;
+}
+
 /*blockquote {
     font-family: "Courier", serif;
     font-size: 8pt;

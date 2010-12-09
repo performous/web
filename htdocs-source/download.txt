@@ -2,33 +2,33 @@ Download Performous
 
 :h2:Windows
 
-	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1.exe/download">installer</a>
-	<em>Note:</em> You can find new features and bugfixes in the <a href=http://wiki.performous.org/index.php/Nightly_Builds>testing builds</a>.
+	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1.exe/download" target="_new" target="_new">installer</a>
+	<em>Note:</em> You can find new features and bugfixes in the <a href="http://wiki.performous.org/index.php/Nightly_Builds" target="_new">testing builds</a>.
 
 :h2:Mac OS X
 
-	OS X 10.5 (v0.5.0): <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download">bundle</a>
+	OS X 10.5 (v0.5.0): <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download" target="_new">bundle</a>
 
 :h2:Linux
 
 :h3:Ubuntu
 	Performous is in the <a href="apt:performous">official repositories</a> (might be outdated)
-	For possibly newer packages: <a href="http://www.playdeb.net/">playdeb.net</a>
-	For cutting-edge: <a href="https://launchpad.net/~performous-team/+archive/ppa">PPA at Launchpad</a>
-	For old packages: <a href="https://sourceforge.net/projects/performous/files/performous">SourceForge</a>
+	For possibly newer packages: <a href="http://www.playdeb.net/" target="_new">playdeb.net</a>
+	For cutting-edge: <a href="https://launchpad.net/~performous-team/+archive/ppa" target="_new">PPA at Launchpad</a>
+	For old packages: <a href="https://sourceforge.net/projects/performous/files/performous" target="_new">SourceForge</a>
 
 :h3:Other distributions
 	Debian: <a href="apt:performous">performous</a> in official repositories
-	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/">packages</a>
-	ArchLinux: <a href="http://www.archlinux.org/packages/community/i686/performous/">i686</a> <a href="http://www.archlinux.org/packages/community/x86_64/performous/">x86_64</a>
-	Fedora 14: <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-i386.rpm/download">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-amd64.rpm/download">amd64</a>
+	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/" target="_new">packages</a>
+	ArchLinux: <a href="http://www.archlinux.org/packages/community/i686/performous/" target="_new">i686</a> <a href="http://www.archlinux.org/packages/community/x86_64/performous/" target="_new">x86_64</a>
+	Fedora 14: <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-i386.rpm/download" target="_new">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-amd64.rpm/download" target="_new">amd64</a>
 	Mandriva 2010.0: <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/i586/Performous-0.5.1-01bdk2010.0.i586.rpm">i586</a> <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/x86_64/Performous-0.5.1-01bdk2010.0.x86_64.rpm">x86_64</a>
 
 
 
 :h2:Other systems and development version
 
-	Source code (v0.6.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Source.tar.bz2/download">universal</a>
+	Source code (v0.6.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Source.tar.bz2/download" target="_new">universal</a>
 
-If you are building Performous yourself or wish to do any development on it, you should always use the Git repository rather than source code packages. See the <a href="http://wiki.performous.org/index.php/Developing">development wiki pages</a> for more information.
+If you are building Performous yourself or wish to do any development on it, you should always use the Git repository rather than source code packages. See the <a href="http://wiki.performous.org/index.php/Developing" target="_new">development wiki pages</a> for more information.
 

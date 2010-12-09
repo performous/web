@@ -28,10 +28,10 @@ Let the rhythm guide your feet when you show your dance moves on a dance pad, or
 		Avoid accidental hammer-ons / pull-offs, among other things
 		No more "wtf, I didn't do any mistake there" feeling (hopefully)
 	Controllers are autodetected (no need to configure keys)
-	Song formats: <a href="http://google.com/search?q=FoF+songs">FoF</a>, <a href="http://google.com/search?q=UltraStar+songs">UltraStar</a>, SingStar PS2 DVD (with ss_extract), <a href="http://google.com/search?q=StepMania+songs">StepMania</a>
+	Song formats: <a href="http://google.com/search?q=FoF+songs" target="_new">FoF</a>, <a href="http://google.com/search?q=UltraStar+songs" target="_new">UltraStar</a>, SingStar PS2 DVD (with ss_extract), <a href="http://google.com/search?q=StepMania+songs" target="_new">StepMania</a>
 	C++ for high performance, rapid development and solid code
 	OpenGL 2.0 and SVG for nice graphics
-	Free software, licensed under <a href="http://www.gnu.org/copyleft/gpl.html">GNU GPL</a> version 2 or later
+	Free software, licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_new">GNU GPL</a> version 2 or later
 
 :h2:Requirements
 
