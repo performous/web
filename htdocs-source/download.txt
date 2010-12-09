@@ -24,11 +24,9 @@ Download Performous
 	Fedora 14: <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-i386.rpm/download" target="_new">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-amd64.rpm/download" target="_new">amd64</a>
 	Mandriva 2010.0: <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/i586/Performous-0.5.1-01bdk2010.0.i586.rpm">i586</a> <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/x86_64/Performous-0.5.1-01bdk2010.0.x86_64.rpm">x86_64</a>
 
+:h2:Build from source code
 
-
-:h2:Other systems and development version
-
-	Source code (v0.6.1): <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Source.tar.bz2/download" target="_new">universal</a>
-
-If you are building Performous yourself or wish to do any development on it, you should always use the Git repository rather than source code packages. See the <a href="http://wiki.performous.org/index.php/Developing" target="_new">development wiki pages</a> for more information.
+	Git repository: <a href="git://git.performous.org/gitroot/performous/performous">performous</a> (see <a href="http://wiki.performous.org/index.php/Developing" target="_new">instructions</a>)
+	
+If you are building Performous yourself or wish to do any development on it, you should always use the git master branch rather than releases. The master branch is relatively stable as all development is done in separate branches but it often contains bugfixes and improvements that haven't been released yet.
 

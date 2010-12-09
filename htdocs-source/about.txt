@@ -2,8 +2,6 @@ What is it?
 
 :h2:Performous in a nutshell
 
-Everybody loves music and while some might be too shy to dance or sing, there is always some part for everyone. Performous is about improving your skills and having fun at the same time.
-
 :h3:Vocals
 
 Pick up your microphone and start singing. The game won't just score your performance but your pitch is constantly displayed so you can correct the mistakes and actually learn to sing... And then beat your friends in multiplayer mode :)

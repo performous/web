@@ -2,7 +2,6 @@
 +index Home
 +blog Blog
 +about What is it
-+screenshots Screenshots
 +download Download
 +songs Free songs
 +others Other games
