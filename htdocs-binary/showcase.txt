@@ -1,0 +1,13 @@
+photos/pgwp1.jpg
+screenshots/0.6.0/full_band.jpg
+photos/pgwp2.jpg
+screenshots/Performous-0.4.0-guitar_sing.jpg
+photos/pgwp3.jpg
+screenshots/0.5.0/menu_fi.jpg
+photos/img2.jpg
+screenshots/Performous-0.4.0-guitar.jpg
+photos/youtube-joanna.jpg
+screenshots/0.6.0/sing.jpg
+photos/img1.jpg
+screenshots/0.6.0/song_browser.jpg
+
