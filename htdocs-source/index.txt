@@ -1,7 +1,7 @@
 The All-in-One Music Game
 
 	:>div
-	<div id="showcase" style="background: url('imgs/showcase.jpg') repeat-x; width: 640px; height: 96px; margin-bottom: 30px; -webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(rgba(255,255,255,0.3)));"></div>
+	<div id="showcase" class="thumb" style="background: url('imgs/showcase.jpg') repeat-x; width: 640px; height: 96px;"></div>
 	<script type="text/javascript" src="showcase.js"></script>
 
 Everybody loves music and while one might be too shy to dance or sing, there is always some part for everyone. Performous is about improving your skills and having fun at the same time. No special hardware required, you may play guitar on your PC keyboard, sing on your laptop microphone and so on. If you do have SingStar microphones, Guitar Hero or Rock Band instruments, or dance pads, just plug them into your USB ports and start rocking!

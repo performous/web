@@ -1,22 +1,25 @@
 What is it?
 
-:h2:Performous in a nutshell
-
-:h3:Vocals
+:h2:Vocals
 
 Pick up your microphone and start singing. The game won't just score your performance but your pitch is constantly displayed so you can correct the mistakes and actually learn to sing... And then beat your friends in multiplayer mode :)
 
 For those who <em>sing rather than well</em>, a karaoke mode is provided. In this mode only lyrics are displayed and there are no notes or scoring.
 
-:h3:Guitar and drums
+:h2:Guitar and drums<img src="imgs/pose.png" alt="holding keyboard" style="float:right" class="margin">
 
 Pick up your keyboard like this... Or if you prefer, connect one of those guitar controllers you can buy for almost nothing at your local gaming store. Playing a plastic guitar with five buttons sure isn't like the real thing but it just happens to be a good deal easier to learn and thus a hit at your party. Just make sure that the guys holding your guitar controllers allow others to play too.
 
 Playing drums is like the real thing, especially if you happen to be lucky enough to have one of those professional MIDI drum sets. For the rest of us the el cheapo band game controllers will have to do.
 
-:h3:Dance
+:h2:Dance
 
 Let the rhythm guide your feet when you show your dance moves on a dance pad, or just be a geek and use the keypad with your fingers instead. The graphics ain't hot yet but nonetheless you can dance all the same.
+
+:h2:See it in action
+
+	:>div,~margin
+	<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/soYIbsVmcyU?rel=0&autoplay=1" frameborder="0"></iframe>
 
 :h2:Features
 
@@ -24,7 +27,7 @@ Let the rhythm guide your feet when you show your dance moves on a dance pad, or
 	Extremely good singing pitch detection (usable even with laptop or webcam microphones)
 	Intelligent gameplay determines what the player attempted to do
 		Avoid accidental hammer-ons / pull-offs, among other things
-		No more "wtf, I didn't do any mistake there" feeling (hopefully)
+		No more "wtf, I didn't make any mistake there" feeling
 	Controllers are autodetected (no need to configure keys)
 	Song formats: <a href="http://google.com/search?q=FoF+songs" target="_new">FoF</a>, <a href="http://google.com/search?q=UltraStar+songs" target="_new">UltraStar</a>, SingStar PS2 DVD (with ss_extract), <a href="http://google.com/search?q=StepMania+songs" target="_new">StepMania</a>
 	C++ for high performance, rapid development and solid code
@@ -38,6 +41,4 @@ Let the rhythm guide your feet when you show your dance moves on a dance pad, or
 	Microphones for singing (any regular microphones, SingStar/other USB mics)
 	USB guitars and drums (Guitar Hero, Rock Band)
 	USB dance pad for dancing (various brands)
-
-A regular PC keyboard can be used as a controller so don't worry if you don't have all of the plastic toys yet. Rock Band 3 real controllers are not currently supported (properly) but we will look into that as soon as we get our hands on those.
 
