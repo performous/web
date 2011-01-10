@@ -44,7 +44,7 @@ body {
     margin: 20px;
     margin-left: 145px;
     margin-top: 70px;
-    padding: 10px;
+    padding: 20px 10px;
 }
 #content {
 	width: 640px;
@@ -122,6 +122,8 @@ h1 {
     /*text-shadow: 0px 0px 10px rgba(68, 68, 136, 1.0);*/
 }
 #content h2, .mceContentBody h2 {
+    border-radius: 10px 20px 20px 10px;
+    -moz-border-radius: 10px 20px 20px 10px;
 	display: block;
 	margin: 0;
 	margin-left: -10px;
