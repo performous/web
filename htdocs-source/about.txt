@@ -1,7 +1,8 @@
 What is it?
 
 	:>div,~margin
-	<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/soYIbsVmcyU" frameborder="0"></iframe>
+	<iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="510" src="http://www.youtube.com/embed/soYIbsVmcyU?rel=0" frameborder="0"></iframe>
+
 
 :h2:Vocals
 
