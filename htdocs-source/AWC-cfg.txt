@@ -1,17 +1,17 @@
 % Performous
 +index Home
 +blog Blog
-+about What is it
++about What Is It
 +download Download
-+songs Free songs
-+others Other games
++songs Free Songs
++others Other Games
 % Project links
 .http://wiki.performous.org/ Documentation
 .http://webchat.freenode.net/?channels=#performous Webchat
 .http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .http://sourceforge.net/projects/performous/ SF.net
 .http://www.ohloh.net/projects/performous Ohloh.net
-.awstats/awstats.pl Site stats
+.awstats/awstats.pl Site Stats
 
 # First char of the line selects:
 # + a page that is converted (.txt -> .html)
