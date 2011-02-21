@@ -1,18 +1,18 @@
 News
 
-:h2:2011-02-09 - A song editor in progress
+:h2:2011-02-21 - Song editor 1.0rc1 released
 
-An often requested feature for Performous is a song editor, especially considering that there are no editors that could handle vocals, band mode and dance notes together in the same song. We finally got a chance at implementing one once a Swedish company offered to fund the development by hiring two of the Performous core developers to the project. Since there are a few promising open source song editors, we started by reviewing them and seeing if we could build on top of existing software. <a href="http://code.google.com/p/editor-on-fire/" target="_blank">Editor on Fire</a> ended up being the top candidate. Unfortunately it had a very different workflow than what we needed and also the custom UI and being written in C (rather than C++) were major drawbacks.
+An often requested feature for Performous is a song editor and we finally got a chance at implementing one once a Swedish company hired two of the Performous core developers to develop one for them; if more information of this stealth mode start-up is needed - requests can be mailed to bjorn@bjornhammar.com. It was agreed that the editor would be released under the same license as Performous: GNU GPLv2 or later.
 
-Another big question was whether to implement it as a feature of Performous or as a separate application based on Qt. On Performous it could benefit from all the existing infrastructure (OpenGL, audio playback and so on) but also it wouldn't be able to easily use existing widgets and dialogs that are very important for an editor. Also we wanted the editor to be easily usable by everybody instead of tying it down to the game, so we decided to use Qt. Using Qt as the library was a no-brainer as it is the only truely cross-platform solution (native Windows, Gtk and OS X widgets and dialogs) besides wxWidgets and the latter is horribly bad.
+Since there are a few promising open source song editors, we started by reviewing them and seeing if we could build on top of existing software. <a href="http://code.google.com/p/editor-on-fire/" target="_blank">Editor on Fire</a> ended up being the top candidate. Unfortunately it had a very different workflow than what the company needed and also the custom UI and being written in C (rather than C++) were major drawbacks.
+
+Another big question was whether to implement it as a feature of Performous or as a separate application based on Qt. On Performous it could benefit of all the existing infrastructure (OpenGL, audio playback and so on) but also it wouldn't be able to easily use existing widgets and dialogs that are very important for an editor. Also we wanted the editor to be easily usable by everybody instead of tying it down to the game, so we decided to use Qt. Using Qt as the library was a no-brainer as it is the only truely cross-platform solution (native Windows, Gtk and OS X widgets and dialogs) besides wxWidgets and the latter is horribly bad.
 
 <img src="imgs/editor-zoom-thumb.png" alt="Editor screenshot"/>
 
-So, now we are on the sixth week of development and all the basic functionality is in place but there is still a lot of work to be done. There is a getting started wizard in the editor to make you familiar with the workflow where a large part of the process is automated via pitch detection and other means, making song creation easy. Only vocals are supported for now but other modes are going to be available at a later time.
+So, we have now worked on the editor for seven weeks and we need actual user feedback on what to improve before the actual release. There is a getting started wizard in the editor to make you familiar with the workflow where a large part of the process is automated via pitch detection and other means, making song creation easy. Only vocals will be supported for now but other modes are going to be available at a later time, under pro bono open-source development.
 
-In case you wish to have a sneak peek, you can use the git version, otherwise wait for a release in the coming weeks.
-
-<code>git clone git://git.performous.org/gitroot/performous/editor</code>
+Get the release candidate from <a href="http://sourceforge.net/projects/performous/files/editor/rc1/">SourceForge</a> and give your feedback on our IRC channel as soon as possible, thanks. Note: the portable-package does contain also 32 and 64 bit linux executables, but for them to work, you need suitable versions of the dependency libraries installed, so you'll probably be better off compiling yourself.
 
 
 :h2:2010-12-09 - Website redesigned
