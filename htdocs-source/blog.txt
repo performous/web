@@ -1,5 +1,9 @@
 News
 
+:h2:2011-02-25 - Did someone say stereo3d?
+
+<img src="imgs/anaglyph.jpg" alt="Anaglyph screenshot"/>
+
 :h2:2011-02-21 - Song editor 1.0rc1 released
 
 An often requested feature for Performous is a song editor and we finally got a chance at implementing one once a Swedish company hired two of the Performous core developers to develop one for them; if more information of this stealth mode start-up is needed - requests can be mailed to bjorn@bjornhammar.com. It was agreed that the editor would be released under the same license as Performous: GNU GPLv2 or later.
