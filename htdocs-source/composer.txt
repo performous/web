@@ -2,7 +2,7 @@ Composer
 
 <img src="imgs/composer-small.png" alt="Anaglyph screenshot"/>
 
-Composer is an editor for creating (and converting) song notes for music games in various formats. It attempts to make the process easy by automating as much as possible while providing a simple and attractive interface to do the remaining manual work.
+Composer is a song editor for creating (and converting) notes for music games in various formats. It attempts to make the process easy by automating as much as possible while providing a simple and attractive interface to do the remaining manual work.
 
 Key features of Composer include:
 
