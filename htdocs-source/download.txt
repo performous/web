@@ -30,3 +30,8 @@ Download Performous
 	
 If you are building Performous yourself or wish to do any development on it, you should always use the git master branch rather than releases. The master branch is relatively stable as all development is done in separate branches but it often contains bugfixes and improvements that haven't been released yet.
 
+:h2:Composer
+
+	Binaries at <a href="https://sourceforge.net/projects/performous/files/editor" target="_new">SourceForge</a>
+	Git repository: <a href="git://git.performous.org/gitroot/performous/editor">editor</a>
+
