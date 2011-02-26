@@ -4,6 +4,7 @@
 +about What Is It
 +download Download
 +songs Free Songs
++composer Composer
 +others Other Games
 % Project links
 .http://wiki.performous.org/ Documentation
