@@ -34,4 +34,5 @@ If you are building Performous yourself or wish to do any development on it, you
 
 	Binaries at <a href="https://sourceforge.net/projects/performous/files/editor" target="_new">SourceForge</a>
 	Git repository: <a href="git://git.performous.org/gitroot/performous/editor">editor</a>
+	Build instructions and troubleshooting: <a href="http://wiki.performous.org/index.php/Composer">wiki</a>
 
