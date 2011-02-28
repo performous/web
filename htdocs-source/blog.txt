@@ -1,5 +1,20 @@
 News
 
+:h2:2011-02-28 - Song editor 1.0 released
+
+The 1.0 release of Composer song editor is now here. There are quite a few visible changes since rc1:
+
+	Piano keys
+	Unified Note properties & Tools tab
+	Performance optimizations
+	Synth now also on Windows
+	More UI feedback using busy-dialogs
+	Small fixes and tweaks
+
+Unfortunately we couldn't provide a Mac bundle at this time due to a persisting bug, but the development continues.
+
+Downloads area once again available at <a href="http://sourceforge.net/projects/performous/files/editor/1.0/">SourceForge</a>. Composer also now has a little <a href="http://performous.org/composer">website</a> and a <a href="http://wiki.performous.org/index.php/Composer">wiki page</a>. Please provide feedback on our IRC channel.
+
 :h2:2011-02-25 - Did someone say stereo3d?
 
 <img src="imgs/anaglyph.jpg" alt="Anaglyph screenshot"/>
