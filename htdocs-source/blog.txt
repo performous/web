@@ -6,6 +6,7 @@ The 1.0 release of Composer song editor is now here. There are quite a few visib
 
 	Piano keys
 	Unified Note properties & Tools tab
+	FoF MIDI export
 	Performance optimizations
 	Synth now also on Windows
 	More UI feedback using busy-dialogs
