@@ -16,7 +16,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 	The <strong>libre</strong> package contains songs with very permissive licenses.
 		<strong>Free Software Song</strong> by Thor
 		<strong>On the run</strong> by Joshua Morin
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/ultrastar-songs-libre-3.zip/download" target="_new">ZIP</a> (5 MB)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/3/ultrastar-songs-libre-3.zip/download" target="_new">ZIP</a> (5 MB)
 	</div>
 
 	:>div,~margin
@@ -26,7 +26,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 		<strong>I 18</strong> by Dead Smiling Pirates
 		<strong>Northern Star</strong> by Steven Dunston
 		<strong>Space Invaders</strong> by Pornophonique
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/ultrastar-songs-restricted-3.zip/download" target="_new">ZIP</a> (10 MB)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/3/ultrastar-songs-restricted-3.zip/download" target="_new">ZIP</a> (10 MB)
 	</div>
 
 	:>div,~margin
@@ -57,7 +57,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 		<strong>That Spells DNA</strong>
 		<strong>The Future Soon</strong>
 		<strong>When You Go</strong>
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/ultrastar-songs-jc-1.zip/download" target="_new">ZIP</a> (240 MB)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/1/ultrastar-songs-jc-1.zip/download" target="_new">ZIP</a> (240 MB)
 	</div>
 
 	:>div,~margin
@@ -69,7 +69,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 		<strong>In My Hand</strong>
 		<strong>Man Song</strong> (with karaoke)
 		<strong>Stay with me</strong> (with karaoke)
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/ultrastar-songs-shearer-1.zip/download" target="_new">ZIP</a> (50 MB)
+	Download <a href="https://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/1/ultrastar-songs-shearer-1.zip/download" target="_new">ZIP</a> (50 MB)
 	</div>
 
 
