@@ -43,7 +43,7 @@ git pull ${GITPATH} master || exit 1
 echo ">>> Rebuilding and installing the website"
 
 TEMPPATH=`mktemp -d`
-${GITPATH}/webconv/webconv-x86-linux.bin ${GITPATH}/htdocs-source ${TEMPPATH} &&
+${GITPATH}/webconv/webconv.bin ${GITPATH}/htdocs-source ${TEMPPATH} &&
 rsync -r --verbose ${TEMPPATH}/* ${SITEPATH} &&
 rsync -r --verbose ${GITPATH}/htdocs-binary/* ${SITEPATH} &&
 echo ">>> INSTALLATION SUCCESSFUL" ||
