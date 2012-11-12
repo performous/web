@@ -1,22 +1,5 @@
 News
 
-:h2:2012-XX-XX - Song editor 1.1 released
-
-It's been a long time since there was releases or even news. Performous itself has quite a bunch of changes in Git, but while they are being polished, it's a good time to release a new version of Composer, 1.1.
-
-This release brings important bug fixes as well as new features. The changelog is listed below:
-
-	Added experimental support for displaying another pitch visualization
-		Useful for figuring out what belongs to the background if you have a karaoke version of the song
-		Currently only visual clues (not used in automatic note pitch guessing)
-	Added opening .mid file directly instead of .ini
-	Fix XML writer not writing the last sentence.
-	Fix time offset bug with MIDI writer.
-	Guess pitch also for note being timed.
-	Preserve tailing whitespace in US TXT import (for wording).
-	Fixed split action hiding notes.
-	Insert a space to each lyric imported from plain text.
-
 :h2:2011-02-28 - Song editor 1.0 released
 
 The 1.0 release of Composer song editor is now here. There are quite a few visible changes since rc1:
