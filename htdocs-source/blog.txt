@@ -1,5 +1,43 @@
 News
 
+:h2:2012-11-06 - Performous 0.7 released
+
+<img src="screenshots/Performous-0.7-songs.jpg" alt="Song browser screenshot, in Persian">
+
+After a long silence we've finally released another one. There are too many new features to list here but here are some hilights:
+
+	Gameplay
+		Full duet support! (SingStar XML, UltraStar TXT and Frets on Fire formats)
+		High-pitched soprano voice is now detected properly (thanks for the bug report!)
+	Graphics and performance
+		Modern rendering pipeline
+			OpenGL 1.x is gone for good, OpenGL 2.1 or better required
+			Improved graphics quality
+		Stereo3D mode
+			Anaglyph glasses, top/bottom, experimental HDMI 1.4 support
+			Requires OpenGL 3.3 or better
+		Optimizations everywhere to make it run even faster (port to Android, anyone?)
+		Asynchronous texture loading
+			Makes menus run faster and smoother
+			Black rectangles may sometimes appear during loading
+		Dance mode still sucks (HELP WANTED!)
+	Controllers
+		Instrument type configuration via settings menu
+		More USB devices autodetected (controllers.xml)
+		MIDI drum mapping is now configurable (mididrums.xml)
+	Miscellaneous
+		Improved webcam support and compatibility
+		Configurable legacy charset (for non-UTF-8 songs)
+		Tools (ss_extract and friends) cleaned up and can now be cross-compiled for Windows
+		Massive amounts of small fixes, improvements and code cleanup everywhere
+	Translations
+		Asturian, Chinese, Danish, Dutch, Finnish, French, German, Hungarian, Italian, Japanese, Persian, Polish, Spanish and Swedish
+
+We have left out the integrated torrent downloader (git branch 'torrent'), 3d dance mode (git branch 'dance3d') and various other experimental features that will hopefully be done by 1.0. Some fixes and improvements have been ported back to OpenGL 1.x version (git branch 'legacy') but it is no longer maintained and no releases will be made of it.
+
+Due to lack of manpower, no Windows binaries are currently available. Linux packages should become available as soon as distros package them (check for 'performous' and file a bug if they aren't shipping 0.7 yet). Other options are available on <a href="download">our download page</a>.
+
+	
 :h2:2011-02-28 - Song editor 1.0 released
 
 The 1.0 release of Composer song editor is now here. There are quite a few visible changes since rc1:
