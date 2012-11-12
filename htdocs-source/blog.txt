@@ -1,6 +1,6 @@
 News
 
-:h2:2012-11-06 - Performous 0.7 released
+:h2:2012-11-13 - Performous 0.7 released
 
 <img src="screenshots/Performous-0.7-songs.jpg" alt="Song browser screenshot, in Persian">
 
