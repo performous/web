@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="icon.png"/>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.videoBG.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/index-page.js"></script>
   </head>
 
@@ -31,31 +32,4 @@
 
     </div>
   </body>
-  <script type="text/javascript">
-  $('#sitebox').videoBG({
-        position:"fixed",
-        zIndex:-1,
-        fullscreen:true,
-        mp4:'/bgs/GoldenDust.mp4',
-        ogv:'/bgs/GoldenDust.ogv',
-        webm:'/bgs/GoldenDust.webm',
-        poster:'/bgs/GoldenDust.jpg'
-  });
-  $('a').live('click', function(ev) {
-        if (ev.target.hostname != window.location.hostname) return;
-        ev.preventDefault();
-        var href = ev.target.href;
-        $.ajax({
-            type: 'GET',
-            url: href,
-            success: function(data) {
-                history.pushState(null, "xhr", href);
-                $('#page').html($('#page', data).html());
-            },
-            error: function() {
-                window.location.href = href;
-            }
-        });
-  });
-  </script>
 </html>
