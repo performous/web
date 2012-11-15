@@ -1,6 +1,5 @@
 body {
-    background: #88d;
-    background-position: center top;
+    background: #444;
     font-family: DejaVu Sans, Verdana, Sans-Serif, sans;
     font-size: 13px;
     line-height: 140%;
@@ -15,7 +14,6 @@ body {
 }
 #sitebox {
     width: 900px;
-    margin: 40px auto 40px auto;
     margin: 0 auto;
     border: 0;
     padding: 0;

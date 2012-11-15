@@ -2,11 +2,10 @@ The All-in-One Music Game
 
 	:>div
 	<div id="showcase" class="thumb" style="background: url('imgs/showcase.jpg') repeat-x; width: 640px; height: 96px;"></div>
-	<script type="text/javascript" src="showcase.js"></script>
 
-Everybody loves music and while one might be too shy to dance or sing, there is always some part for everyone. Performous is about improving your skills and having fun at the same time. No special hardware required, you may play guitar on your PC keyboard, sing on your laptop microphone and so on. If you do have SingStar microphones, Guitar Hero or Rock Band instruments, or dance pads, just plug them into your USB ports and start rocking!
+<strong>Karaoke, band games and dancing in the same package.</strong> Performous lets you <em>perform</em> great songs, improve your musical skills and simply have fun! No special hardware required, you may play guitar on your PC keyboard, sing on your laptop microphone and so on. If you do have SingStar microphones, Guitar Hero or Rock Band instruments, or dance pads, just plug them into your USB ports and start rocking!
 
-Performous is <b>free software</b> and once you click that download button, you will find out that open source doesn't need to suck. In fact, many users keep praising us about how we beat even those commercial games.
+Performous is <strong>free software</strong> and once you click that download button, you will find out that open source doesn't need to suck. In fact, many users keep praising us about how we beat even those commercial games.
 
 We constantly strive to improve the gameplay and the algorithms the game is built on. Performous does not attempt to catch up on other games and clone them but instead we listen to user feedback and try to find the best solutions. The game is developed by a relatively large team of skilled people but we are always looking for new recruits. If you think you can improve something or if you just wish to build from source, click the C++ button.
 
@@ -14,5 +13,4 @@ We constantly strive to improve the gameplay and the algorithms the game is buil
 	<div style="width: 128px; margin-left: auto">
 	  <a id="download" href="download" title="Downloads"><img style="width: 64px; height: 64px;" src="imgs/icon_down.png" style="display: inline" alt="Download"></a><a href="http://wiki.performous.org/index.php/Developing" title="Build from source" target="_new"><img style="width: 64px; height: 64px;" src="imgs/icon_cpp.png" style="display: inline" alt="C++"></a>
 	</div>
-	<script type="text/javascript" src="download.js"></script>
 

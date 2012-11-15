@@ -1,5 +1,19 @@
+var img = Math.floor(Math.random() * 20);
+var anim = -1;
+var frames_anim = 120;
+var frames_img = 400;
+
+function showcaseScroll() {
+	++anim;
+	if (anim == frames_img) { anim = 0; ++img; }
+	var a = Math.min(anim / frames_anim, 1.0);
+	var pos = 128 * (img + 0.5 * (1 - Math.cos(Math.PI * a)));
+	$('#showcase').css('backgroundPosition', Math.round(-pos) + 'px 0');
+}
+
 function smartDownload() {
 	var e = document.getElementById('download');
+	if (!e) return;
 	if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1) {
 		// Windows
 		e.href = 'http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1.exe/download';
@@ -18,5 +32,11 @@ function smartDownload() {
 		return;
 	}
 }
-smartDownload();
+
+$('document').ready(function() {
+	setInterval(smartDownload, 50);
+	setInterval(showcaseScroll, 16.66);
+});
+
+
 

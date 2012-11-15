@@ -6,9 +6,9 @@ What Is It?
 
 :h2:Vocals
 
-Pick up your microphone and start singing. The game won't just score your performance but your pitch is constantly displayed so you can correct the mistakes and actually learn to sing... And then beat your friends in multiplayer mode :)
+Pick up your microphone and start singing. The game won't just score your performance but your pitch is constantly displayed so you can correct the mistakes and actually learn to sing... And then beat your friends in multiplayer mode, or do a duet with someone you love :)
 
-For those who <em>sing rather than well</em>, a karaoke mode is provided. In this mode only lyrics are displayed and there are no notes or scoring.
+For those who <em>sing rather than well</em> (or who just want more artistic freedom), a karaoke mode is provided. In this mode only lyrics are displayed and there are no notes or scoring.
 
 :h2:Guitar and drums<img src="imgs/pose.png" alt="holding keyboard" style="float:right" class="margin">
 
@@ -28,9 +28,9 @@ Let the rhythm guide your feet when you show your dance moves on a dance pad, or
 		Avoid accidental hammer-ons / pull-offs, among other things
 		No more "wtf, I didn't make any mistake there" feeling
 	Controllers are autodetected (no need to configure keys)
-	Song formats: <a href="http://google.com/search?q=FoF+songs" target="_new">FoF</a>, <a href="http://google.com/search?q=UltraStar+songs" target="_new">UltraStar</a>, SingStar PS2 DVD (with ss_extract), <a href="http://google.com/search?q=StepMania+songs" target="_new">StepMania</a>
+	Song formats: <a href="http://google.com/search?q=FoF+songs" target="_new">FoF</a>, <a href="http://google.com/search?q=UltraStar+songs" target="_new">UltraStar</a>, SingStar XML, <a href="http://google.com/search?q=StepMania+songs" target="_new">StepMania</a>
 	C++ for high performance, rapid development and solid code
-	OpenGL 2.0 and SVG for nice graphics
+	OpenGL 2.1 and SVG for nice graphics
 	Free software, licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_new">GNU GPL</a> version 2 or later
 
 :h2:Requirements
