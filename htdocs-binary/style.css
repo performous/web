@@ -1,6 +1,6 @@
 body {
     background: #444;
-    font-family: DejaVu Sans, Verdana, Sans-Serif, sans;
+    font-family: Verdana, DejaVu Sans, Sans-Serif, sans;
     font-size: 13px;
     line-height: 140%;
     overflow: scroll;
@@ -10,7 +10,7 @@ body {
 
 /* banner */
 #title {
-    height: 113px;
+    height: 131px;
 }
 #sitebox {
     width: 900px;
@@ -20,7 +20,7 @@ body {
 }
 /* page */
 #page {
-	min-height: 600px;
+	min-height: 650px;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
@@ -40,7 +40,6 @@ body {
     background: #000;
     margin: 20px;
     margin-left: 145px;
-    margin-top: 70px;
     padding: 20px 10px;
     color: #ddd;
 }
