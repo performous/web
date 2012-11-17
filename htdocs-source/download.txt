@@ -26,13 +26,13 @@ Download Performous
 
 :h2:Build from source code
 
-	Git repository: <a href="git://git.performous.org/gitroot/performous/performous">performous</a> (see <a href="http://wiki.performous.org/index.php/Developing" target="_new">instructions</a>)
+	Git repository: <a href="git://git.performous.org/gitroot/performous/performous.git">performous</a> (see <a href="http://wiki.performous.org/index.php/Developing" target="_new">instructions</a>)
 	
 If you are building Performous yourself or wish to do any development on it, you should always use the git master branch rather than releases. The master branch is relatively stable as all development is done in separate branches but it often contains bugfixes and improvements that haven't been released yet.
 
 :h2:Composer
 
 	Binaries at <a href="https://sourceforge.net/projects/performous/files/editor" target="_new">SourceForge</a>
-	Git repository: <a href="git://git.performous.org/gitroot/performous/editor">editor</a>
+	Git repository: <a href="git://git.performous.org/gitroot/performous/composer.git">composer</a>
 	Build instructions and troubleshooting: <a href="http://wiki.performous.org/index.php/Composer">wiki</a>
 
