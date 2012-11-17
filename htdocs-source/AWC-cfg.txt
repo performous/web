@@ -9,8 +9,10 @@
 % Project links
 .http://wiki.performous.org/ Documentation
 .http://webchat.freenode.net/?channels=#performous Webchat
-.http://sourceforge.net/projects/performous/forums/forum/871563 Forum
-.https://github.com/performous/performous GitHub
+#.http://sourceforge.net/projects/performous/forums/forum/871563 Forum
+.https://github.com/performous/performous/issues/new Feedback
+.https://github.com/performous/performous Performous@GH
+.https://github.com/performous/composer Composer@GH
 .http://www.ohloh.net/projects/performous Ohloh.net
 #.awstats/awstats.pl Site Stats
 
