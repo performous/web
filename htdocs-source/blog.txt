@@ -1,5 +1,13 @@
 News
 
+:h2:2012-11-17 - Website, services and docs overhaul
+
+We are currently migrating our services from SF.net and self-hosted to GitHub. Git on SF.net has always been operating very slowly and there no longer seems to be any reason to stay there. GitHub seemed like the most sensible option. Their servers are always up, everything runs fast and we'll be able to get most of the services that we need under same roof without developers having to register to a number of separate services.
+
+Those with existing git clones from SF.net will need to change the upstream URL:
+	git remote set-url origin git://github.com/performous/performous.git
+
+
 :h2:2012-11-13 - Performous 0.7 released
 
 <img src="screenshots/Performous-0.7-songs.jpg" alt="Song browser screenshot, in Persian">
