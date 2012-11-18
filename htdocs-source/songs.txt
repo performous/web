@@ -4,7 +4,7 @@ Free Songs
 
 :h2:How to add songs to the game?
 
-You can find information on supported formats and song folder locations at the <a href="http://wiki.performous.org/index.php/Songs" target="_new">Wiki page</a>.
+You can find information on supported formats and song folder locations at the <a href="http://wiki.performous.org/index.php/Songs" target="_blank">Wiki page</a>.
 
 :h2:Karaoke songs (UltraStar format)
 
@@ -16,7 +16,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 	The <strong>libre</strong> package contains songs with very permissive licenses.
 		<strong>Free Software Song</strong> by Thor
 		<strong>On the run</strong> by Joshua Morin
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/3/ultrastar-songs-libre-3.zip/download" target="_new">ZIP</a> (5 MB)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-libre/3/ultrastar-songs-libre-3.zip/download" target="_blank">ZIP</a> (5 MB)
 	</div>
 
 	:>div,~margin
@@ -26,13 +26,13 @@ The songs here are only repackaged by the Performous project. The packages conta
 		<strong>I 18</strong> by Dead Smiling Pirates
 		<strong>Northern Star</strong> by Steven Dunston
 		<strong>Space Invaders</strong> by Pornophonique
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/3/ultrastar-songs-restricted-3.zip/download" target="_new">ZIP</a> (10 MB)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-restricted/3/ultrastar-songs-restricted-3.zip/download" target="_blank">ZIP</a> (10 MB)
 	</div>
 
 	:>div,~margin
 	<img src="songimgs/jc.jpg" alt="" style="vertical-align: top; display: inline-block"/>
 	<div style="vertical-align: top; display: inline-block; width: 350px; margin-left: 20px;">
-	<a href="http://www.jonathancoulton.com/" target="_new">Jonathan Coulton</a> collection, licensed CC by-nc-sa.
+	<a href="http://www.jonathancoulton.com/" target="_blank">Jonathan Coulton</a> collection, licensed CC by-nc-sa.
 		<strong>A Talk with George</strong>
 		<strong>Better</strong>
 		<strong>Big Bad World One</strong>
@@ -57,7 +57,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 		<strong>That Spells DNA</strong>
 		<strong>The Future Soon</strong>
 		<strong>When You Go</strong>
-	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/1/ultrastar-songs-jc-1.zip/download" target="_new">ZIP</a> (240 MB)
+	Download <a href="http://sourceforge.net/projects/performous/files/ultrastar-songs-jc/1/ultrastar-songs-jc-1.zip/download" target="_blank">ZIP</a> (240 MB)
 	</div>
 
 	:>div,~margin
@@ -69,7 +69,7 @@ The songs here are only repackaged by the Performous project. The packages conta
 		<strong>In My Hand</strong>
 		<strong>Man Song</strong> (with karaoke)
 		<strong>Stay with me</strong> (with karaoke)
-	Download <a href="https://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/1/ultrastar-songs-shearer-1.zip/download" target="_new">ZIP</a> (50 MB)
+	Download <a href="https://sourceforge.net/projects/performous/files/ultrastar-songs-shearer/1/ultrastar-songs-shearer-1.zip/download" target="_blank">ZIP</a> (50 MB)
 	</div>
 
 
@@ -77,4 +77,4 @@ The songs here are only repackaged by the Performous project. The packages conta
 
 We haven't had time to get any band (FoFiX-format) or dancing (StepMania) songs on this page yet. If you have suggestions on what to include, especially if it also contains drums and vocals, please let us know! (it needs to be freely usable).
 
-<a href="http://wiki.performous.org/index.php/Songs#Finding_songs" target="_new">Some ideas for finding songs elsewhere can be found at the wiki</a>.
+<a href="http://wiki.performous.org/index.php/Songs#Finding_songs" target="_blank">Some ideas for finding songs elsewhere can be found at the wiki</a>.

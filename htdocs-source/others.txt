@@ -3,12 +3,12 @@ Other Similar Games
 Nothing quite like Performous but there are interesting projects here. Let us know if anything worth a mention is missing.
 
 :h3:Singing games:
-	<a href="http://sourceforge.net/projects/ultrastardx/" target="_new">UltraStar Deluxe</a> - A cross-platform clone of SingStar
-	<a href="http://www.canta-game.org/" target="_new">Canta</a> - A simple cross-platform karaoke game
-	<a href="http://www.karaokeparty.com/" target="_new">KaraokeParty</a> - Runs on your browser with Flash
+	<a href="http://sourceforge.net/projects/ultrastardx/" target="_blank">UltraStar Deluxe</a> - A cross-platform clone of SingStar
+	<a href="http://www.canta-game.org/" target="_blank">Canta</a> - A simple cross-platform karaoke game
+	<a href="http://www.karaokeparty.com/" target="_blank">KaraokeParty</a> - Runs on your browser with Flash
 :h3:Guitar games:
-	<a href="http://code.google.com/p/fofix/" target="_new">FoFiX</a> - <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> on steroids, now including band mode too
-	<a href="http://www.jamlegend.com/" target="_new">JamLegend</a> - A simple Flash game
+	<a href="http://code.google.com/p/fofix/" target="_blank">FoFiX</a> - <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> on steroids, now including band mode too
 :h3:Dance games:
-	<a href="http://www.stepmania.com/" target="_new">StepMania</a> - The original open-source dance game
+	<a href="http://www.stepmania.com/" target="_blank">StepMania</a> - The original open-source dance game
+	<a href="http://icculus.org/pyddr/" target="_blank">PyDance</a> - Dance game written in Python
 

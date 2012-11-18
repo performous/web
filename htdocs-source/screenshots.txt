@@ -26,7 +26,7 @@ But instead of the boring screenshots, why don't you see how Performous looks in
 
 :~center:<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
 
-:~center:<a href="http://www.youtube.com/watch?v=riqkWgThp7s" target="_new"><img src="photos/youtube-joanna.jpg" style="display: inline; border: 2px solid blue;" alt="" target="_blank"/></a><br/>Youtube: Joanna demonstrates Performous on a 700 MHz Athlon HTPC.
+:~center:<a href="http://www.youtube.com/watch?v=riqkWgThp7s" target="_blank"><img src="photos/youtube-joanna.jpg" style="display: inline; border: 2px solid blue;" alt=""/></a><br/>Youtube: Joanna demonstrates Performous on a 700 MHz Athlon HTPC.
 
 Bring Performous to your party for an instant hit:
 

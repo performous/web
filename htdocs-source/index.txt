@@ -11,6 +11,6 @@ We constantly strive to improve the gameplay and the algorithms the game is buil
 
 	:>div
 	<div style="width: 128px; margin-left: auto">
-	  <a id="download" href="download" title="Downloads"><img style="width: 64px; height: 64px;" src="imgs/icon_down.png" style="display: inline" alt="Download"></a><a href="http://wiki.performous.org/index.php/Developing" title="Build from source" target="_new"><img style="width: 64px; height: 64px;" src="imgs/icon_cpp.png" style="display: inline" alt="C++"></a>
+	  <a id="download" href="download" title="Downloads"><img style="width: 64px; height: 64px;" src="imgs/icon_down.png" style="display: inline" alt="Download"></a><a href="http://wiki.performous.org/index.php/Developing" title="Build from source" target="_blank"><img style="width: 64px; height: 64px;" src="imgs/icon_cpp.png" style="display: inline" alt="C++"></a>
 	</div>
 
