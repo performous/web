@@ -16,4 +16,4 @@ Key features of Composer include:
 
 Composer has a rather distinguished workflow: for example, the lyrics are imported as a whole and each time you manually put a note in place, the others automatically adjust to take use of the new information in providing a better guess of the pitch and timing. In a sense, you are not actually creating a song, but fixing and tuning the result of what the computer thinks the notes should be like.
 
-Downloads are available at the <a href="download">download page</a>. More information and building instructions can be found from the <a href="http://wiki.performous.org/index.php/Composer">wiki</a>.
+Downloads are available at the <a href="download">download page</a>. More information and building instructions can be found from the <a href="https://github.com/performous/performous/wiki/Composer">wiki</a>.

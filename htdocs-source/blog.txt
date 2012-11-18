@@ -60,7 +60,7 @@ The 1.0 release of Composer song editor is now here. There are quite a few visib
 
 Unfortunately we couldn't provide a Mac bundle at this time due to a persisting bug, but the development continues.
 
-Downloads area once again available at <a href="http://sourceforge.net/projects/performous/files/editor/1.0/">SourceForge</a>. Composer also now has a little <a href="http://performous.org/composer">website</a> and a <a href="http://wiki.performous.org/index.php/Composer">wiki page</a>. Please provide feedback on our IRC channel.
+Downloads area once again available at <a href="http://sourceforge.net/projects/performous/files/editor/1.0/" target="_blank">SourceForge</a>. Composer also now has a little <a href="http://performous.org/composer">website</a> and a <a href="https://github.com/performous/performous/wiki/Composer" target="_blank">wiki page</a>. Please provide feedback on our IRC channel.
 
 :h2:2011-02-25 - Did someone say stereo3d?
 
@@ -141,7 +141,7 @@ For many languages the translations are currently lacking updates. Another thing
 With this release, we provide a <a target="_blank" href="https://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0.exe/download">Windows installer</a>. Ubuntu packages should be available soon at <a target="_blank" href="http://www.playdeb.net/">playdeb.net</a> and hasty ones can use our <a target="_blank" href="https://launchpad.net/~performous-team/+archive/ppa">PPA at Launchpad</a>. Binaries for other platforms follow when the packagers have time to create them - in the mean time you can compile yourself from the <a target="_blank" href="http://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0-Source.tar.bz2/download">source.</a>
 
 :h2:2010-08-21 - Status update
-Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a target="_blank" href="http://wiki.performous.org/index.php/Nightly_Builds#Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a target="_blank" href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.
+Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.
 
 We've now switched to using the new audio code and things seem to work rather well. Also the branch that moves controller configuration to an xml file has been merged. Although it is not yet perfect, it presents users a way to create own mappings and autodetections even though there is not yet a graphical UI for that.
 
@@ -152,7 +152,7 @@ We have progressed to the point where the new audio engine is pretty much on par
 
 On packaging side, stump created a script that can easily cross-compile the dependencies and Performous itself for Windows from Debian/Ubuntu. It even produces a working installer. Sadly, the resulting build is very unstable, sometimes allowing singing or dancing, but mostly just crashing when entering the song. This seems somewhat consistent with the earlier expirements when compiling in a native mingw32 environment. So, if you have experience with stabilizing gcc builds for Windows, feel free to pitch in!
 
-Luckily, Mac OSX side appears brighter - we now have a fresh testing build at the <a target="_blank" href="http://wiki.performous.org/index.php/Nightly_Builds#Mac_OSX">wiki</a>. There are some rough edges that need filing, e.g. some textures disappear in fullscreen mode, but it is certainly usable and ends the era where our last OSX binaries date back to 0.5.0.
+Luckily, Mac OSX side appears brighter - we now have a fresh testing build at the <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Mac_OSX">wiki</a>. There are some rough edges that need filing, e.g. some textures disappear in fullscreen mode, but it is certainly usable and ends the era where our last OSX binaries date back to 0.5.0.
 
 :h2:2010-07-16 - Status update
 The reason why the next 0.6 release isn't out yet is because of lacking Windows and OSX packaging. However, we haven't been sitting still - there has been significant development in various feature branches. One of them, SVG caching that greatly speeds up screen transitions is already merged to the main code.
@@ -165,11 +165,11 @@ Third exciting new thing is a nearly ready instrument joining menu that allows m
 
 We also have the first free Jonathan Coulton full band song (with separate audio for all instruments!). You can try it <a target="_blank" href="http://fast.performous.org/joco-fullband-rev1.tar.bz2">here</a> (note that a recent git version is required due to a bug in midi lyrics parsing).
 
-Although the release time is unknown, Ubuntu users can rejoice as we now have a <a target="_blank" href="https://launchpad.net/~performous-team/+archive/ppa">Launchpad PPA</a> (see details at <a target="_blank" href="http://wiki.performous.org/index.php/Nightly_Builds#Ubuntu_PPA"> our wiki</a>), from where cutting edge builds of Performous can be easily installed and tested. PPA builds also include somewhat expermental midi drums and webcam background features. We have also been looking into the possibility to cross-compile Performous for Windows on Linux host. That would not only make releasing much easier, but would also allow automated nightly Windows builds.
+Although the release time is unknown, Ubuntu users can rejoice as we now have a <a target="_blank" href="https://launchpad.net/~performous-team/+archive/ppa">Launchpad PPA</a> (see details at <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Ubuntu_PPA"> our wiki</a>), from where cutting edge builds of Performous can be easily installed and tested. PPA builds also include somewhat expermental midi drums and webcam background features. We have also been looking into the possibility to cross-compile Performous for Windows on Linux host. That would not only make releasing much easier, but would also allow automated nightly Windows builds.
 
 
 :h2:2010-04-20 - Status update
-Many fixes have been made on the code lately (SingStar ripper enhancements, left-handed support, new highscore, Windows fixes and other bugfixes). We now think that the current code is ready for a release really soon. You can help us to make sure there isn't any regression in the current git version by testing it, or for Windows users by testing the latest <a target="_blank" href="http://wiki.performous.org/index.php/Nightly_Builds">nightly build</a>.
+Many fixes have been made on the code lately (SingStar ripper enhancements, left-handed support, new highscore, Windows fixes and other bugfixes). We now think that the current code is ready for a release really soon. You can help us to make sure there isn't any regression in the current git version by testing it, or for Windows users by testing the latest <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds">nightly build</a>.
 
 We are also proud to announce that Performous has been featured in the HotPicks section of <a target="_blank" href="http://www.linuxformat.com">Linux Format</a>, which is the best-selling Linux title in the UK. You can find the article in English <a href="data/LXF129.hot.pdf">here</a> (&copy;Future Publishing).
 

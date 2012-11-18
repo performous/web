@@ -4,7 +4,7 @@ Free Songs
 
 :h2:How to add songs to the game?
 
-You can find information on supported formats and song folder locations at the <a href="http://wiki.performous.org/index.php/Songs" target="_blank">Wiki page</a>.
+You can find information on supported formats and song folder locations at the <a href="https://github.com/performous/performous/wiki/Songs" target="_blank">Wiki page</a>.
 
 :h2:Karaoke songs (UltraStar format)
 
@@ -77,4 +77,4 @@ The songs here are only repackaged by the Performous project. The packages conta
 
 We haven't had time to get any band (FoFiX-format) or dancing (StepMania) songs on this page yet. If you have suggestions on what to include, especially if it also contains drums and vocals, please let us know! (it needs to be freely usable).
 
-<a href="http://wiki.performous.org/index.php/Songs#Finding_songs" target="_blank">Some ideas for finding songs elsewhere can be found at the wiki</a>.
+<a href="https://github.com/performous/performous/wiki/Songs#wiki-Finding_songs" target="_blank">Some ideas for finding songs elsewhere can be found at the wiki</a>.
