@@ -1,11 +1,11 @@
 % Performous
 +index Home
-+blog Blog
-+about What Is It
++blog News
++about What is it?
 +download Download
-+songs Free Songs
++songs Free songs
 +composer Composer
-+others Other Games
++others Other games
 % Project links
 .http://wiki.performous.org/ Documentation
 .http://webchat.freenode.net/?channels=#performous Webchat
