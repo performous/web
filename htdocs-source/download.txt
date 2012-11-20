@@ -13,7 +13,7 @@ Download Performous
 
 :h3:Ubuntu
 	Performous is in the <a href="apt:performous">official repositories</a> (might be outdated)
-	For possibly newer packages: <a href="http://www.playdeb.net/" target="_blank">playdeb.net</a>
+	<a href="http://www.playdeb.net/" target="_blank">PlayDeb.net</a> has <a href="http://www.playdeb.net/software/Performous">0.7.0 for 12.10 and 12.04</a>
 	For cutting-edge: <a href="https://launchpad.net/~performous-team/+archive/ppa" target="_blank">PPA at Launchpad</a>
 	For old packages: <a href="https://sourceforge.net/projects/performous/files/performous" target="_blank">SourceForge</a>
 
