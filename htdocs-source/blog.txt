@@ -12,7 +12,7 @@ The <strong>ss_pak_extract</strong> tool can now extract SingStar PS3 .pkf files
 
 Furthermore, we think that the graphics of the game need an overhaul. In particular, we are looking for a 3D modeler who could make note symbols and other such objects as much of that is going to be done in 3D instead of flat SVGs. A skilled SVG/Inkscape artist is also desperately needed as there still remains a lot of theming work to be done in 2D.
 
-You may contact us by Chat (irc) or Feedback (issue tracker) links on the navigation bar.
+You may contact us by Webchat (IRC) or Feedback (issue tracker) links on the navigation bar.
 
 
 :h2:2012-11-17 - Website, services and docs overhaul
