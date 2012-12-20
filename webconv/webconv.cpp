@@ -38,8 +38,8 @@ struct Page {
 		// index page is unnamed
 		if (link == "index") link = ".";
 #endif
-		// Hack of the year (for adding target="_new" on external links)
-		if (!generate) link += "\" target=\"_new";
+		// Hack of the year (for adding target="_blank" on external links)
+		if (!generate) link += "\" target=\"_blank";
 	}
 };
 
@@ -431,7 +431,7 @@ public:
 };
 
 int main(int argc, char* args[]) {
-	cout << "Accelerated Website Constructor 0.5" << endl << endl;
+	cout << "Accelerated Website Constructor 0.6" << endl << endl;
 	if (argc != 3) { cout << "Usage: " << args[0] << " <source file dir> <destination website dir>" << endl; return -1; }
 	try {
 		Constructor c(args[1], args[2]);
