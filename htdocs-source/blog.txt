@@ -22,6 +22,8 @@ This release brings important bug fixes as well as new features. The changelog i
 	Fixed compile failure on newest ffmpeg version
 	Better source structuring
 
+You can download the source or Windows binaries from <a href="http://sourceforge.net/projects/performous/files/editor/1.1/">sf.net</a>
+
 
 :h2:2012-12-17 - Status update
 
