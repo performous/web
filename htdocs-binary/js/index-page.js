@@ -7,7 +7,7 @@ function showcaseScroll() {
 	++anim;
 	if (anim == frames_img) { anim = 0; ++img; }
 	var a = Math.min(anim / frames_anim, 1.0);
-	var pos = 128 * (img + 0.5 * (1 - Math.cos(Math.PI * a)));
+	var pos = 5 * 128 * (img + 0.5 * (1 - Math.cos(Math.PI * a)));
 	$('#showcase').css('backgroundPosition', Math.round(-pos) + 'px 0');
 }
 
