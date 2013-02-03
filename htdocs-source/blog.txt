@@ -1,30 +1,5 @@
 News
 
-:h2:2012-01-23 - Composer 1.1 released
-
-It's been a way too long time since there was a release or even news about Composer, our song editor. So without further ado, here's the long overdue 1.1 version.
-
-This release brings important bug fixes as well as new features. The changelog is listed below:
-
-	Added experimental support for displaying another pitch visualization
-		Useful for figuring out what belongs to the background if you have a karaoke version of the song
-		Currently only visual clues (not used in automatic note pitch guessing)
-	Added LRC / Soramimi timecode import (those formats don't support pitch)
-	Allow opening .mid file directly instead of .ini
-	Updated docs
-	Fixed XML writer not writing the last sentence
-	Fixed time offset bug with MIDI writer
-	Fixed seeking handle going to wrong position after zoom
-	Fixed guessing pitch also for note being timed
-	Fixed preserving tailing whitespace in US TXT import (for wording)
-	Fixed split action hiding notes
-	Fixed missing space in each lyric imported from plain text
-	Fixed compile failure on newest ffmpeg version
-	Better source structuring
-
-You can download the source or Windows binaries from <a href="http://sourceforge.net/projects/performous/files/editor/1.1/">sf.net</a>
-
-
 :h2:2012-12-17 - Status update
 
 This is apparently a frequently asked question, so I'll answer it here: yes, we are porting to <strong>Rasperry Pi</strong>! The game currently starts but there remains work to get the textures working properly. Those who are interested should have a look at the egl branch. This is also at the same time a more generic OpenGL ES 2.0 port, allowing Performous to run on a wide range of mobile devices.
