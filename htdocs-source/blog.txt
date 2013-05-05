@@ -4,7 +4,7 @@ News
 
 It's been a long time since the last release. The new input system and other development done during the last six months offer numerous usability improvements and an important bug fix for video playback on Ubuntu 13.04, so we'll be working hard to tie up the remaining loose ends and push out the next release. Until then, it is highly recommended to use the Git master instead of 0.7.0.
 
-We'd like to welcome the latest addition to our team: Nick is a C++ programmer whose first feature is playlist support. The playlists and an earlier songmenu branch, implementing better navigation and new looks for the song selector, are now merged to the master branch, and will be part of the next release.
+We'd like to welcome the latest addition to our team: <strong>Niek Nooijens</strong> is a C++ programmer whose first feature is playlist support. The playlists and an earlier songmenu branch, implementing better navigation and new looks for the song selector, are now merged to the master branch, and will be part of the next release.
 
 On the Rasperry Pi front things aren't as bright, as the hardware seems to be way too slow to even run the main menu smoothly. If someone familiar with optimizing for this platform, help is certainly welcome. Even if it cannot work, the work done for RasPi will be very useful for other GLES 2.0 platforms such as smart phones and tablets (especially so with HDMI and USB-OTG adapters!).
 
