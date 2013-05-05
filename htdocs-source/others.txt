@@ -3,12 +3,14 @@ Other Similar Games
 Nothing quite like Performous but there are interesting projects here. Let us know if anything worth a mention is missing.
 
 :h3:Singing games:
-	<a href="http://sourceforge.net/projects/ultrastardx/" target="_blank">UltraStar Deluxe</a> - A cross-platform clone of SingStar
-	<a href="http://www.canta-game.org/" target="_blank">Canta</a> - A simple cross-platform karaoke game
-	<a href="http://www.karaokeparty.com/" target="_blank">KaraokeParty</a> - Runs on your browser with Flash
-:h3:Guitar games:
-	<a href="http://code.google.com/p/fofix/" target="_blank">FoFiX</a> - <a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> on steroids, now including band mode too
+	<a href="http://sourceforge.net/projects/ultrastardx/" target="_blank">UltraStar Deluxe</a> - An open-source clone of SingStar
+	<a href="http://www.karaokeparty.com/" target="_blank">KaraokeParty</a> (Flash) - The most popular browser game
+	<a href="http://www.karaokegame.com/" target="_blank">KaraokeGame</a> (Flash) - Has very good pitch detection (similar to Performous)
+:h3:Guitar/band games:
+	<a href="http://fretsonfire.sourceforge.net/" target="_blank">Frets on Fire</a> - The original PC guitar game, written in Python and no longer developed
+	<a href="http://code.google.com/p/fofix/" target="_blank">FoFiX</a> - FoF on steroids, a fork that adds a ton of new features
+	<a href="http://www.dwsk.co.uk/index_phase_shift.html" target="_blank">Phase Shift</a> (Windows only) - A new band game, using FoF file format
 :h3:Dance games:
 	<a href="http://www.stepmania.com/" target="_blank">StepMania</a> - The original open-source dance game
-	<a href="http://icculus.org/pyddr/" target="_blank">PyDance</a> - Dance game written in Python
+	<a href="http://icculus.org/pyddr/" target="_blank">PyDance</a> - A dance game written in Python
 
