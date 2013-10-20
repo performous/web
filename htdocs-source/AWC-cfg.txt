@@ -7,7 +7,7 @@
 +composer Composer
 +others Other games
 % Project links
-.http://wiki.performous.org/ Documentation
+.https://github.com/performous/performous/wiki Documentation
 .http://webchat.freenode.net/?channels=#performous Webchat
 #.http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .https://github.com/performous/performous/issues/new Feedback

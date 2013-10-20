@@ -23,7 +23,7 @@ case $1 in
 		;;
 	aave)
 		# deploying on performous.org
-		GITPATH=~/src/performous-web
+		GITPATH=`pwd`
 		SITEPATH=performous.org:/wwwhome/performous/
 		;;
 	aave000)
