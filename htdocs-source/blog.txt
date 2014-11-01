@@ -4,7 +4,7 @@ News
 
 The Performous team is proud to announce the release of Performous 1.0! Yes, we are not quite dead and even got a release together for Halloween!
 
-This release comes with some new features and quite a lot of changes "under the hood". Most notable for user, we have a working Windows (and maybe OS X) release again.This brings Windows users all the cool features from the 0.7.0 release like duet-mode and everything this release has to offer!
+This release comes with some new features and quite a lot of changes "under the hood". Most notable for user, we have a working Windows (and maybe OS X) release again. This brings Windows users all the cool features from the 0.7.0 release like duet-mode and everything this release has to offer!
 
 So, what's new?
 
