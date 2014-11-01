@@ -2,8 +2,7 @@ Download Performous
 
 :h2:Windows
 
-	WinXP or better: <a href="https://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1.exe/download" target="_blank" target="_blank">installer</a>
-	<em>Note:</em> You can find new features and bugfixes in the <a href="https://github.com/performous/performous/wiki/Nightly-Builds" target="_blank">testing builds</a>.
+	Windows XP or better: <a href="https://github.com/performous/performous/releases/download/1.0/Performous-1.0.exe" target="_blank" target="_blank">installer</a>
 
 :h2:Mac OS X
 
