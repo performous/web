@@ -1,5 +1,29 @@
 News
 
+:h2:2014-11-01 - Performous 1.0 released
+
+The Performous team is proud to announce the release of Performous 1.0! Yes, we are not quite dead and even got a release together for Halloween!
+
+This release comes with some new features and quite a lot of changes "under the hood". Most notable for user, we have a working Windows (and maybe OS X) release again.This brings Windows users all the cool features from the 0.7.0 release like duet-mode and everything this release has to offer!
+
+So, what's new?
+
+	We have a new song browser menu
+
+	You can now build playlists, so you don't have to return to the songbrowser between songs!
+
+	There is now experimental support for microphone pass-through, so you don't have to fiddle with ALSA or such stuff, just enable it in the settings and "enjoy" hearing your own voice through the speakers!
+
+	The duet mode is better than ever, we fixed some corner cases and show microphone icons in duet menu, so you know which microphone has to sing which part before staring the song.
+
+Performous was changed to use SDL2 instead of SDL, which should give a much better experience with fullscreen among other things.
+
+Unfortunatly, most of our translations are not up-to-date. Currently, only German, Finnish and French are updated. So if you want to help translate Performous into your langague, drop us a line on GitHub or on IRC (#performous on FreeNode) and we'll incorporate your translation.
+
+Special thanks for Niek, Tobias and Gregorio who were instrumental in making this release happen.
+
+Happy performing!
+
 :h2:2013-06-17 - Localizations need to be updated
 
 As the next release is nigh, we are calling everybody to check that translations are correct and complete. There have been numerous changes to the messages that Performous emits and thus many updates are required. Please let us know if a translation still needs work.
