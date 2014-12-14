@@ -2,10 +2,11 @@ Download Performous
 
 :h2:Windows
 
-	Windows XP or better: <a href="https://github.com/performous/performous/releases/download/1.0/Performous-1.0.exe" target="_blank" target="_blank">installer</a>
+	Windows XP or better: <a href="https://github.com/performous/performous/releases/download/1.0/Performous-1.0.exe" target="_blank">installer</a>
 
 :h2:Mac OS X
 
+	OS X 10.6 or newer: <a href="https://github.com/performous/performous/releases/download/1.0/Performous-1.0.dmg" target="_blank">bundle</a>
 	OS X 10.5 (v0.5.0): <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download" target="_blank">bundle</a>
 
 :h2:Linux
