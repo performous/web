@@ -760,7 +760,7 @@
 									<li>git remote set-url origin git://github.com/performous/performous.git</li>
 								<ul>
 							</p>
-							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Newsitem</button>
                         </div>
                     </div>
                 </div>
@@ -782,12 +782,75 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Performous 0.7 Released</h2>
+                            <p class="item-intro text-muted">2012-11-13</p>
+                            <img class="img-responsive img-centered" src="img/news/Performous-0.7-songs.jpg" alt="Performous 0.7 Song Browser">
+							<p>
+								After a long silence we've finally released another one. There are too many new features to list here but here are some highlights:
+								<ul style="text-align:left">
+									<li>Gameplay
+										<ul>
+											<li>Full duet support! (SingStar XML, UltraStar TXT and Frets on Fire formats)</li>
+											<li>High-pitched soprano voice is now detected properly (thanks for the bug report!)</li>
+										</ul>
+									</li>
+									<li>Graphics and performance
+										<ul>
+											<li>Modern rendering pipeline
+												<ul>
+													<li>OpenGL 1.x is gone for good, OpenGL 2.1 or better required</li>
+													<li>Improved graphics quality</li>
+												</ul>
+											</li>
+											<li>Stereo3D mode
+												<ul>
+													<li>Anaglyph glasses, top/bottom, experimental HDMI 1.4 support</li>
+													<li>Requires OpenGL 3.3 or better</li>
+												</ul>
+											</li>
+											<li>Optimizations everywhere to make it run even faster (port to Android, anyone?)</li>
+											<li>Asynchronous texture loading
+												<ul>
+													<li>Makes menus run faster and smoother</li>
+													<li>Black rectangles may sometimes appear during loading</li>
+												</ul>
+											</li>
+											<li>Dance mode still sucks (HELP WANTED!)</li>
+										</ul>
+									</li>
+									<li>Controllers
+										<ul>
+											<li>Instrument type configuration via settings menu</li>
+											<li>More USB devices autodetected (controllers.xml)</li>
+											<li>MIDI drum mapping is now configurable (mididrums.xml)</li>
+										</ul>
+									</li>
+									<li>Miscellaneous
+										<ul>
+											<li>Improved webcam support and compatibility</li>
+											<li>Configurable legacy charset (for non-UTF-8 songs)</li>
+											<li>Tools (ss_extract and friends) cleaned up and can now be cross-compiled for Windows</li>
+											<li>Massive amounts of small fixes, improvements and code cleanup everywhere</li>
+										</ul>
+									</li>
+									<li>Translations
+										<ul>
+											<li>Asturian, Chinese, Danish, Dutch, Finnish, French, German, Hungarian, Italian, Japanese, Persian, Polish, Spanish and Swedish</li>
+										</ul>
+									</li>
+								</ul>
+							</p>
+							<p>
+								We have left out the integrated torrent downloader (git branch 'torrent'),
+								3d dance mode (git branch 'dance3d') and various other experimental features that will hopefully be done by 1.0.
+								Some fixes and improvements have been ported back to OpenGL 1.x version (git branch 'legacy') but it is no longer maintained and no releases will be made of it.
+							</p>
+							<p>
+								Due to lack of manpower, no Windows binaries are currently available.
+								Linux packages should become available as soon as distros package them (check for 'performous' and file a bug if they aren't shipping 0.7 yet).
+								Other options are available on our download page.
+							</p>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Newsitem</button>
                         </div>
                     </div>
                 </div>
