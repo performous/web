@@ -627,23 +627,23 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
+.contact-and-download-source {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.team-member img {
+.contact-and-download-source img {
     margin: 0 auto;
     border: 7px solid #fff;
 }
 
-.team-member h4 {
+.contact-and-download-source h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
 }
 
-.team-member p {
+.contact-and-download-source p {
     margin-top: 0;
 }
 
