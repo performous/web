@@ -643,7 +643,7 @@
 								Until then, it is highly recommended to use the Git master instead of 0.7.0.
 							</p>
 							<p>
-								We'd like to welcome the latest addition to our team: Niek Nooijens is a C++ programmer whose first feature is playlist support.
+								We'd like to welcome the latest addition to our team: <strong>Niek Nooijens</strong> is a C++ programmer whose first feature is playlist support.
 								The playlists and an earlier songmenu branch, implementing better navigation and new looks for the song selector,
 								are now merged to the master branch, and will be part of the next release.
 							</p>
@@ -683,11 +683,45 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <h2>Status Update</h2>
+                            <p class="item-intro text-muted">2012-12-17</p>
+							<p>
+								This is apparently a frequently asked question, so I'll answer it here: yes, we are porting to <strong>Rasperry Pi</strong>!
+								The game currently starts but there remains work to get the textures working properly. 
+								Those who are interested should have a look at the egl branch. 
+								This is also at the same time a more generic OpenGL ES 2.0 port, allowing Performous to run on a wide range of mobile devices.
+							</p>
+							<p>
+								We also decided that it is time to switch to C++11, the new C++ standard.
+								As a result, GCC 4.6 or better (e.g. Clang) is required for compiling. 
+								We'll be trying to only use the subset of features supported by recent versions of GCC,
+								Clang and MSVC but especially the Microsoft compiler receives very little testing. 
+								In case there are issues with this (other than that you just don't want to upgrade your compiler), you should contact us ASAP.
+							</p>
+							<p>
+								There are plenty of smaller usability changes and improvements.
+								The input system has finally gotten the long needed rewrite,
+								allowing us to support more devices and to have them autodetected better than before.
+								This was merged to master branch a couple of days ago and we'd like to know of any regressions that it may have caused
+								(e.g. some controller types not working properly).
+							</p>
+							<p>
+								The <strong>ss_pak_extract</strong> tool can now extract SingStar PS3 .pkf files,
+								but we have no access to the encrypted .pkd files that contain all the songs.
+								I found out that the encryption is vulnerable to watermark attack and thus were able to identify
+								that it is actually a .pkf file with substitution cipher applied. The substitution table depends on byte offset but no other factors.
+								This means that the algorithm is sufficiently weak to allow for known plain text attacks but so far we haven't been able
+								to figure out exactly what kind of substitution is used or to extract the key. PS3 hackers and cryptography experts are welcome to join and help us.
+							</p>
+							<p>
+								Furthermore, we think that the graphics of the game need an overhaul.
+								In particular, we are looking for a 3D modeler who could make note symbols and other such objects
+								as much of that is going to be done in 3D instead of flat SVGs.
+								A skilled SVG/Inkscape artist is also desperately needed as there still remains a lot of theming work to be done in 2D.
+							</p>
+							<p>
+								You may contact us by Webchat (IRC) or Feedback (issue tracker).
+							</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
