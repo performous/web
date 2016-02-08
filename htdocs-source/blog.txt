@@ -1,5 +1,24 @@
 News
 
+:h2:2016-01-23 - Performous 1.1 released
+
+It's slow, but we got a release out! This is mostly a bugfix release, but some new features have snuck in:
+
+	You can now enable a "center channel suppressor" (poor-man's karaoke) in the options of with Ctrl+C (thanks to Matthias Keysermann)
+	You can now use up to 8 microphones (thanks to Arjan Spieard)
+	Startup errors are not silent anymore (you get an error dialog)
+	Support for more controllers was added
+	On dual-GPU systems we request the high-performance GPU
+
+And some bugfixes:
+
+	UTF-8 encoded files with BOM are handled correctly (in all text files)
+	Fixed some OpenGL issues with shaders especially on Intel card
+	Fixed font loading: Pango is now used on all platforms, so Performous should look the same everywhere
+	More minor fixes (OS X build, clan build, fixes for crashes)
+
+Under the hood we now support compiling with newer ffmpeg versions and switched from GLEW to libepoxy, which should make GL support a bit more robust across all hardware.
+
 :h2:2014-11-01 - Performous 1.0 released
 
 The Performous team is proud to announce the release of Performous 1.0! Yes, we are not quite dead and even got a release together for Halloween!

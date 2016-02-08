@@ -2,32 +2,25 @@ Download Performous
 
 :h2:Windows
 
-	Windows XP or better: <a href="https://github.com/performous/performous/releases/download/1.0/Performous-1.0.exe" target="_blank">installer</a>
+	Windows XP or better: <a href="https://github.com/performous/performous/releases/download/1.1/Performous-1.1.exe" target="_blank">installer</a>
 
 :h2:Mac OS X
 
-	OS X 10.6 or newer: <a href="https://github.com/performous/performous/releases/download/1.0/Performous-1.0.dmg" target="_blank">bundle</a>
-	OS X 10.5 (v0.5.0): <a href="https://sourceforge.net/projects/performous/files/performous/0.5.0/Performous-0.5.0.dmg/download" target="_blank">bundle</a>
+	OS X 10.6 or newer: <a href="https://github.com/performous/performous/releases/download/1.1/Performous-1.1.dmg" target="_blank">bundle</a>
 
 :h2:Linux
 
 :h3:Ubuntu
 	Performous is in the <a href="apt:performous">official repositories</a> (might be outdated)
-	For cutting-edge: <a href="https://launchpad.net/~guilhem-fr/+archive/ubuntu/performous-daily" target="_blank">Daily build PPA at Launchpad</a>
-	For old packages:
-		<a href="http://www.playdeb.net/" target="_blank">PlayDeb.net</a> has <a href="http://www.playdeb.net/software/Performous">0.7.0 for 12.10 and 12.04</a>
-		<a href="https://sourceforge.net/projects/performous/files/performous" target="_blank">SourceForge</a>
+	For cutting-edge: <a href="https://launchpad.net/~performous-team/+archive/ubuntu/daily" target="_blank">Daily build PPA at Launchpad</a>
 
 :h3:Other distributions
 	Debian: <a href="apt:performous">performous</a> in official repositories
-	OpenSUSE: <a href="http://packman.links2linux.de/package/Performous/" target="_blank">packages</a>
 	ArchLinux: <a href="http://www.archlinux.org/packages/community/i686/performous/" target="_blank">i686</a> <a href="http://www.archlinux.org/packages/community/x86_64/performous/" target="_blank">x86_64</a>
-	Fedora 14: <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-i386.rpm/download" target="_blank">i386</a> <a href="http://sourceforge.net/projects/performous/files/performous/0.6.1/Performous-0.6.1-Fedora14-amd64.rpm/download" target="_blank">amd64</a>
-	Mandriva 2010.0: <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/i586/Performous-0.5.1-01bdk2010.0.i586.rpm">i586</a> <a href="http://ftp.blogdrake.net/mandriva/2010.0/update/x86_64/Performous-0.5.1-01bdk2010.0.x86_64.rpm">x86_64</a>
 
 :h2:Build from source code
 
-	Git repository: <a href="git://github.com/performous/performous.git">performous</a> (see <a href="https://github.com/performous/performous/wiki/Building-and-installing-from-source" target="_blank">instructions</a>)
+	Git repository: <a href="https://github.com/performous/performous.git">https://github.com/performous/performous.git</a> (see <a href="https://github.com/performous/performous/wiki/Building-and-installing-from-source" target="_blank">instructions</a>)
 
 If you are building Performous yourself or wish to do any development on it, you should always use the git master branch rather than releases. The master branch is relatively stable as all development is done in separate branches but it often contains bugfixes and improvements that haven't been released yet.
 
