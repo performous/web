@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Performous - News</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="icon" type="image/png" href="icon.png"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.videoBG.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/index-page.js"></script>
+  </head>
+
+  <body>
+    <div id="sitebox">
+      <div id="title"><img src="imgs/title.png" alt="Performous"/></div>
+
+      <div id="page">
+        <div id="menu">
+          <ul>
+            <li><h2>Performous</h2></li>
+            <li><a href=".">Home</a></li>
+            <li class="selected"><a href="blog">News</a></li>
+            <li><a href="about">What is it?</a></li>
+            <li><a href="download">Download</a></li>
+            <li><a href="songs">Free songs</a></li>
+            <li><a href="composer">Composer</a></li>
+            <li><a href="others">Other games</a></li>
+            <li><h2>Project links</h2></li>
+            <li><a href="https://github.com/performous/performous/wiki" target="_blank">Documentation</a></li>
+            <li><a href="http://webchat.freenode.net/?channels=#performous" target="_blank">Webchat</a></li>
+            <li><a href="https://github.com/performous/performous/issues/new" target="_blank">Feedback</a></li>
+            <li><a href="https://github.com/performous/performous" target="_blank">Performous@GH</a></li>
+            <li><a href="https://github.com/performous/composer" target="_blank">Composer@GH</a></li>
+            <li><a href="http://www.ohloh.net/projects/performous" target="_blank">Ohloh.net</a></li>
+            <li><a href="http://www.facebook.com/performous" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
+        <div id="main">
+          <div id="content">
+            <h1>News</h1>
+            <h2>2016-01-23 - Performous 1.1 released</h2>
+            <p>It's slow, but we got a release out! This is mostly a bugfix release, but some new features have snuck in:</p>
+            <ul>
+              <li>You can now enable a "center channel suppressor" (poor-man's karaoke) in the options of with Ctrl+C (thanks to Matthias Keysermann)</li>
+              <li>You can now use up to 8 microphones (thanks to Arjan Spieard)</li>
+              <li>Startup errors are not silent anymore (you get an error dialog)</li>
+              <li>Support for more controllers was added</li>
+              <li>On dual-GPU systems we request the high-performance GPU</li>
+            </ul>
+            <p>And some bugfixes:</p>
+            <ul>
+              <li>UTF-8 encoded files with BOM are handled correctly (in all text files)</li>
+              <li>Fixed some OpenGL issues with shaders especially on Intel card</li>
+              <li>Fixed font loading: Pango is now used on all platforms, so Performous should look the same everywhere</li>
+              <li>More minor fixes (OS X build, clan build, fixes for crashes)</li>
+            </ul>
+            <p>Under the hood we now support compiling with newer ffmpeg versions and switched from GLEW to libepoxy, which should make GL support a bit more robust across all hardware.</p>
+            <h2>2014-11-01 - Performous 1.0 released</h2>
+            <p>The Performous team is proud to announce the release of Performous 1.0! Yes, we are not quite dead and even got a release together for Halloween!</p>
+            <p>This release comes with some new features and quite a lot of changes "under the hood". Most notable for user, we have a working Windows (and maybe OS X) release again. This brings Windows users all the cool features from the 0.7.0 release like duet-mode and everything this release has to offer!</p>
+            <p>So, what's new?</p>
+            <ul>
+              <li>We have a new song browser menu</li>
+            </ul>
+            <ul>
+              <li>You can now build playlists, so you don't have to return to the songbrowser between songs!</li>
+            </ul>
+            <ul>
+              <li>There is now experimental support for microphone pass-through, so you don't have to fiddle with ALSA or such stuff, just enable it in the settings and "enjoy" hearing your own voice through the speakers!</li>
+            </ul>
+            <ul>
+              <li>The duet mode is better than ever, we fixed some corner cases and show microphone icons in duet menu, so you know which microphone has to sing which part before staring the song.</li>
+            </ul>
+            <p>Performous was changed to use SDL2 instead of SDL, which should give a much better experience with fullscreen among other things.</p>
+            <p>Unfortunatly, most of our translations are not up-to-date. Currently, only German, Finnish and French are updated. So if you want to help translate Performous into your langague, drop us a line on GitHub or on IRC (#performous on FreeNode) and we'll incorporate your translation.</p>
+            <p>Special thanks for Niek, Tobias and Gregorio who were instrumental in making this release happen.</p>
+            <p>Happy performing!</p>
+            <h2>2013-06-17 - Localizations need to be updated</h2>
+            <p>As the next release is nigh, we are calling everybody to check that translations are correct and complete. There have been numerous changes to the messages that Performous emits and thus many updates are required. Please let us know if a translation still needs work.</p>
+            <h2>2013-05-05 - Status update</h2>
+            <p>It's been a long time since the last release. The new input system and other development done during the last six months offer numerous usability improvements and an important bug fix for video playback on Ubuntu 13.04, so we'll be working hard to tie up the remaining loose ends and push out the next release. Until then, it is highly recommended to use the Git master instead of 0.7.0.</p>
+            <p>We'd like to welcome the latest addition to our team: <strong>Niek Nooijens</strong> is a C++ programmer whose first feature is playlist support. The playlists and an earlier songmenu branch, implementing better navigation and new looks for the song selector, are now merged to the master branch, and will be part of the next release.</p>
+            <p>On the Rasperry Pi front things aren't as bright, as the hardware seems to be way too slow to even run the main menu smoothly. If you are familiar with optimizing for this platform, help is certainly welcome. Even if it cannot work, the work done for RasPi will be very useful for other GLES 2.0 platforms such as smart phones and tablets (especially so with HDMI and USB-OTG adapters!).</p>
+            <p>We are hitting a dead end on the encrypted SingStar PS3 files. These seem to be encrypted in AES128-CTR mode but we haven't been able to extract the keys. Known plain text attacks have been successful but they don't get us very far because different SingStar releases use different keys.</p>
+            <p>We are still looking for 2D and 3D artists so if you'd prefer Performous not looking ugly, please contact us (click Webchat on the left)!</p>
+            <h2>2012-12-17 - Status update</h2>
+            <p>This is apparently a frequently asked question, so I'll answer it here: yes, we are porting to <strong>Rasperry Pi</strong>! The game currently starts but there remains work to get the textures working properly. Those who are interested should have a look at the egl branch. This is also at the same time a more generic OpenGL ES 2.0 port, allowing Performous to run on a wide range of mobile devices.</p>
+            <p>We also decided that it is time to switch to C++11, the new C++ standard. As a result, GCC 4.6 or better (e.g. Clang) is required for compiling. We'll be trying to only use the subset of features supported by recent versions of GCC, Clang and MSVC but especially the Microsoft compiler receives very little testing. In case there are issues with this (other than that you just don't want to upgrade your compiler), you should contact us ASAP.</p>
+            <p>There are plenty of smaller usability changes and improvements. The input system has finally gotten the long needed rewrite, allowing us to support more devices and to have them autodetected better than before. This was merged to master branch a couple of days ago and we'd like to know of any regressions that it may have caused (e.g. some controller types not working properly).</p>
+            <p>The <strong>ss_pak_extract</strong> tool can now extract SingStar PS3 .pkf files but we have no access to the encrypted .pkd files that contain all the songs. I found out that the encryption is vulnerable to watermark attack and thus were able to identify that it is actually a .pkf file with substitution cipher applied. The substitution table depends on byte offset but no other factors. This means that the algorithm is sufficiently weak to allow for known plain text attacks but so far we haven't been able to figure out exactly what kind of substitution is used or to extract the key. PS3 hackers and cryptography experts are welcome to join and help us.</p>
+            <p>Furthermore, we think that the graphics of the game need an overhaul. In particular, we are looking for a 3D modeler who could make note symbols and other such objects as much of that is going to be done in 3D instead of flat SVGs. A skilled SVG/Inkscape artist is also desperately needed as there still remains a lot of theming work to be done in 2D.</p>
+            <p>You may contact us by Webchat (IRC) or Feedback (issue tracker) links on the navigation bar.</p>
+            <h2>2012-11-17 - Website, services and docs overhaul</h2>
+            <p>We are currently migrating our services from SF.net and self-hosted to GitHub. Git on SF.net has always been operating very slowly and there no longer seems to be any reason to stay there. GitHub seemed like the most sensible option. Their servers are always up, everything runs fast and we'll be able to get most of the services that we need under same roof without developers having to register to a number of separate services.</p>
+            <p>Those with existing git clones from SF.net will need to change the upstream URL:</p>
+            <ul>
+              <li>git remote set-url origin git://github.com/performous/performous.git</li>
+            </ul>
+            <h2>2012-11-13 - Performous 0.7 released</h2>
+            <p><img src="screenshots/Performous-0.7-songs.jpg" alt="Song browser screenshot, in Persian"></p>
+            <p>After a long silence we've finally released another one. There are too many new features to list here but here are some hilights:</p>
+            <ul>
+              <li>Gameplay</li>
+              <ul>
+                <li>Full duet support! (SingStar XML, UltraStar TXT and Frets on Fire formats)</li>
+                <li>High-pitched soprano voice is now detected properly (thanks for the bug report!)</li>
+              </ul>
+              <li>Graphics and performance</li>
+              <ul>
+                <li>Modern rendering pipeline</li>
+                <ul>
+                  <li>OpenGL 1.x is gone for good, OpenGL 2.1 or better required</li>
+                  <li>Improved graphics quality</li>
+                </ul>
+                <li>Stereo3D mode</li>
+                <ul>
+                  <li>Anaglyph glasses, top/bottom, experimental HDMI 1.4 support</li>
+                  <li>Requires OpenGL 3.3 or better</li>
+                </ul>
+                <li>Optimizations everywhere to make it run even faster (port to Android, anyone?)</li>
+                <li>Asynchronous texture loading</li>
+                <ul>
+                  <li>Makes menus run faster and smoother</li>
+                  <li>Black rectangles may sometimes appear during loading</li>
+                </ul>
+                <li>Dance mode still sucks (HELP WANTED!)</li>
+              </ul>
+              <li>Controllers</li>
+              <ul>
+                <li>Instrument type configuration via settings menu</li>
+                <li>More USB devices autodetected (controllers.xml)</li>
+                <li>MIDI drum mapping is now configurable (mididrums.xml)</li>
+              </ul>
+              <li>Miscellaneous</li>
+              <ul>
+                <li>Improved webcam support and compatibility</li>
+                <li>Configurable legacy charset (for non-UTF-8 songs)</li>
+                <li>Tools (ss_extract and friends) cleaned up and can now be cross-compiled for Windows</li>
+                <li>Massive amounts of small fixes, improvements and code cleanup everywhere</li>
+              </ul>
+              <li>Translations</li>
+              <ul>
+                <li>Asturian, Chinese, Danish, Dutch, Finnish, French, German, Hungarian, Italian, Japanese, Persian, Polish, Spanish and Swedish</li>
+              </ul>
+            </ul>
+            <p>We have left out the integrated torrent downloader (git branch 'torrent'), 3d dance mode (git branch 'dance3d') and various other experimental features that will hopefully be done by 1.0. Some fixes and improvements have been ported back to OpenGL 1.x version (git branch 'legacy') but it is no longer maintained and no releases will be made of it.</p>
+            <p>Due to lack of manpower, no Windows binaries are currently available. Linux packages should become available as soon as distros package them (check for 'performous' and file a bug if they aren't shipping 0.7 yet). Other options are available on <a href="download">our download page</a>.</p>
+            <h2>2011-02-28 - Song editor 1.0 released</h2>
+            <p>The 1.0 release of Composer song editor is now here. There are quite a few visible changes since rc1:</p>
+            <ul>
+              <li>Piano keys</li>
+              <li>Unified Note properties & Tools tab</li>
+              <li>FoF MIDI export</li>
+              <li>Performance optimizations</li>
+              <li>Synth now also on Windows</li>
+              <li>More UI feedback using busy-dialogs</li>
+              <li>Small fixes and tweaks</li>
+            </ul>
+            <p>Unfortunately we couldn't provide a Mac bundle at this time due to a persisting bug, but the development continues.</p>
+            <p>Downloads area once again available at <a href="http://sourceforge.net/projects/performous/files/editor/1.0/" target="_blank">SourceForge</a>. Composer also now has a little <a href="http://performous.org/composer">website</a> and a <a href="https://github.com/performous/performous/wiki/Composer" target="_blank">wiki page</a>. Please provide feedback on our IRC channel.</p>
+            <h2>2011-02-25 - Did someone say stereo3d?</h2>
+            <p><img src="imgs/anaglyph.jpg" alt="Anaglyph screenshot"/></p>
+            <h2>2011-02-21 - Song editor 1.0rc1 released</h2>
+            <p>An often requested feature for Performous is a song editor and we finally got a chance at implementing one once a Swedish company hired two of the Performous core developers to develop one for them; if more information of this stealth mode start-up is needed - requests can be mailed to bjorn@bjornhammar.com. It was agreed that the editor would be released under the same license as Performous: GNU GPLv2 or later.</p>
+            <p>Since there are a few promising open source song editors, we started by reviewing them and seeing if we could build on top of existing software. <a href="http://code.google.com/p/editor-on-fire/" target="_blank">Editor on Fire</a> ended up being the top candidate. Unfortunately it had a very different workflow than what the company needed and also the custom UI and being written in C (rather than C++) were major drawbacks.</p>
+            <p>Another big question was whether to implement it as a feature of Performous or as a separate application based on Qt. On Performous it could benefit of all the existing infrastructure (OpenGL, audio playback and so on) but also it wouldn't be able to easily use existing widgets and dialogs that are very important for an editor. Also we wanted the editor to be easily usable by everybody instead of tying it down to the game, so we decided to use Qt. Using Qt as the library was a no-brainer as it is the only truely cross-platform solution (native Windows, Gtk and OS X widgets and dialogs) besides wxWidgets and the latter is horribly bad.</p>
+            <p><img src="imgs/editor-zoom-thumb.png" alt="Editor screenshot"/></p>
+            <p>So, we have now worked on the editor for seven weeks and we need actual user feedback on what to improve before the actual release. There is a getting started wizard in the editor to make you familiar with the workflow where a large part of the process is automated via pitch detection and other means, making song creation easy. Only vocals will be supported for now but other modes are going to be available at a later time, under pro bono open-source development.</p>
+            <p>Get the release candidate from <a href="http://sourceforge.net/projects/performous/files/editor/rc1/">SourceForge</a> and give your feedback on our IRC channel as soon as possible, thanks. Note: the portable-package does contain also 32 and 64 bit linux executables, but for them to work, you need suitable versions of the dependency libraries installed, so you'll probably be better off compiling yourself.</p>
+            <h2>2010-12-09 - Website redesigned</h2>
+            <p>For long have we attempted to summon a web developer to create us a new site but that never happened. That feeling of deep shame every time I displayed the site to someone finally overcame me and I decided to do the job myself since no-one else was doing it. What you are looking at is just that. The new one boosts a lot of bleeding edge web technology and there could be some bugs as we only tested Chrome, Firefox, Safari, Opera and my mobile phone (all of which worked fine with reasonably high performance).</p>
+            <p>Hopefully you like it but you can always drop by at our chat channel and give feedback :)</p>
+            <h2>2010-10-31 - 0.6.1 released</h2>
+            <p>This is a small but important bugfix release most notably fixing issues with non-UTF-8 device names under localized Windows. The full list of changes can be read below. We provide Windows installer and the Ubuntu ppa is updated.</p>
+            <ul>
+              <li>Fix character encoding bug in device names</li>
+              <li>Windows installer improvements</li>
+              <li>Joinmenu usability tweaks</li>
+              <li>Menu performance optimizations</li>
+              <li>Spanish translation updated</li>
+            </ul>
+            <h2>2010-10-24 - 0.6.0 released</h2>
+            <p>The long overdue 0.6.0 release is now here. This release brings many technological improvements as well as a lot of new gameplay features. Thanks for all the new (and old) contributors.</p>
+            <ul>
+              <li>Gameplay</li>
+              <ul>
+                <li>Multiple vocal track support (no duet yet)</li>
+                <li>Toggleable karaoke with songs that have separate song and vocal tracks</li>
+                <li>Solo parts for guitars</li>
+                <li>Big Rock Endings</li>
+                <li>Drum Fills (with God Mode for drums)</li>
+                <li>Instrument hit timing indicator</li>
+                <li>Lefty-mode for guitar and drums</li>
+                <li>Join menu for difficulty/track configuration</li>
+              </ul>
+              <li>Audio system completely rewritten</li>
+              <ul>
+                <li>Single backend: PortAudio v19 (no more plugins)</li>
+                <li>Can still use jack/pulse/alsa etc. through PA</li>
+                <li>Easier to maintain, simple architecture</li>
+                <li>Different bugs and workarounds than before</li>
+              </ul>
+              <li>Configuration</li>
+              <ul>
+                <li>Sorted to category submenus and displays multiple items at once</li>
+                <li>Ingame audio config with no need to restart Performous (except when audio devices hang)</li>
+              </ul>
+              <li>Controllers</li>
+              <ul>
+                <li>More controllers are autodetected and supported properly</li>
+                <li>XML config file allows adding/modifying controller types without touching C++</li>
+                <li>MIDI drum support (build-time option)</li>
+              </ul>
+              <li>Song browser</li>
+              <ul>
+                <li>Song filtering by instrument type (F5-F8)</li>
+                <li>Song parsing improved for faster loading and other improvements</li>
+                <li>Uses less memory due to notes not being loaded before entering a song</li>
+              </ul>
+              <li>Miscellaneous</li>
+              <ul>
+                <li>Webcam support (build-time option)</li>
+                <li>Graphical improvements and more random backgrounds</li>
+                <li>SVG caching system (menus load muuuch faster once cached)</li>
+                <li>Notification system (more UI feedback)</li>
+                <li>ss_extract now supports all SingStar PS2 DVDs (PS3 is not supported)</li>
+                <li>Translation updates, including config localization</li>
+                <li>Detailed verbosity controls via new logging system</li>
+                <li>Hordes of other tweaks and fixes</li>
+              </ul>
+            </ul>
+            <p>For many languages the translations are currently lacking updates. Another thing we are lacking is good graphics as well as developers for the dance mode. If you think you'll be able to do better, offer your work on #performous.</p>
+            <p>With this release, we provide a <a target="_blank" href="https://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0.exe/download">Windows installer</a>. Ubuntu packages should be available soon at <a target="_blank" href="http://www.playdeb.net/">playdeb.net</a> and hasty ones can use our <a target="_blank" href="https://launchpad.net/~performous-team/+archive/ppa">PPA at Launchpad</a>. Binaries for other platforms follow when the packagers have time to create them - in the mean time you can compile yourself from the <a target="_blank" href="http://sourceforge.net/projects/performous/files/performous/0.6.0/Performous-0.6.0-Source.tar.bz2/download">source.</a></p>
+            <h2>2010-08-21 - Status update</h2>
+            <p>Good news everyone, cross-compiling binaries from Linux for Windows is pretty much ready for prime-time. You can check for yourself by downloading a testing installer from the <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Windows">wiki</a>. It would be nice if you could tell us how it works for you. The Mac bundle presented previously is broken, but luckily there has been OSX development work done and we have a new one <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Mac_OSX">at the usual place</a>. All in all, it seems every platform is now in quite good shape.</p>
+            <p>We've now switched to using the new audio code and things seem to work rather well. Also the branch that moves controller configuration to an xml file has been merged. Although it is not yet perfect, it presents users a way to create own mappings and autodetections even though there is not yet a graphical UI for that.</p>
+            <p>The new joining menu is also now part of main codebase, but didn't arrive in time to be included in the provided testing builds. Anyway, if no significant issues rise in overall testing, perhaps we might start looking into making that long overdue 0.6 release...</p>
+            <h2>2010-07-31 - Status update</h2>
+            <p>We have progressed to the point where the new audio engine is pretty much on par with the previous one feature-wise. For merging, it would seem we only need some testing and tweaks to the time code calculation. Due to a bug with pause in the current audio system, the joining menu branch might require the new audio code before taken into use. Some visual clean-up is also in order. In addition, there has been initial work to move the controller mappings out of the executable, to make it much easier to add new ones.</p>
+            <p>On packaging side, stump created a script that can easily cross-compile the dependencies and Performous itself for Windows from Debian/Ubuntu. It even produces a working installer. Sadly, the resulting build is very unstable, sometimes allowing singing or dancing, but mostly just crashing when entering the song. This seems somewhat consistent with the earlier expirements when compiling in a native mingw32 environment. So, if you have experience with stabilizing gcc builds for Windows, feel free to pitch in!</p>
+            <p>Luckily, Mac OSX side appears brighter - we now have a fresh testing build at the <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Mac_OSX">wiki</a>. There are some rough edges that need filing, e.g. some textures disappear in fullscreen mode, but it is certainly usable and ends the era where our last OSX binaries date back to 0.5.0.</p>
+            <h2>2010-07-16 - Status update</h2>
+            <p>The reason why the next 0.6 release isn't out yet is because of lacking Windows and OSX packaging. However, we haven't been sitting still - there has been significant development in various feature branches. One of them, SVG caching that greatly speeds up screen transitions is already merged to the main code.</p>
+            <p>Another branch represents the next generation of our audio engine. It gets rid of the complicated plug-in system and relies on a single cross-platform backend: PortAudio. The new code brings many improvements and makes future development easier. The system is already usable - configuration implementation is the only significant thing left to do before taking it into use.</p>
+            <p>Third exciting new thing is a nearly ready instrument joining menu that allows more intuitive and more expandable per player gaming experience configuration (see development picture below). The same generic menu structure will later be used to implement better configuration screen, among other things.</p>
+            <p><a href="imgs/wip-joinmenu.jpg"><img src="imgs/wip-joinmenu-small.jpg" style="margin-left:auto; margin-right:auto; display:block; text-align:center;" alt=""/></a></p>
+            <p>We also have the first free Jonathan Coulton full band song (with separate audio for all instruments!). You can try it <a target="_blank" href="http://fast.performous.org/joco-fullband-rev1.tar.bz2">here</a> (note that a recent git version is required due to a bug in midi lyrics parsing).</p>
+            <p>Although the release time is unknown, Ubuntu users can rejoice as we now have a <a target="_blank" href="https://launchpad.net/~performous-team/+archive/ppa">Launchpad PPA</a> (see details at <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds#wiki-Ubuntu_PPA"> our wiki</a>), from where cutting edge builds of Performous can be easily installed and tested. PPA builds also include somewhat expermental midi drums and webcam background features. We have also been looking into the possibility to cross-compile Performous for Windows on Linux host. That would not only make releasing much easier, but would also allow automated nightly Windows builds.</p>
+            <h2>2010-04-20 - Status update</h2>
+            <p>Many fixes have been made on the code lately (SingStar ripper enhancements, left-handed support, new highscore, Windows fixes and other bugfixes). We now think that the current code is ready for a release really soon. You can help us to make sure there isn't any regression in the current git version by testing it, or for Windows users by testing the latest <a target="_blank" href="https://github.com/performous/performous/wiki/Nightly-Builds">nightly build</a>.</p>
+            <p>We are also proud to announce that Performous has been featured in the HotPicks section of <a target="_blank" href="http://www.linuxformat.com">Linux Format</a>, which is the best-selling Linux title in the UK. You can find the article in English <a href="data/LXF129.hot.pdf">here</a> (&copy;Future Publishing).</p>
+            <p>Two new videos are also available on YouTube. There is one screencast from cousteau available <a target="_blank" href="http://www.youtube.com/watch?v=0ZQSrt_1LL0">here</a> and one video from Tronic:</p>
+            <p class="center"><object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/soYIbsVmcyU&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object></p>
+            <h2>2010-02-04 - Status update</h2>
+            <p>Currently we have no easy solution to the Windows audio sync issues that still cause some jerkiness and it appears that most of the audio code will have to be rewritten to really fix the issue properly. Because of this the next release will be delayed further and it is likely to be numbered 0.6 instead of another 0.5 bugfix version as there has been significant work done on improving the graphics and there also are many usability fixes. Part of the problem is that people find implementing new features more interesting than fixing complex bugs, something that I gather to be a very common problem with open-source projects where all the developers are volunteers.</p>
+            <h2>2010-01-16 - 0.5.1 released</h2>
+            <p>This is a source-only bugfix release, most notably fixing issues with Windows version and adding more instrument mappings. List of changes is below and the packages can be found from the download page.</p>
+            <ul>
+              <li>Advanced timing code for reducing jerkiness (but causes more jerkiness for some because it is not properly tuned yet)</li>
+              <li>Dance gameplay improvements</li>
+              <li>Many controller detection and mapping fixes</li>
+              <li>Fix flashing singing note issue</li>
+              <li>Fix dance game not working under Windows (missing file)</li>
+              <li>Fix Windows font for scale in singing note lines</li>
+              <li>Dutch translation</li>
+              <li>Add a simple joystick button identification utility (--jstest)</li>
+              <li>Other small tweaks</li>
+            </ul>
+            <p>The next version (0.5.2) will be released once we sort out the remaining issues (estimated a few days) and it will also include binaries.</p>
+            <h2>2010-01-13 - 0.5.0 released</h2>
+            <p><img src="imgs/menu_fi-small.jpg" alt=""/><img src="imgs/dance-multi2-small.jpg" style="margin-left: 1mm" alt=""/></p>
+            <p>This is the first release to include <strong>Windows</strong> and <strong>Mac</strong> binaries as well. A lot of work has been done by Xaldyz, Zar, Stump and others to make this possible. Meanwhile a large number of improvements and new features have been added, including of course the all new dance simulator developed during December by Aave, JNikkola and Kemppi, out of whom Aave has already become a core developer, already boosting about 200 commits. Another new developer who has been very active in this release is Peque who created the new main menu and gave some face lift for the default theme, among other things. The new features include:</p>
+            <ul>
+              <li>Dance mode</li>
+              <ul>
+                <li>StepMania .sm format</li>
+                <li>4-8 panels on each dancepad</li>
+                <li>Multiplayer (but not together with band yet)</li>
+                <li>Mines, hold and regular notes in various different game modes</li>
+                <li>Keyboard and USB dancepad support</li>
+                <li>Crappy graphics, no ITG colors and no customization (for now)</li>
+              </ul>
+              <li>Band mode improvements</li>
+              <ul>
+                <li>God Mode for guitars (similar to StarPower)</li>
+                <li>More graphical effects (glow, fire, ...)</li>
+                <li>Joining during game &amp; dead coming back to life</li>
+                <li>Whammy bar gameplay</li>
+                <li>Streak counter popup</li>
+                <li>Guitar Hero X0 guitar support (not tested)</li>
+              </ul>
+              <li>Star when singing a note well</li>
+              <li>Main menu completely reworked</li>
+              <li>Localizations: Finnish, French, German, Italian and Spanish</li>
+              <li>New song folder [Performous data]/songs</li>
+              <ul>
+                <li>The data folders depend on the OS the game is running on, including:</li>
+                <li>On UNIX ~/.local/share/games/performous</li>
+                <li>On Windows [Application data]/performous</li>
+                <li>On all systems the data installation path (relative to executable)</li>
+                <li>Old ~/.ultrastar/songs and other such folders continue to function.</li>
+              </ul>
+              <li>Usability</li>
+              <ul>
+                <li>Confirmation for song quitting</li>
+                <li>Better usb controller navigation (e.g. drum/dancepads can be used)</li>
+                <li>Instrumental part skipping for singing with FoF songs</li>
+                <li>Previews start from further of the song</li>
+                <li>In-game volume control</li>
+                <li>Keyboard key repeat disabled (preparing for generic controller repeat)</li>
+              </ul>
+              <li>Internal</li>
+              <ul>
+                <li>Use libpng/libjpeg directly, instead of Magick++</li>
+                <li>Navigation abstraction</li>
+                <li>Windows fixes</li>
+              </ul>
+            </ul>
+            <p>Head over to the download page to get the new version. Because of the very large number of new features and due to porting to two new platforms we expect the release to be buggy. Please let us know if you find any problems. We'll try to release 0.5.1 soon with possible fixes and more new features. The Windows version is known to have various issues but we need all of them reported so that 0.5.1 can be made better (surprisingly we severely lack Windows testers).</p>
+            <h2>2009-12-12 - 0.4.1 cancelled, Windows alpha available</h2>
+            <p>We have rather large new features in the development version and because of this the next release will be 0.5.0 rather than 0.4.1. The hilights include a new menu and of course the dance game feature, which we just tested in two player mode with actual dance pads. No release date other than "soon" has been set.</p>
+            <p>Windows alpha build from a few days ago is available <a target="_blank" href="http://fast.performous.org/setup.exe">here</a>. A release is coming later, once we manage to remove the rough edges, hopefully with the 0.5.0 Linux release. The OS X bundling effort has ceased for now and we really need more Mac developers to get the job done. Compiling the software is easy, but bundling has proven to be difficult.</p>
+            <h2>2009-12-05 - The Slashd-- LifeHacker Effect</h2>
+            <p><img src="imgs/lifehacker-effect.png" style="float: right; border: 0;" alt=""/></p>
+            <p>I was wondering why my network connection was lagging while playing <a target="_blank" href="http://springrts.com/">TA Spring</a> (a great open-source RTS game which you should also check out). The site stats revealed that <a target="_blank" href="http://lifehacker.com/5419099/performous-is-like-rock-band-for-your-linux-pc">LifeHacker</a> had linked to us and even though I had never heard of that site before, it is apparently very popular, as seen in the statistic where you can see a huge peak even though the day isn't even over yet (picture taken at 15:00). :)</p>
+            <p>Someone also made a <a target="_blank" href="http://www.youtube.com/watch?v=nmSTnbBZoqI">Youtube video</a> of Performous 0.3.2 today. Unfortunately he doesn't have microphone connected to the game, apparently, so you can't see the pitch display and scoring parts at all :(</p>
+            <p><a href="screenshots/Performous-0.4.0-Windows.jpg"><img src="imgs/windows.jpg" style="float: left; margin-right: 2mm;" alt=""/></a></p>
+            <p>In other news, we have working <strong>Windows binaries</strong> (thanks to the hard work by Xaldyz) and it seems that we will be able to release these with the upcoming 0.4.1 release, even though some cleanup and an installer are required.</p>
+            <p>The OSX bundle doesn't look so good as apparently there are problems with bundling some of the libraries used. Compiling on MacPorts yourself is easy, so please consider that if you are a Mac user (there are instructions on the Hacking page).</p>
+            <h2>2009-11-28 - Performous 0.4.0 released</h2>
+            <p><img src="imgs/guitar_sing-small.jpg" alt=""/><img src="imgs/band-small.jpg" style="margin-left: 1mm" alt=""/></p>
+            <p>A major new release that not only contains improvements to the singing game you all love but more importantly extends the game into a full-fledged band game. Since the pre-release at <a target="_blank" href="http://assembly.org/">Assembly Summer 2009</a> demo party, a large amount of improvements have been done, improving both the gameplay and the graphics. It is not perfect yet, but this certainly is a good time to make a release. Changes since 0.3.2 include:</p>
+            <ul>
+              <li>Guitar, bass and drums</li>
+              <ul>
+                <li>Uses songs in <a target="_blank" href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> / <a target="_blank" href="http://code.google.com/p/fofix/">FoFiX</a> format</li>
+                <li>All tracks (including vocals) are supported</li>
+                <li>Autodetection of any connected Guitar Hero and Rock Band instruments</li>
+                <li>Support for using a keyboard as guitar controller (FoF style)</li>
+                <li>Better hammer-on/pull-off support than in other games</li>
+                <li>Engine tries to figure out player's intention instead of picking the nearest chord</li>
+                <li>Multiplayer for as many players as you have instruments for</li>
+                <li>Full 3D note visualization</li>
+              </ul>
+              <li>Initial hiscore support (press End in song browser)</li>
+              <li>Textual feedback for singers after each line</li>
+              <li>Guessing background/cover images and videos by filenames (if not specified in song files)</li>
+              <li>SVG graphics and fail samples from Frets on Fire (GPL for the win!)</li>
+              <li>Major changes in the internals, including a completely new audio mixer</li>
+              <li>Configuration system improvements, now properly supports system and user conf</li>
+              <li>Always use desktop resolution for full screen mode (instead of mode switching)</li>
+              <li>Many minor bugs fixed</li>
+              <li>Build/install changes and cleanup</li>
+              <ul>
+                <li>Installs only minimal amount of cruft</li>
+                <li>Increased version requirements for Boost, CMake, etc.</li>
+                <li>Various small bugs fixed</li>
+              </ul>
+            </ul>
+            <p>Special thanks to all the new developers who participated in this release (see a list of contributors and their activity at <a target="_blank" href="http://www.ohloh.net/projects/performous">Ohloh.net</a>). Without you it would not be possible to develop the game at a rate greater than ever before :)</p>
+            <h2>2009-11-16 - Testers needed</h2>
+            <p>Since the last status update we have had active development and currently the codebase is starting to look suitable for a release. Since waiting more will not make things better, we have set the release date as the next weekend. Please help us test the development version (git master) and let us know if there are any problems, especially if there are any regressions from 0.3.2. The instrument feature is not very pretty, but the playability of it already seems better than that of Frets on Fire. There are a few known issues with the FoF format song parser when dealing with vocal tracks. It is likely that these will not get fixed in time for 0.4.0.</p>
+            <h2>2009-10-28 - Status update</h2>
+            <p>The development has been quiet during the last two months, but we have done various smaller fixes. The guitar support has been improved with pull-off support and new scoring. MIDI drum support is in the works. We decided not to release 0.4 yet, even though it would bring major new features, as the sound code has some regressions that may hurt users who don't even need the band game features. A release will be made once these issues have been fixed.</p>
+            <p>In other news, we have three new developers working on a dance game feature in a separate branch. If all goes well, that should be available in the 0.5 release in January or so.</p>
+            <p>The current band game graphics suck, so we are desperately looking for talented SVG graphicians. If you think you can work fluently in Inkscape or some other SVG software, and think you can help, please contact us (preferrably on IRC channel #performous on Freenode).</p>
+            <h2>2009-08-23 - Git repository address changed</h2>
+            <p>SF.net now supports multiple repositories and because of that the address has changed. Use <strong>git config remote.origin.url git://git.performous.org/gitroot/performous/performous</strong> to set the new URL in your existing repository.</p>
+            <h2>2009-08-07 - Performous BAND at Assembly gamedev</h2>
+            <p>In the past few weeks we have been working on band game features for Performous. They are developed in a private repository because we wanted to participate in the <a target="_blank" href="http://assembly.org/">Assembly</a> game development competition, where the new features were released under the special Performous BAND release that had the singing features disabled. While this code is still very experimental and quickly hacked together, we plan to improve it in the coming weeks and release Performous 0.4 with all the features combined (you can already find this in our git repo).</p>
+            <p>If you happen to be at Assembly, please come over to table F0 to try it out yourself! I can assure you that it does not have audio sync issues (we take care of these using three separate latency settings).</p>
+            <p>The game autodetects any connected Guitar Hero and Rock Band instruments, plus you can use a regular keyboard as a guitar. No configuration required. You can have as many players as you have instruments connected. Drums and other tracks of the FoF format songs (e.g. Guitar Hero or Rock Band rips) can be played.</p>
+            <h2>2009-07-28 - Performous 0.3.2 released</h2>
+            <p>This is a bugfix release that brings no new features. This is likely to be the last release of the 0.3 series. Changes include:</p>
+            <ul>
+              <li>Workaround for FFMPEG bug that was making it crash on i386</li>
+              <li>The Singstar ripping tools now use ss_ prefix in their names</li>
+              <li>The performous.sh wrapper (used for non-standard installation path) now passes parameters properly</li>
+              <li>GStreamer and PortAudio drivers disabled in our binary packages (let us know if you need them)</li>
+              <li>A bunch of other things</li>
+            </ul>
+            <h2>2009-07-14 - Status update</h2>
+            <p>We are currently preparing a bugfix release 0.3.2 that will bring no new features but that fixes various issues of 0.3.1. In order to do this properly, please let us know if there were any issues in 0.3.1 that you'd like to have fixed. Additionally, it would be nice if you also helped testing the git branch 0.3, aiming for this release. Use command <strong>git branch 0.3 origin/0.3 &amp;&amp; git checkout 0.3</strong> in your cloned repository to switch to the 0.3 branch (<strong>git checkout master</strong> will switch back to the master branch).</p>
+            <p>On the master branch we have implemented preliminary support for the <a target="_blank" href="http://fretsonfire.sourceforge.net/">Frets on Fire</a> / <a target="_blank" href="http://code.google.com/p/fofix/">FoFiX</a> song format. Performous can currently extract the notes from the songs and if the song has lyrics (e.g. Rock Band rips), you can sing it the Performous way. We have 3d rendering of guitar neck working, but gameplay is still missing. Further, there is a simple C++ clone of Frets on Fire, called Silky Strings, in our repository and build system. Building it is not enabled by default, so you will have to use ccmake to enable it. This game is used as the basis for our implementation.</p>
+            <p>Finally, a little request. Do you like Performous? You can register as a Performous user on our Ohloh page and add a pin to the map as we'd love to see where Performous is being used! For more information, see <a target="_blank" href="http://www.ohloh.net/projects/performous">http://www.ohloh.net/projects/performous</a>.</p>
+            <h2>2009-07-06 - Performous 0.3.1 released</h2>
+            <p><img src="imgs/songs-small.jpg" style="float: right; margin-left: 3mm;" alt=""/></p>
+            <p>Eight months after the 0.3.0 release, the Performous team is proud to announce the release of the 0.3.1 version. Whereas it is only a minor revision number, it updates lots of things (over 350 commits).</p>
+            <p>Special thanks go to all contributors (Tronic, Yoda, knittl, zarn, Jack_MD ...).</p>
+            <p><br style="clear: right;"/>New features:</p>
+            <ul>
+              <li>Up to four player multiplayer game with many mics from many sound cards</li>
+              <li>Totally new XML-based configuration system</li>
+              <li>Reworked song list exporter (based on XML+XSLT)</li>
+              <li>Brand new eye-candy song browser (reflections, animations, ...)</li>
+              <li>Many requested features (karaoke mode, performance mode, ...)</li>
+              <li>Better in-game configuration (audio round-trip, video delay, ...)</li>
+              <li>Lots of build fixes (who says ffmpeg?)</li>
+              <li>Tons of bugfixes (ffmpeg once again?)</li>
+              <li>Many many other things (see git changelog)</li>
+            </ul>
+            <p>Future work:</p>
+            <ul>
+              <li>Finishing the Windows build (we're working a *LOT* on it)</li>
+              <li>Reworking the in-game configuration</li>
+              <li>Adding drum/guitar/dance support</li>
+              <li>Adding in-game Singstar DVD support</li>
+              <li>Many many other things (see docs/TODO.txt)</li>
+            </ul>
+            <h2>2009-07-05 - New song packages released</h2>
+            <p>The old packages have been repackaged with no changes to the song as "libre" and "restricted" parts depending on how the songs are licensed. Additionally, wonderful collections of Jonathan Coulton and Shearer songs are now included as separate downloads. Thanks for the original packages go to the Ultrastar Deluxe project, as usual. Fetch the new packages from the separate songs page that has now been added as they don't fit very well on download page.</p>
+            <h2>2009-06-25 - We now use Git</h2>
+            <p>The Subversion repository of the SourceForge project ultrastar-ng has been terminated and is now archived read-only. The latest code can be found in the brand new Git repository, tediously converted from the SVN by knittl. The repository URL and other information is available on the developer page. In this move, all the developers of the old project have been moved to the new project, performous, and the old project will quietly shut down.</p>
+            <h2>2009-06-18 - Status update</h2>
+            <p>It's been quiet for a while, so I figured it's a time to post an update. In the past seven months we have fixed a bunch of bugs, added a completely new configuration system, added many features that people have requested, reworked the song list exporter, created a completely new song browser with shiny graphics and crossfades, added experimental Rock Band drumset support and documented the source code. There will not be any big new (band game) features in 0.3.1 but after the release we can freely start breaking things again and that allows much faster development. One quite important thing that we might do is switching SDL to Clanlib 2.0. This needs testing, but it is likely that Clanlib has better full screen mode handling than SDL, and it certainly integrates better with C++.</p>
+            <p>As a sidenote, we are still looking for new team members with skills in C++, vector graphics (SVG), XML and/or websites. Join our IRC channel #performous at Freenode for more information. Oh, and please kick Tronic on the butt if Performous does not have guitar support by the end of July.</p>
+            <h2>2008-12-01 - Ultrastar-songs repacked for Debian</h2>
+            <p>The Debian packages have been recreated because the original ones (ultrastar-songs-2 and ultrastar-songs-restricted-2) had major issues. Please upgrade to the new versions if you installed the old versions from our website. Apologies for the inconvinience.</p>
+            <h2>2008-11-03 - Performous 0.3.0 released</h2>
+            <p><img src="imgs/bday.png" alt="A cake" style="float: right"/>Oh yes, it is exactly one year since the 0.2.0 release and we are releasing again. But speaking on anniversaries, the project founder <strong>Vincent Le Ligeour</strong> aka <strong>Yoda</strong> turns 29 years today, too :).</p>
+            <p>Just to give some idea of how hard we have worked since the last release, there have been over seven hundred SVN commits since 0.2.1, which is more than in all earlier versions combined (490 commits).</p>
+            <p>New features:</p>
+            <ul>
+              <li>Multiplayer with Singstar mics or any other stereo input</li>
+              <li>Dramatically improved performance, runs fine on very slow machines now</li>
+              <li>Fully OpenGL-based (some kind of 3D acceleration is now mandatory, but even Intel works fine)</li>
+              <li>Heavily pimped graphics in singing screen</li>
+              <li>Automatically zooming notelines in singing screen</li>
+              <li>Real widescreen support (adaptive layout instead of stretching or cropping)</li>
+              <li>Song folders are now scanned recursively, in the background without blocking the UI</li>
+              <li>Ingame and preview volume may be controlled</li>
+              <li>Audio roundtrip latency and audio/video sync controls added</li>
+              <li>New score window (still no highscores)</li>
+              <li>New menu theme song</li>
+              <li>Separate game engine thread, so that slow graphics rendering should no longer affect pitch detection</li>
+              <li>Our own audio library libda, supporting ALSA, Pulseaudio, JACK and others</li>
+              <li>FFMPEG-based video and audio decoding (together with libda replaces Xine and GStreamer)</li>
+              <li>CMake-based build (Autotools are gone for good)</li>
+              <li>+ too many others to list them all here</li>
+            </ul>
+            <p>Big thanks to everyone who has put effort into this release. This includes yoda, tronic, tobnob, jack_md, zarrn, dex7 and knittl, not to forget all those who helped testing the game on different platforms or who provided the media files that we use (full credits in Authors.txt, inside the package).</p>
+            <p>Head over to the download page to get the new version! If you are not in a hurry, please notice that we are expecting to release 0.3.1 shortly after, as there probably are some issues in 0.3.0 due to it having major changes on every sector.</p>
+            <h2>2008-10-29 - UltraStar Next Generation is now known as Performous</h2>
+            <p>We have now moved to a new location because SF.net terminated its shell service. SVN and file downloads will stay at SF.net, at least for now. As you may have noticed, the URL has changed to performous.org, along with the website design. This reflects the project's new name, which will be used in the 0.3 release.</p>
+            <p>The name change was a result of several reasons, the most important of which is that USNG was written from scratch in C++ and is not a fork of the UltraStar games created with Delphi. We also aim to extend the concept to general band or party games, combining features of Frets on Fire, Stepmania and others, possibly during the coming year.</p>
+            <p>In the past two months we have improved performance on low-end hardware, further improved the graphics, implemented real widescreen support for everything and done plenty of other stuff. We are quite close to a release, but there remain a few things to be worked out before that, and we also want to have it tested well before a release (you can help with that - head to the developers page for more information).</p>
+            <h2>2008-09-08 - We are not dead</h2>
+            <p>Quite the opposite, actually. There is a large number of new features in SVN, waiting to be released. Just last week we got scrolling notes, new bling-bling note graphics + hilight effects, multiplayer and various other things. Oh, and the game also runs much faster than previously, but we are still optimizing it (especially text rendering). The next release, 0.3, should be out quite soon, but meanwhile you can have a look at the screenshot page for the latest development. Or if you can't wait, check out the developer page to find out how to get it installed NOW.</p>
+            <h2>2008-04-27 - New song package released</h2>
+            <p>Version 2 of ultrastar-songs contains five songs, three of which are new, including On The Run by Joshua Morin, Space Invaders by Pornophonique and Free Software Song by Thor. Get it from the download page.</p>
+            <h2>2007-11-05 - UltraStar-NG 0.2.1 released</h2>
+            <p>No major changes, just bugfixes.</p>
+            <h2>2007-11-03 - UltraStar-NG 0.2.0 released</h2>
+            <p>The major changes in this release are the UTF-8 for lyrics, the new audio capture backends (portaudio v18 and v19, gstreamer), lyrics text files are less pedantic, filtering/searching feature in song list, configuration and score screens, large code rewrite, bug fixes and memory handling enhancements.</p>
+            <h2>2007-07-06 - UltraStar-NG in Gentoo portage tree</h2>
+            <p>UltraStar-NG 0.1.4 has been added to the official Gentoo portage tree. emerge ultrastar-ng will install the game. Thanks Alfredo.</p>
+            <h2>2007-05-19 - UltraStar-NG 0.1.4 released</h2>
+            <p>The major changes in this release are a difficulty level, a to-start cursor, audio pause/seek, a practice screen, and in-game full-screen support. The lyrics parsing and screen API was rewritten. A man page, desktop, and pixmap files were added. The latest unscaled graphics were fixed along with bugs and memory leaks.</p>
+            <h2>2007-03-18 - UltraStar-NG 0.1.3 released</h2>
+            <p>The lima is now the default theme. An OpenGL graphic layout, song preview, and fullscreen support have been added. The latest SDL_gfxPrimitives dependencies have been removed. There are some bugfixes.</p>
+            <h2>2007-02-15 - UltraStar-NG 0.1.2 released</h2>
+            <p>Theming features were completed and a lima theme was added. Many command line parameters were added, including width, height, theme selection, and capture disabling. Bugs were fixed.</p>
+            <h2>2007-02-01 - UltraStar-NG 0.1.1 released</h2>
+            <p>Full support of game scale (resolution given at compile time), modular video support, removal of SDL ttf dependency (used cairo and librsvg instead), bugfixes.</p>
+            <h2>2007-01-21 - UltraStar-NG 0.1.0 released</h2>
+            <p>This is the first installable version</p>
+            <h2>2006-10-13 - UltraStar-NG sourceforge project created</h2>
+            <p>A long long time ago...</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
