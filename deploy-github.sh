@@ -5,6 +5,8 @@ set -ue
 cd "$(dirname "$0")"
 P=../pages
 
+cp .travis/deploy_key ~/.ssh/id_rsa
+
 [ -d $P ] && rm -Rfv $P
 git clone --depth=50 --branch=gh-pages git@github.com:performous/web.git $P
 
