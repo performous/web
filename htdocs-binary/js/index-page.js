@@ -16,16 +16,16 @@ function smartDownload() {
 	if (!e) return;
 	if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1) {
 		// Windows
-		e.href = 'https://github.com/performous/performous/releases/download/1.0/Performous-1.0.exe';
-		e.title = 'Performous 1.0 (Windows)';
+		e.href = 'https://github.com/performous/performous/releases/download/1.1/Performous-1.1.exe';
+		e.title = 'Performous 1.1 (Windows)';
 		return;
 	} else if (navigator.platform.indexOf("Linux") != -1) {
 		// Linux
 		return;
 	} else if (navigator.userAgent.indexOf("Mac OS X") != -1 || navigator.userAgent.indexOf("MSIE 5.2") != -1 || navigator.platform.indexOf("Mac") != -1) {
 		// Mac/Mac OS X
-		e.href = 'https://github.com/performous/performous/releases/download/1.0/Performous-1.0.dmg';
-		e.title = 'Performous 1.0 (OS X 10.6 or newer)';
+		e.href = 'https://github.com/performous/performous/releases/download/1.1/Performous-1.1.dmg';
+		e.title = 'Performous 1.1 (OS X 10.6 or newer)';
 		return;
 	} else {
 		// Other
