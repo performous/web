@@ -3,20 +3,20 @@
 set -ue
 
 cd "$(dirname "$0")"
+P=../pages
 
-[ -d ../pages ] && rm -Rfv ../pages
-git clone -b gh-pages . ../pages
+[ -d $P ] && rm -Rfv $P
+git clone --depth=50 --branch=gh-pages git@github.com:performous/web.git $P
 
-webconv/webconv htdocs-source ../pages
+webconv/webconv htdocs-source $P
 
-rsync -r --del --verbose htdocs-binary/* ../pages
+rsync -r --del --verbose htdocs-binary/* $P
 
-cd ../pages
+cd $P
 
 git config user.email 'nobody@performous.org'
 git config user.name 'Performous Website Bot'
 git config push.default simple
-git remote set-url origin 'git@github.com:performous/web.git'
 
 git add -A .
 git commit -a -m "Update website from commit $TRAVIS_COMMIT"
