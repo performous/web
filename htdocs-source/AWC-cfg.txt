@@ -13,7 +13,7 @@
 .https://github.com/performous/performous/issues/new Feedback
 .https://github.com/performous/performous Performous@GH
 .https://github.com/performous/composer Composer@GH
-.http://www.ohloh.net/projects/performous Ohloh.net
+.https://www.openhub.net/p/performous OpenHub
 #.awstats/awstats.pl Site Stats
 .http://www.facebook.com/performous Facebook
 
