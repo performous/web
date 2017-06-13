@@ -8,6 +8,7 @@
 +others Other games
 % Project links
 .https://github.com/performous/performous/wiki Documentation
+.https://discord.gg/NS3m3ad Discord
 .http://webchat.freenode.net/?channels=#performous Webchat
 #.http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .https://github.com/performous/performous/issues/new Feedback
