@@ -1,5 +1,37 @@
 News
 
+:h2:2022-03-27 - Performous 1.2 released
+
+It's been quite some time we've made a release (almost 6 years). Within this release we've mainly stabilized Performous and focused on automation and solving bugs.
+
+However there are also a few new features within this release:
+
+	Add song paths in game 
+	Configurable playlist duration
+	Added Pro Mode to the drums
+	Changing languages from within the menu
+	Windows installer
+	Note graph scaling: Static, dynamic
+	Difficulty levels for singing
+
+
+Some of the bugfixes:
+
+	Remembering sort order
+	Fullscreen mode on MacOS
+	Fix a crash in playlist screen when there was an empty playlist
+	Shortcuts in game representation 
+	Autodetecting webcam
+	Fix a crash where a player gets more than 10k points
+	Nav keys getting stuck
+
+Upcoming releases
+
+We've made some big gains in automation. This is why we're going to change the releasing strategy. With the upcoming release we'll have a release candidate. A release candidate will be a branch on its own (with a tag) where only hotfixes will be applied to. After a succesful testing period we'll then make a release. If the testing period is not succesful we'll create a new release candidate and repeat the testing. Once a release candidate is ready we'll make a release branch and tag that branch as the official release.
+
+We'll try to create more releases in less time. Preferably after every PR. As we always did we will use semver as version strategy.
+ 
+
 :h2:2016-01-23 - Performous 1.1 released
 
 It's slow, but we got a release out! This is mostly a bugfix release, but some new features have snuck in:
