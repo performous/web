@@ -1,8 +1,0 @@
-language: c
-sudo: false
-script:
-- make -C webconv
-- if [ -e .travis/deploy_key ]; then ./deploy-github.sh; fi
-before_install:
-- openssl aes-256-cbc -K $encrypted_fd07ff0e0747_key -iv $encrypted_fd07ff0e0747_iv
-  -in .travis/deploy_key.enc -out .travis/deploy_key -d
