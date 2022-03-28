@@ -45,6 +45,6 @@ blocks:
                   git config push.default simple
                   git add -A
                   git commit -am "Update website from commit $SEMAPHORE_GIT_SHA"
-                  git push -u HEAD:gh-pages
+                  git push
                   echo "Visit https://performous.org for the update of the website."
               fi
