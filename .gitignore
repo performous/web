@@ -1,0 +1,6 @@
+[bB]uild*
+*~
+*.xcodeproj
+.vs
+web
+webconv/webconv
