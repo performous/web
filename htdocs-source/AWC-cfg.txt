@@ -9,13 +9,10 @@
 % Project links
 .https://github.com/performous/performous/wiki Documentation
 .https://discord.gg/NS3m3ad Discord
-.http://webchat.freenode.net/?channels=#performous Webchat
-#.http://sourceforge.net/projects/performous/forums/forum/871563 Forum
 .https://github.com/performous/performous/issues/new Feedback
 .https://github.com/performous/performous Performous@GH
 .https://github.com/performous/composer Composer@GH
 .https://www.openhub.net/p/performous OpenHub
-#.awstats/awstats.pl Site Stats
 .http://www.facebook.com/performous Facebook
 
 # First char of the line selects:
