@@ -9,7 +9,7 @@
 % Project links
 .https://github.com/performous/performous/wiki Documentation
 .https://discord.gg/NS3m3ad Discord
-.https://github.com/performous/performous/issues/new Feedback
+.https://github.com/performous/performous/issues/new/choose Feedback
 .https://github.com/performous/performous Performous@GH
 .https://github.com/performous/composer Composer@GH
 .https://www.openhub.net/p/performous OpenHub
