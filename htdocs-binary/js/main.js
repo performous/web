@@ -1,40 +1,42 @@
-var currentPage = window.location.href;
+// Store the current page URL to track navigation
+let currentPage = location.href
+const title = document.querySelector("title")
+const page = document.querySelector("#page")
 
-$('document').ready(function() {
-	$('#sitebox').videoBG({
-		position:"fixed",
-		zIndex:-1,
-		fullscreen:true,
-		mp4:'/bgs/GoldenDust.mp4',
-		ogv:'/bgs/GoldenDust.ogv',
-		webm:'/bgs/GoldenDust.webm',
-		poster:'/bgs/GoldenDust.jpg'
-	});
-	$('a').live('click', function(ev) {
-		// We don't handle external links...
-		if (ev.target.hostname != window.location.hostname) return;
-		// Instead of following link, manipulate history (location) and call switchPage to do the loading
-		history.pushState(null, "xhr", ev.target.href);
-		if (switchPage()) ev.preventDefault();
-	});
-	function switchPage() {
-		var href = window.location.href;
-		if (href == currentPage) return false;  // Nothing to be done
-		currentPage = href;
-		$.ajax({
-			type: 'GET',
-			url: href,
-			success: function(data) {
-				// Update page content with data
-				$('#page').html($('#page', data).html());
-			},
-			error: function() {
-				window.location.href = href;  // Fallback to old-fashion way
-			}
-		});
-		return true;
-	}
-	$(window).on("popstate", switchPage);
-});
+// Fetch another page when user navigates within the site
+async function switchPage() {
+  if (location.href === currentPage) return false
+  // Update the current page
+  currentPage = location.href
+  try {
+    // Fetch the page and extract the new content (title and #page)
+    const response = await fetch(currentPage)
+    const data = await response.text()
+    const parser = new DOMParser()
+    const newData = parser.parseFromString(data, "text/html")
+    const newTitle = newData.querySelector("title")
+    const newContent = newData.querySelector("#page")
+    // Update the page content
+    if (newContent) {
+      title.innerHTML = newTitle.innerHTML
+      page.innerHTML = newContent.innerHTML
+    }
+  } catch (error) {
+    // If there's an error, fallback to the old-fashioned way
+    location.href = currentPage
+  }
+}
 
+// Add click event listener to handle internal links
+document.addEventListener("click", async (ev) => {
+  const target = ev.target.closest("a")
+  // Ignore external links
+  if (!target || target.hostname !== location.hostname) return
+  // Prevent default navigation, we'll handle it ourselves
+  ev.preventDefault()
+  history.pushState(null, "xhr", target.href)
+  await switchPage()
+})
 
+// Add a popstate event listener to handle back/forward navigation
+addEventListener("popstate", switchPage)
