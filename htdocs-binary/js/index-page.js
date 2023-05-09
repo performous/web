@@ -1,42 +1,45 @@
-var img = Math.floor(Math.random() * 20);
-var anim = -1;
-var frames_anim = 120;
-var frames_img = 400;
+let img = Math.floor(Math.random() * 20)
+let anim = -1
+const framesAnim = 120
+const framesImg = 400
+let lastTimestamp
 
-function showcaseScroll() {
-	++anim;
-	if (anim == frames_img) { anim = 0; ++img; }
-	var a = Math.min(anim / frames_anim, 1.0);
-	var pos = 5 * 128 * (img + 0.5 * (1 - Math.cos(Math.PI * a)));
-	$('#showcase').css('backgroundPosition', Math.round(-pos) + 'px 0');
+function showcaseScroll(timestamp) {
+  if (lastTimestamp === undefined) lastTimestamp = timestamp
+  const deltaTime = timestamp - lastTimestamp
+  lastTimestamp = timestamp
+  const animDelta = (deltaTime * 60) / 1000
+  anim += animDelta
+  if (anim >= framesImg) {
+    anim = 0
+    ++img
+  }
+  const a = Math.min(anim / framesAnim, 1.0)
+  const pos = 5 * 128 * (img + 0.5 * (1 - Math.cos(Math.PI * a)))
+  const showcase = document.getElementById("showcase")
+  showcase.style.backgroundPosition = Math.round(-pos) + "px 0"
+  requestAnimationFrame(showcaseScroll)
 }
+requestAnimationFrame(showcaseScroll)
 
 function smartDownload() {
-	var e = document.getElementById('download');
-	if (!e) return;
-	if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1) {
-		// Windows
-		e.href = 'https://github.com/performous/performous/releases/download/1.2.0/Performous-1.2.0.exe';
-		e.title = 'Performous 1.2.0 (Windows)';
-		return;
-	} else if (navigator.platform.indexOf("Linux") != -1) {
-		// Linux
-		return;
-	} else if (navigator.userAgent.indexOf("Mac OS X") != -1 || navigator.userAgent.indexOf("MSIE 5.2") != -1 || navigator.platform.indexOf("Mac") != -1) {
-		// Mac/Mac OS X
-		e.href = 'https://github.com/performous/performous/releases/download/1.2.0/Performous-1.2.0.dmg';
-		e.title = 'Performous 1.2 (OS X 10.6 or newer)';
-		return;
-	} else {
-		// Other
-		return;
-	}
+  const e = document.getElementById("download")
+  if (!e) return
+  const platform = navigator.userAgentData.platform
+  if (platform === "Windows") {
+    // Windows
+    e.href = "https://github.com/performous/performous/releases/download/1.2.0/Performous-1.2.0.exe"
+    e.title = "Performous 1.2.0 (Windows)"
+  } else if (platform === "Linux") {
+    // Linux
+  } else if (platform === "macOS") {
+    // Mac/Mac OS X
+    e.href = "https://github.com/performous/performous/releases/download/1.2.0/Performous-1.2.0.dmg"
+    e.title = "Performous 1.2 (OS X 10.6 or newer)"
+  } else {
+    // Other
+  }
 }
 
-$('document').ready(function() {
-	setInterval(smartDownload, 50);
-	setInterval(showcaseScroll, 16.66);
-});
-
-
-
+// Poll for updates (if user navigates to index page from another page)
+setInterval(smartDownload, 50)

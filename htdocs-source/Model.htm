@@ -1,35 +1,33 @@
-<?xml version="1.0"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>Performous - <+TITLE+></title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="icon" type="image/png" href="icon.png"/>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.videoBG.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/index-page.js"></script>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Performous - <+TITLE+></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="icon.png">
+  <script src="js/main.js" defer></script>
+  <script src="js/index-page.js" defer></script>
 
-  <body>
-    <div id="sitebox">
-      <div id="title"><img src="imgs/title.png" alt="Performous"/></div>
+  <video id="bgVideo" autoplay loop muted style="position: fixed; z-index: -1; width: 100%; height: 100%; object-fit: cover">
+    <source src="/bgs/GoldenDust.mp4" type="video/mp4">
+    <source src="/bgs/GoldenDust.ogv" type="video/ogg">
+    <source src="/bgs/GoldenDust.webm" type="video/webm">
+  </video>
 
-      <div id="page">
-        <div id="menu">
-          <ul>
-            <+MENU+>
-          </ul>
-        </div>
-        <div id="main">
-          <div id="content">
-            <h1><+TITLE+></h1>
-            <+BODY+>
-          </div>
-        </div>
-      </div>
+  <div id="sitebox">
+    <header id="title"><img src="imgs/title.png" alt="Performous"></header>
 
+    <div id="page">
+      <nav id="menu">
+        <ul>
+          <+MENU+>
+        </ul>
+      </nav>
+      <main id="main">
+        <article id="content">
+          <h1><+TITLE+></h1>
+          <+BODY+>
+        </article>
+      </main>
     </div>
-  </body>
+  </div>
 </html>
