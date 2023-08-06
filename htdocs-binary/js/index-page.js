@@ -28,14 +28,14 @@ function smartDownload() {
   const platform = navigator.userAgentData.platform
   if (platform === "Windows") {
     // Windows
-    e.href = "https://github.com/performous/performous/releases/download/1.2.0/Performous-1.2.0.exe"
-    e.title = "Performous 1.2.0 (Windows)"
+    e.href = "https://github.com/performous/performous/releases/download/1.3.0/Performous-1.3.0-msvc.exe"
+    e.title = "Performous 1.3.0 (Windows)"
   } else if (platform === "Linux") {
     // Linux
   } else if (platform === "macOS") {
     // Mac/Mac OS X
-    e.href = "https://github.com/performous/performous/releases/download/1.2.0/Performous-1.2.0.dmg"
-    e.title = "Performous 1.2 (OS X 10.6 or newer)"
+    e.href = "https://github.com/performous/performous/releases/download/1.3.0/Performous-1.3.0.dmg"
+    e.title = "Performous 1.3.0 (OS X 10.6 or newer)"
   } else {
     // Other
   }
