@@ -2,5 +2,6 @@
 *~
 *.xcodeproj
 .vs
-web
 webconv/webconv
+web-output
+!build_and_release.yml

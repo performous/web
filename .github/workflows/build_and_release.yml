@@ -1,0 +1,73 @@
+name: Build and Release Performous Website
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on merges to master, release branches,
+  # all PRs, and release tags 
+  push:
+    branches:
+      - master
+
+  # On anything pull request related
+  pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+     runs-on: ubuntu-latest
+     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build Webconv & Website
+        run: |
+          echo "Compiling webconv so we can still dynamicly make our website."
+          g++ webconv/webconv.cpp -o webconv/webconv
+          if [ -d ./web-output ]; then
+              rm -Rfv ./web-output
+          fi
+          mkdir -p web-output
+          ./webconv/webconv ./htdocs-source ./web-output
+          cp -rp ./htdocs-binary/* ./web-output
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: web-output
+          path: './web-output'
+
+  deploy:
+    if: ${{ github.ref == 'refs/heads/master' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+           name: web-output
+           path: './web-output'
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload web-output folder
+          path: './web-output'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+          
