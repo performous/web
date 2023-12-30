@@ -16,12 +16,8 @@ Some of the bugfixes:
 	MacOS had some build and start errors
 	UTF-8 support for Windows (the UTF-8 Beta support flag in Windows isn't needed anymore)
 	Performous+ theme also has a new webinterface
-	Better texture management
 	A couple of fixes for themes
-
-Other notable mentions:
-
-	Refactoring of a lot of code mainly in the texture part of the game
+	Do not show the webserver message when it's not compiled
 
 :h2:2023-09-01 - Performous 1.3.0 released
 
